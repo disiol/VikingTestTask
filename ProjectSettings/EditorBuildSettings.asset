@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes: 
+  - enabled: 1
+    path: Assets/Viking/Scenes/VikingScene.unity
+    guid: 00fa87e0af5a38457989fd96fab0c8fd
   m_configObjects: {}
