@@ -7,12 +7,12 @@ namespace Viking.Scripts.UI.StartScreen
     {
         [SerializeField] private Button playButton;
         [SerializeField] private Button exitButton;
+        [SerializeField] private GameObject game;
         private GameObject _gameObjectGame;
 
         private void Start()
         {
             CheckSerializeFieldToNull();
-            _gameObjectGame = GameObject.Find("Game");
        
         }
     
@@ -21,7 +21,7 @@ namespace Viking.Scripts.UI.StartScreen
         {
       
             Debug.Log("Play button clicked");
-            _gameObjectGame.SetActive(true);
+            game.SetActive(true);
             this.gameObject.SetActive(false);
 
         }

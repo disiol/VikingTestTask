@@ -34,8 +34,13 @@ namespace Viking.Tests.TestsPlaymode
             _getAccessToPrivate.SetPrivateFieldValue(typeof(StartScreenView), _startScreenView,
                 "exitButton", exitButton);
             
+            
              _game = new GameObject();
             _game.name = "Game";
+            
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(StartScreenView), _startScreenView,
+                "game", _game);
+
         }
 
 
