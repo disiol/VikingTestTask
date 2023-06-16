@@ -12,14 +12,14 @@ namespace Viking.Scripts.UI.StartScreen
         private void Start()
         {
             CheckSerializeFieldToNull();
-             _gameObjectGame = GameObject.Find("Game");
-           
+            _gameObjectGame = GameObject.Find("Game");
+       
         }
-        
+    
 
         private void OnPlayButtonClick()
         {
-          
+      
             Debug.Log("Play button clicked");
             _gameObjectGame.SetActive(true);
             this.gameObject.SetActive(false);
@@ -32,7 +32,7 @@ namespace Viking.Scripts.UI.StartScreen
             Debug.Log("Exit button clicked");
             Application.Quit();
         }
-        
+    
         private void CheckSerializeFieldToNull()
         {
             if (playButton == null)
@@ -57,8 +57,9 @@ namespace Viking.Scripts.UI.StartScreen
                 exitButton.onClick.AddListener(OnExitButtonClick);
 
             }
-            
+        
         }
 
     }
+
 }
