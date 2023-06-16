@@ -8,54 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 0
-    y: 64
-    width: 1600
-    height: 836
-  m_ShowMode: 0
-  m_Title: Sprite Editor
-  m_RootView: {fileID: 5}
-  m_MinSize: {x: 360, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 100
-    y: 218
-    width: 1200
-    height: 617
-  m_ShowMode: 0
-  m_Title: Package Manager
-  m_RootView: {fileID: 7}
-  m_MinSize: {x: 800, y: 271}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -67,112 +19,12 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: Hierarchy
-  m_RootView: {fileID: 8}
+  m_Title: Console
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SpriteEditorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1600
-    height: 836
-  m_MinSize: {x: 360, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 18}
-  m_Panes:
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &5
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 4}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1600
-    height: 836
-  m_MinSize: {x: 360, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 11883
---- !u!114 &6
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: PackageManagerWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1200
-    height: 617
-  m_MinSize: {x: 800, y: 271}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 19}
-  m_Panes:
-  - {fileID: 19}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &7
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 6}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1200
-    height: 617
-  m_MinSize: {x: 800, y: 271}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 10751
---- !u!114 &8
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -185,9 +37,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 9}
-  - {fileID: 10}
-  - {fileID: 11}
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -200,7 +52,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &9
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -221,8 +73,8 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: 2 by 3
---- !u!114 &10
+  m_LastLoadedLayoutName: 
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -235,10 +87,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 12}
-  - {fileID: 13}
-  - {fileID: 14}
-  - {fileID: 15}
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
+  - {fileID: 9}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -248,8 +100,8 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 291
---- !u!114 &11
+  controlID: 15
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -270,7 +122,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &12
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,19 +135,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 16}
-  - {fileID: 17}
+  - {fileID: 10}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 566
+    width: 786
     height: 761
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 320
---- !u!114 &13
+  controlID: 16
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -310,18 +162,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 566
+    x: 786
     y: 0
-    width: 396
+    width: 296
     height: 761
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 21}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &14
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -336,18 +188,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 962
+    x: 1082
     y: 0
-    width: 304
+    width: 251
     height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 23}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &15
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,19 +214,19 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1266
+    x: 1333
     y: 0
-    width: 334
+    width: 267
     height: 761
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 22}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 22}
-  - {fileID: 20}
+  - {fileID: 16}
+  - {fileID: 14}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &16
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -384,23 +236,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 566
-    height: 390
-  m_MinSize: {x: 201, y: 221}
+    width: 786
+    height: 430
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 12}
   m_Panes:
-  - {fileID: 24}
-  m_Selected: 0
+  - {fileID: 18}
+  - {fileID: 13}
+  - {fileID: 12}
+  m_Selected: 2
   m_LastSelected: 0
---- !u!114 &17
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -416,17 +270,17 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 390
-    width: 566
-    height: 371
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 25}
+    y: 430
+    width: 786
+    height: 331
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 25}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &18
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -435,63 +289,288 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 687acdc95675db149bf5de5771ecac18, type: 3}
-  m_Name: SpriteEditorWindow
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
   m_EditorClassIdentifier: 
-  m_MinSize: {x: 360, y: 200}
+  m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
-    m_Text: Sprite Editor
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 119
+    width: 785
+    height: 409
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+--- !u!114 &13
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13401, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Test Runner
     m_Image: {fileID: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 64
-    width: 1600
-    height: 815
+    y: 119
+    width: 785
+    height: 524
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  m_ShowAlpha: 0
-  m_MipLevel: 0
-  m_Zoom: 1.3921875
-  m_ScrollPosition: {x: 0, y: 0}
-  m_SelectedObject: {fileID: 0}
-  m_SelectedSpriteRectGUID: c020b76ea08a86c83abf5e4d5c915d99
-  m_LastUsedModuleTypeName: 
---- !u!114 &19
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13953, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 800, y: 250}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Package Manager
-    m_Image: {fileID: -2824328813065806953, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 100
-    y: 218
-    width: 1200
-    height: 596
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
---- !u!114 &20
+  m_Spl:
+    ID: 184
+    splitterInitialOffset: 0
+    currentActiveSplitter: -1
+    realSizes:
+    - 340
+    - 114
+    relativeSizes:
+    - 0.75
+    - 0.25
+    minSizes:
+    - 32
+    - 32
+    maxSizes:
+    - 0
+    - 0
+    lastTotalSize: 454
+    splitSize: 6
+    xOffset: 0
+    m_Version: 1
+    oldRealSizes: 
+    oldMinSizes: 
+    oldMaxSizes: 
+    oldSplitSize: 0
+  m_TestTypeToolbarIndex: 0
+  m_PlayModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1005
+      uniqueId: '[VikingTestTask][suite]'
+      name: VikingTestTask
+      fullName: VikingTestTask
+      resultStatus: 1
+      duration: 1.8987504
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    - id: 1004
+      uniqueId: '[TestsPlaymode.dll][suite]'
+      name: TestsPlaymode.dll
+      fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
+      resultStatus: 1
+      duration: 1.2114333
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[VikingTestTask][suite]'
+    - id: 1005
+      uniqueId: TestsPlaymode.dll/[Viking][suite]
+      name: Viking
+      fullName: Viking
+      resultStatus: 1
+      duration: 1.1989625
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[TestsPlaymode.dll][suite]'
+    - id: 1006
+      uniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
+      name: Tests
+      fullName: Viking.Tests
+      resultStatus: 1
+      duration: 1.1943723
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: TestsPlaymode.dll/[Viking][suite]
+    - id: 1007
+      uniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
+      name: TestsPlaymode
+      fullName: Viking.Tests.TestsPlaymode
+      resultStatus: 1
+      duration: 1.1898814
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1006
+      parentUniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
+    - id: 1001
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
+      name: StartScreenViewTests
+      fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
+      resultStatus: 1
+      duration: 1.1838388
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1007
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
+    - id: 1002
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/StartScreenViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene]
+      name: PlayButton_Clicked_LoadsGameScene
+      fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
+      resultStatus: 1
+      duration: 1.0919601
+      messages: 
+      output: 'Play button clicked
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
+    m_ResultText: 'PlayButton_Clicked_LoadsGameScene (1.092s)
+
+      ---
+
+      Play
+      button clicked'
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 5162ee4d
+      m_LastClickedID: 1307468369
+      m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf14b470f871f9d21a74ffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+    m_SelectedOption: 0
+  m_EditModeTestListGUI:
+    m_Window: {fileID: 13}
+    m_NewResultList:
+    - id: 1000
+      uniqueId: '[VikingTestTask][suite]'
+      name: VikingTestTask
+      fullName: VikingTestTask
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
+    m_ResultText: 
+    m_ResultStacktrace: 
+    m_TestListState:
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 091539aeffffff7f
+      m_RenameOverlay:
+        m_UserAcceptedRename: 0
+        m_Name: 
+        m_OriginalName: 
+        m_EditFieldRect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        m_UserData: 0
+        m_IsWaitingForDelay: 0
+        m_IsRenaming: 0
+        m_OriginalEventType: 11
+        m_IsRenamingFilename: 0
+        m_ClientGUIView: {fileID: 0}
+      m_SearchString: 
+    m_TestRunnerUIFilter:
+      PassedHidden: 0
+      FailedHidden: 0
+      NotRunHidden: 0
+      m_SearchString: 
+      selectedCategoryMask: 0
+      availableCategories:
+      - Uncategorized
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -511,9 +590,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1238
+    x: 1333
     y: 119
-    width: 361
+    width: 266
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -621,547 +700,34 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - a86ac19efcc377297863fd70fa1f401c
-        - c25b9875902df65f394a832ecdc81a29
-        - a4b550b242ebfbf8e93dd61a4f9084cf
-        - 7a80fb73d6af9552295798cfbcca1ab1
-        - a304a1d76dd091d309bcb209e22433e2
-        - 5646a4dacaa682ed0a1ab319ba5a8f34
-        - 8ad327f2739b1394c88ab8ba2ecf06d2
-        - 06a710606d8f2744893ff5193007fb8f
-        - 18c7a9abb4bf8354ebf6c15f384ea85f
-        - a6a8aea046feefa4ca1b9c1fe5f1308c
-        - 5c19a077a247bd94685cbc6bebf5d4ae
-        - 3b95be3def643d145ab1cf52aa0188a3
-        - 811225cb4b9ec8c4d93ef4d6de02e5a7
-        - 88b200775c638d7458c784a5302c6344
-        - fd292257499cacd4fa4ee2da26506aee
-        - 65d5c70d8c166384085bec5e3f3a698e
-        - cafdca0d4a3180d40a309164a98d8c05
-        - 4e87cfc3cdb6ee84aaa39b63abae7e67
-        - 09fef9dc6c1693a4491de16a53ee2eec
-        - b9c58fb46a9c87a479b4b03dd721bad8
-        - 888c932c195654b48b748da8196bbe04
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/_TerrainAutoUpgrade
-          label: _TerrainAutoUpgrade
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-          label: layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-            projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-          label: layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-            projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-          label: layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-            projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-          label: layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-          level: 2
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-            projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking
-          label: Viking
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain
-          label: Terrain
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain/Maps
-          label: Maps
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-          label: terrain_2_heightmap_1025x1025.raw
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-            projectPath: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-          label: terrain_2_splatmap_1024x1024.bmp
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-            projectPath: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/terrain.asset
-          label: terrain.asset
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/terrain.asset
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/terrain.asset
-            projectPath: Assets/Viking/Terrain/terrain.asset
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Terrain.prefab
-          label: Terrain.prefab
-          level: 3
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Terrain.prefab
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Terrain.prefab
-            projectPath: Assets/Viking/Terrain/Terrain.prefab
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures
-          label: Textures
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain/Textures/Rock_1.png
-          label: Rock_1.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Rock_1.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1.png
-            projectPath: Assets/Viking/Terrain/Textures/Rock_1.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          label: Rock_1_normal.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png
-            projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Rock_2.png
-          label: Rock_2.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Rock_2.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2.png
-            projectPath: Assets/Viking/Terrain/Textures/Rock_2.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-          label: Rock_2_normal.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2_normal.png
-            projectPath: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Snow_1.png
-          label: Snow_1.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Snow_1.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1.png
-            projectPath: Assets/Viking/Terrain/Textures/Snow_1.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-          label: Snow_1_normal.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1_normal.png
-            projectPath: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Snow_2.png
-          label: Snow_2.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Snow_2.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2.png
-            projectPath: Assets/Viking/Terrain/Textures/Snow_2.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
-        - path: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-          label: Snow_2_normal.png
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2_normal.png
-            projectPath: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
         keys:
-        - Assets
-        - Assets/_TerrainAutoUpgrade
-        - Assets/Viking
-        - Assets/Viking/Terrain
-        - Assets/Viking/Terrain/Maps
-        - Assets/Viking/Terrain/Textures
         - UserSettings
+        - UserSettings/Layouts
         values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/_TerrainAutoUpgrade
-          label: _TerrainAutoUpgrade
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking
-          label: Viking
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain
-          label: Terrain
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain/Maps
-          label: Maps
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Terrain/Textures
-          label: Textures
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings/Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -1205,762 +771,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/_TerrainAutoUpgrade.meta
-        label: _TerrainAutoUpgrade.meta
-        level: 1
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade.meta
-          projectPath: Assets/_TerrainAutoUpgrade.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade
-        label: _TerrainAutoUpgrade
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-        label: layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-        label: layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-        label: layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-        label: layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-        label: layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-        label: layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-        label: layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-        level: 2
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-        label: layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-          projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking
-        label: Viking
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Terrain.meta
-        label: Terrain.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain.meta
-          projectPath: Assets/Viking/Terrain.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain
-        label: Terrain
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Terrain/Maps.meta
-        label: Maps.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Maps.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps.meta
-          projectPath: Assets/Viking/Terrain/Maps.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Maps
-        label: Maps
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-        label: terrain_2_heightmap_1025x1025.raw
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-          projectPath: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-        label: terrain_2_heightmap_1025x1025.raw.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-          projectPath: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-        label: terrain_2_splatmap_1024x1024.bmp
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-          projectPath: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-        label: terrain_2_splatmap_1024x1024.bmp.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-          projectPath: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/terrain.asset
-        label: terrain.asset
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/terrain.asset
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/terrain.asset
-          projectPath: Assets/Viking/Terrain/terrain.asset
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/terrain.asset.meta
-        label: terrain.asset.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/terrain.asset.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/terrain.asset.meta
-          projectPath: Assets/Viking/Terrain/terrain.asset.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Terrain.prefab
-        label: Terrain.prefab
-        level: 3
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Terrain.prefab
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Terrain.prefab
-          projectPath: Assets/Viking/Terrain/Terrain.prefab
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Terrain.prefab.meta
-        label: Terrain.prefab.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Terrain.prefab.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Terrain.prefab.meta
-          projectPath: Assets/Viking/Terrain/Terrain.prefab.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures.meta
-        label: Textures.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures.meta
-          projectPath: Assets/Viking/Terrain/Textures.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures
-        label: Textures
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Terrain/Textures/Rock_1.png
-        label: Rock_1.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_1.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1.png
-          projectPath: Assets/Viking/Terrain/Textures/Rock_1.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_1.png.meta
-        label: Rock_1.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_1.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Rock_1.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-        label: Rock_1_normal.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-        label: Rock_1_normal.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_2.png
-        label: Rock_2.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_2.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2.png
-          projectPath: Assets/Viking/Terrain/Textures/Rock_2.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_2.png.meta
-        label: Rock_2.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_2.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Rock_2.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-        label: Rock_2_normal.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2_normal.png
-          projectPath: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-        label: Rock_2_normal.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_1.png
-        label: Snow_1.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_1.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1.png
-          projectPath: Assets/Viking/Terrain/Textures/Snow_1.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_1.png.meta
-        label: Snow_1.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_1.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Snow_1.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-        label: Snow_1_normal.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1_normal.png
-          projectPath: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-        label: Snow_1_normal.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_2.png
-        label: Snow_2.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_2.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2.png
-          projectPath: Assets/Viking/Terrain/Textures/Snow_2.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_2.png.meta
-        label: Snow_2.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_2.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Snow_2.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-        label: Snow_2_normal.png
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2_normal.png
-          projectPath: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-        label: Snow_2_normal.png.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-          projectPath: Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -1979,9 +789,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: UserSettings/EditorUserSettings.asset
-        label: EditorUserSettings.asset
+      - path: UserSettings/Layouts
+        label: Layouts
         level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
@@ -1991,263 +819,47 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: UserSettings/EditorUserSettings.asset
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/EditorUserSettings.asset
-          projectPath: UserSettings/EditorUserSettings.asset
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
       selectedNode:
-        path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-        label: Rock_1_normal.png
-        level: 4
+        path: 
+        label: 
+        level: 0
         isFolder: 0
-        isContainer: 1
+        isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
-        treeIsCheckable: 1
+        treeIsCheckable: 0
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png
-          projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png
+          path: 
+          fullPath: 
+          projectPath: 
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets/_TerrainAutoUpgrade.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade.meta
-      projectPath: Assets/_TerrainAutoUpgrade.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_1Rock_1_normal3d1cca0d6d0e9938.terrainlayer.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Rock_2Rock_2_normal3d1cca0d6d0e9938.terrainlayer.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_1Snow_1_normal3d3aba195e4d26ee.terrainlayer.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-      projectPath: Assets/_TerrainAutoUpgrade/layer_Snow_2Snow_2_normal3d3aba195e4d26ee.terrainlayer.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain.meta
-      projectPath: Assets/Viking/Terrain.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Maps.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps.meta
-      projectPath: Assets/Viking/Terrain/Maps.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-      projectPath: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-      projectPath: Assets/Viking/Terrain/Maps/terrain_2_heightmap_1025x1025.raw.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-      projectPath: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-      projectPath: Assets/Viking/Terrain/Maps/terrain_2_splatmap_1024x1024.bmp.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/terrain.asset
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/terrain.asset
-      projectPath: Assets/Viking/Terrain/terrain.asset
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/terrain.asset.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/terrain.asset.meta
-      projectPath: Assets/Viking/Terrain/terrain.asset.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Terrain.prefab
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Terrain.prefab
-      projectPath: Assets/Viking/Terrain/Terrain.prefab
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Terrain.prefab.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Terrain.prefab.meta
-      projectPath: Assets/Viking/Terrain/Terrain.prefab.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures.meta
-      projectPath: Assets/Viking/Terrain/Textures.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_1.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1.png
-      projectPath: Assets/Viking/Terrain/Textures/Rock_1.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_1.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Rock_1.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png
-      projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Rock_1_normal.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_2.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2.png
-      projectPath: Assets/Viking/Terrain/Textures/Rock_2.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_2.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Rock_2.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2_normal.png
-      projectPath: Assets/Viking/Terrain/Textures/Rock_2_normal.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Rock_2_normal.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_1.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1.png
-      projectPath: Assets/Viking/Terrain/Textures/Snow_1.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_1.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Snow_1.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1_normal.png
-      projectPath: Assets/Viking/Terrain/Textures/Snow_1_normal.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Snow_1_normal.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_2.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2.png
-      projectPath: Assets/Viking/Terrain/Textures/Snow_2.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_2.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Snow_2.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2_normal.png
-      projectPath: Assets/Viking/Terrain/Textures/Snow_2_normal.png
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-      projectPath: Assets/Viking/Terrain/Textures/Snow_2_normal.png.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: UserSettings/EditorUserSettings.asset
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/EditorUserSettings.asset
-      projectPath: UserSettings/EditorUserSettings.asset
+    - path: UserSettings/Layouts/default-2021.dwlt
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+      projectPath: UserSettings/Layouts/default-2021.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 37 changed files
+    changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-13T16:00:12.244+03:00
+      updatedTimeString: 2023-06-15T00:50:59.032+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-14T02:54:03.300+03:00
+      updatedTimeString: 2023-06-15T01:03:18.786+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-06-15T00:57:55.501+03:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2427,7 +1039,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: main
   currentRemoteUrl: git@github.com:disiol/VikingTestTask.git
-  statusAhead: 1
+  statusAhead: 3
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -2440,13 +1052,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-13T16:00:12.244+03:00
+    updatedTimeString: 2023-06-15T00:50:59.032+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-14T02:45:41.267+03:00
+    updatedTimeString: 2023-06-15T00:55:05.062+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-14T02:45:41.222+03:00
+    updatedTimeString: 2023-06-15T00:57:51.739+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2470,7 +1082,7 @@ MonoBehaviour:
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &21
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2490,9 +1102,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 566
+    x: 786
     y: 119
-    width: 394
+    width: 294
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2504,23 +1116,23 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 549effffe69effff48b3ffff72d0ffffc4d0ffff60d4fffff2eefffff0590000
+      m_ExpandedIDs: f0faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Main Camera
+        m_OriginalName: Main Camera
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 27406
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 4
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 13}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2528,7 +1140,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: b9f02a40769334843a479d7b4ea68ede
---- !u!114 &22
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2548,9 +1160,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1266
+    x: 1333
     y: 119
-    width: 333
+    width: 266
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2570,7 +1182,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &23
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2590,9 +1202,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 962
+    x: 1082
     y: 119
-    width: 302
+    width: 249
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2612,22 +1224,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Viking/Textures
+    - Assets/Viking/Scripts/UI/StartScreen
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Viking/Textures
+  - Assets/Viking/Scripts/UI/StartScreen
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b26d0000
-    m_LastClickedID: 28082
-    m_ExpandedIDs: 00000000b6570000ba570000465f0000ac5f00003861000000ca9a3b
+    m_SelectedIDs: ae6c0000
+    m_LastClickedID: 27822
+    m_ExpandedIDs: 00000000806b0000826b0000846b0000866b0000886b0000fe6b0000006c0000ac6c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2643,7 +1255,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 14}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2655,7 +1267,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b657000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000806b0000826b0000846b0000866b0000886b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2682,8 +1294,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 006e0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 006e0000c66b0000326b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2699,7 +1311,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2710,8 +1322,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 205
---- !u!114 &24
+  m_DirectoriesAreaWidth: 159
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2733,8 +1345,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 565
-    height: 369
+    width: 785
+    height: 409
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3003,9 +1615,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 282.5, y: 164.5, z: 0}
+    m_Target: {x: 532.5, y: 240.38583, z: 63.48648}
     speed: 2
-    m_Value: {x: 282.5, y: 164.5, z: 0}
+    m_Value: {x: 532.5, y: 240.38583, z: 63.48648}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3056,9 +1668,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 93.25676
+    m_Target: 358.2267
     speed: 2
-    m_Value: 93.25676
+    m_Value: 358.2267
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3083,7 +1695,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &25
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3104,9 +1716,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 509
-    width: 565
-    height: 350
+    y: 549
+    width: 785
+    height: 310
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3120,7 +1732,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 565, y: 318}
+  m_TargetSize: {x: 3840, y: 2160}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -3129,16 +1741,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 06000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -282.5
-    m_HBaseRangeMax: 282.5
-    m_VBaseRangeMin: -159
-    m_VBaseRangeMax: 159
+    m_HBaseRangeMin: -1920
+    m_HBaseRangeMax: 1920
+    m_VBaseRangeMin: -1080
+    m_VBaseRangeMax: 1080
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -3156,23 +1768,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 565
-      height: 329
-    m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 282.5, y: 164.5}
+      width: 785
+      height: 289
+    m_Scale: {x: 0.13379629, y: 0.13379629}
+    m_Translation: {x: 392.5, y: 144.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -282.5
-      y: -164.5
-      width: 565
-      height: 329
+      x: -2933.5642
+      y: -1080
+      width: 5867.1284
+      height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 565, y: 350}
+  m_defaultScale: 0.13379629
+  m_LastWindowPixelSize: {x: 785, y: 310}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
