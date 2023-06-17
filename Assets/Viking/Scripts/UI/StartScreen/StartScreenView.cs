@@ -13,26 +13,30 @@ namespace Viking.Scripts.UI.StartScreen
         private void Start()
         {
             CheckSerializeFieldToNull();
-       
         }
-    
+
 
         private void OnPlayButtonClick()
         {
-      
             Debug.Log("Play button clicked");
             game.SetActive(true);
             this.gameObject.SetActive(false);
-
         }
 
         private void OnExitButtonClick()
         {
-            // TODO: Perform the desired action to exit the application
-            Debug.Log("Exit button clicked");
-            Application.Quit();
+            #if UNITY_STANDALONE
+                        //Quit the application
+                        Application.Quit();
+            #endif
+
+                        //If we are running in the editor
+            #if UNITY_EDITOR
+                        //Stop playing the scene
+                        UnityEditor.EditorApplication.isPlaying = false;
+            #endif
         }
-    
+
         private void CheckSerializeFieldToNull()
         {
             if (playButton == null)
@@ -55,11 +59,7 @@ namespace Viking.Scripts.UI.StartScreen
             else
             {
                 exitButton.onClick.AddListener(OnExitButtonClick);
-
             }
-        
         }
-
     }
-
 }

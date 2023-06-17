@@ -420,7 +420,7 @@ GameObject:
   - component: {fileID: 1917028308}
   - component: {fileID: 1917028307}
   m_Layer: 0
-  m_Name: Tools
+  m_Name: MonsterGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -441,6 +441,8 @@ MonoBehaviour:
   terrainPrefab: {fileID: 2039891528}
   monsterPrefab: {fileID: 3590565633658594999, guid: 56dee87f715120df28e5f5d8ff616d7e, type: 3}
   monsterYPosition: 5
+  minXPosition: 0
+  minZPosition: 0
 --- !u!4 &1917028308
 Transform:
   m_ObjectHideFlags: 0

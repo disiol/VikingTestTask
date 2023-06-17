@@ -64,24 +64,22 @@ namespace Viking.Scripts.Tolls
         // Inner class representing a monster object
         private class Monster
         {
-            private GameObject monsterGameObject;
-            private bool isActive = false;
+            private GameObject _monsterGameObject;
 
             public Monster(GameObject monsterPrefab)
             {
-                monsterGameObject = Instantiate(monsterPrefab);
-                monsterGameObject.SetActive(false);
+                _monsterGameObject = Instantiate(monsterPrefab);
+                _monsterGameObject.SetActive(false);
             }
 
             public void SetActive(bool active)
             {
-                isActive = active;
-                monsterGameObject.SetActive(active);
+                _monsterGameObject.SetActive(active);
             }
 
             public void SetPosition(Vector3 position)
             {
-                monsterGameObject.transform.position = position;
+                _monsterGameObject.transform.position = position;
             }
         }
 
