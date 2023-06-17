@@ -1,5 +1,6 @@
 using System.Collections;
 using NUnit.Framework;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 using UnityEngine.TestTools;
@@ -13,33 +14,27 @@ namespace Viking.Tests.TestsPlaymode
     {
         private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
 
-        [SetUp]
+        GameObject _terrainPrefab;
 
-        public void Setup()
+        [UnitySetUp]
+        public IEnumerator SetUp()
         {
-            var root = new GameObject();
-            // Attach a camera to our root game object.
-            root.AddComponent(typeof(Camera));
-            // Get a reference to the camera.
-            var camera = root.GetComponent<Camera>();
-            // Set the camera's background color to white.
-            // Add our game object (with the camera included) to the scene by instantiating it.
-            root = GameObject.Instantiate(root);
+            // Load the terrainPrefab
+            ResourceRequest prefabLoadRequest = Resources.LoadAsync<GameObject>("Terrain/Terrain");
+            yield return prefabLoadRequest;
+
+            _terrainPrefab = prefabLoadRequest.asset as GameObject;
         }
 
         [UnityTest]
         public IEnumerator MonsterGenerator_PositionsMonstersWithinTerrainBounds()
         {
-            // Create a test terrain prefab
-            GameObject terrainPrefab = GameObject.CreatePrimitive(PrimitiveType.Plane);
-            terrainPrefab.AddComponent<TerrainCollider>();
-            
-            // TerrainCollider terrainCollider = terrainPrefab.GetComponent<TerrainCollider>();
-            // terrainCollider.terrainData.size = new Vector3(500f, 500f, 500f);
-           
-            terrainPrefab.transform.localScale = new Vector3(10f, 1f, 10f); // Set a specific scale for the terrain
+            // Create a test terrain terrainPrefab
 
-            // Create a test monster prefab
+          
+            // Set a specific scale for the terrain
+
+            // Create a test monster terrainPrefab
             GameObject monsterPrefab = new GameObject("TestMonster");
 
             // Create a new MonsterGenerator instance
@@ -47,8 +42,12 @@ namespace Viking.Tests.TestsPlaymode
             MonsterGenerator monsterGenerator = monsterGeneratorObject.AddComponent<MonsterGenerator>();
 
             // Assign the test prefabs to the MonsterGenerator
+            GameObject.Instantiate(_terrainPrefab);
+
+            var gameObjectTerrainClone = GameObject.Find("Terrain(Clone)");
+           
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator,
-                "terrainPrefab", terrainPrefab);
+                "terrainPrefab", gameObjectTerrainClone);
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator,
                 "monsterPrefab", monsterPrefab);
 
@@ -57,7 +56,7 @@ namespace Viking.Tests.TestsPlaymode
             _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator,
                 "GenerateMonsterPositions");
 
-            yield return new WaitForSeconds(60f);
+            yield return new WaitForSeconds(10f);
 
             ObjectPool<Monster> monsterPool =
                 (ObjectPool<Monster>)_getAccessToPrivate.GetPrivateFieldValue(
@@ -71,14 +70,14 @@ namespace Viking.Tests.TestsPlaymode
             foreach ( Monster monster in monsters)
             {
                 Vector3 monsterPosition = monster.GetPosition();
-                Bounds terrainBounds = terrainPrefab.GetComponent<TerrainCollider>().bounds;
+                Bounds terrainBounds = _terrainPrefab.GetComponent<TerrainCollider>().bounds;
 
                 Assert.IsTrue(terrainBounds.Contains(monsterPosition));
             }
 
             // Clean up the test objects
             Object.Destroy(monsterGeneratorObject);
-            Object.Destroy(terrainPrefab);
+            Object.Destroy(_terrainPrefab);
             Object.Destroy(monsterPrefab);
         }
     }

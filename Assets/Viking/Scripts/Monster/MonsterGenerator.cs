@@ -23,13 +23,12 @@ namespace Viking.Scripts.Monster
 
         private void GenerateMonsterPositions()
         {
-            GameObject instantiatedTerrain = Instantiate(terrainPrefab, transform.position, transform.rotation);
-            TerrainCollider terrainCollider = instantiatedTerrain.GetComponent<TerrainCollider>();
+            TerrainCollider terrainCollider = terrainPrefab.GetComponent<TerrainCollider>();
 
             if (terrainCollider == null)
             {
                 Debug.LogError("TerrainCollider component not found!");
-                Destroy(instantiatedTerrain);
+                Destroy(terrainPrefab);
                 return;
             }
 
@@ -37,7 +36,6 @@ namespace Viking.Scripts.Monster
             float length = terrainSize.x;
             float width = terrainSize.z;
 
-            Destroy(instantiatedTerrain);
 
             int numberOfMonsters = 10;
             float perimeter = 2 * (length + width);
