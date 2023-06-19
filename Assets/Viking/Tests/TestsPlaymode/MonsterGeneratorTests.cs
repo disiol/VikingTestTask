@@ -9,8 +9,7 @@ using Viking.Scripts.Tests.TestsPlaymode;
 
 namespace Viking.Tests.TestsPlaymode
 {
-    
-    public class MonsterGeneratorTests 
+    public class MonsterGeneratorTests
     {
         private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
 
@@ -19,6 +18,14 @@ namespace Viking.Tests.TestsPlaymode
         [UnitySetUp]
         public IEnumerator SetUp()
         {
+            var root = new GameObject();
+            // Attach a camera to our root game object.
+            root.AddComponent(typeof(Camera));
+            // Get a reference to the camera.
+            var camera = root.GetComponent<Camera>();
+            // Set the camera's background color to white.
+            // Add our game object (with the camera included) to the scene by instantiating it.
+            root = GameObject.Instantiate(root);
             // Load the terrainPrefab
             ResourceRequest prefabLoadRequest = Resources.LoadAsync<GameObject>("Terrain/Terrain");
             yield return prefabLoadRequest;
@@ -27,58 +34,107 @@ namespace Viking.Tests.TestsPlaymode
         }
 
         [UnityTest]
-        public IEnumerator MonsterGenerator_PositionsMonstersWithinTerrainBounds()
+        public IEnumerator GenerateMonsters_GeneratesExpectedNumberOfMonsters()
         {
-            // Create a test terrain terrainPrefab
+            // Arrange
+            GameObject monsterGeneratorGo = new GameObject();
+            MonsterGenerator monsterGenerator = monsterGeneratorGo.AddComponent<MonsterGenerator>();
 
-          
-            // Set a specific scale for the terrain
-
-            // Create a test monster terrainPrefab
-            GameObject monsterPrefab = new GameObject("TestMonster");
-
-            // Create a new MonsterGenerator instance
-            GameObject monsterGeneratorObject = new GameObject("MonsterGenerator");
-            MonsterGenerator monsterGenerator = monsterGeneratorObject.AddComponent<MonsterGenerator>();
-
-            // Assign the test prefabs to the MonsterGenerator
-            GameObject.Instantiate(_terrainPrefab);
-
-            var gameObjectTerrainClone = GameObject.Find("Terrain(Clone)");
-           
-            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator,
-                "terrainPrefab", gameObjectTerrainClone);
-            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator,
-                "monsterPrefab", monsterPrefab);
+            GameObject
+                monsterPrefab =
+                    Resources.Load<GameObject>("Prefabs/Mutant");
+            GameObject
+                terrainPrefab =
+                    Resources.Load<GameObject>("Terrain/Terrain");
 
 
-            // Call the GenerateMonsterPositions method
-            _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator,
-                "GenerateMonsterPositions");
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterPrefab",
+                monsterPrefab);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "terrain",
+                terrainPrefab.GetComponent<Terrain>());
 
-            yield return new WaitForSeconds(10f);
+            int monsterCount = 10;
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterCount",
+                monsterCount);
+            // Act
+            _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator, "GenerateMonsters");
 
-            ObjectPool<Monster> monsterPool =
-                (ObjectPool<Monster>)_getAccessToPrivate.GetPrivateFieldValue(
-                    typeof(MonsterGenerator), monsterGenerator,
-                    "_monsterPool");
-            
-            Monster[] monsters = monsterPool.ToArray();
+            // Wait for one frame to allow the monsters to be spawned
+            yield return null;
 
-            // Check if all monsters are within the terrain bounds
+            // Assert
+            int activeMonsterCount = GetActiveMonsterCount();
+            int monsterGeneratorMonsterCount =
+                (int)_getAccessToPrivate.GetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator,
+                    "monsterCount");
+            Assert.AreEqual(monsterGeneratorMonsterCount, activeMonsterCount,
+                "Expected " + monsterCount + " find " + activeMonsterCount);
+        }
 
-            foreach ( Monster monster in monsters)
+
+        [UnityTest]
+        public IEnumerator GenerateMonsters_MonstersOnTerrain()
+        {
+            // Arrange
+
+            // Arrange
+            GameObject monsterGeneratorGo = new GameObject();
+            MonsterGenerator monsterGenerator = monsterGeneratorGo.AddComponent<MonsterGenerator>();
+
+            GameObject
+                monsterPrefab =
+                    Resources.Load<GameObject>("Prefabs/Mutant");
+            GameObject
+                terrainPrefab =
+                    Resources.Load<GameObject>("Terrain/Terrain");
+
+            GameObject.Instantiate(terrainPrefab);
+
+
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterPrefab",
+                monsterPrefab);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "terrain",
+                terrainPrefab.GetComponent<Terrain>());
+
+            int monsterCount = 10;
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterCount",
+                monsterCount);
+
+
+            Terrain terrain = Object.FindObjectOfType<Terrain>(); // Assuming there is a Terrain component in the scene
+
+            // Act
+            _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator, "GenerateMonsters");
+
+            // Wait for one frame to allow the monsters to be spawned
+            yield return null;
+
+            // Assert
+            Assert.IsTrue(AreAllMonstersWithinTerrainBounds());
+        }
+
+        private bool AreAllMonstersWithinTerrainBounds()
+        {
+            Terrain terrain = GameObject.FindObjectOfType<Terrain>();
+            GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster"); // Update with the actual tag used for monsters
+
+            foreach (GameObject monster in monsters)
             {
-                Vector3 monsterPosition = monster.GetPosition();
-                Bounds terrainBounds = _terrainPrefab.GetComponent<TerrainCollider>().bounds;
-
-                Assert.IsTrue(terrainBounds.Contains(monsterPosition));
+                Vector3 monsterPosition = monster.transform.position;
+                if (!terrain.terrainData.bounds.Contains(monsterPosition))
+                {
+                    return false;
+                }
             }
 
-            // Clean up the test objects
-            Object.Destroy(monsterGeneratorObject);
-            Object.Destroy(_terrainPrefab);
-            Object.Destroy(monsterPrefab);
+            return true;
+        }
+    
+        private int GetActiveMonsterCount()
+        {
+            GameObject[]
+                monsters = GameObject.FindGameObjectsWithTag("Monster"); // Update with the actual tag used for monsters
+            return monsters.Length;
         }
     }
 }

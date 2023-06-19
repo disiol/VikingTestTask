@@ -1,66 +1,75 @@
 using UnityEngine;
-using UnityEngine.Serialization;
 
 namespace Viking.Scripts.Monster
 {
+    using UnityEngine;
+
     public class MonsterGenerator : MonoBehaviour
     {
-        [SerializeField] private GameObject terrainPrefab; // Assign the terrain prefab in the Unity Inspector
+        private ObjectPool _monsterPool;
+    
+        [SerializeField]
+        private GameObject monsterPrefab;
 
-        [SerializeField] private GameObject monsterPrefab; // Assign the monster prefab in the Unity Inspector
+        [SerializeField]
+        private Terrain terrain;
 
-        [SerializeField] private float monsterYPosition;
-        [SerializeField] private float minXPosition;
-        [SerializeField] private float minZPosition;
-
-
-        private readonly ObjectPool<Monster> _monsterPool = new();
+        [SerializeField]
+        private int monsterCount = 10;
 
         private void Start()
         {
-            GenerateMonsterPositions();
-        }
-
-        private void GenerateMonsterPositions()
-        {
-            TerrainCollider terrainCollider = terrainPrefab.GetComponent<TerrainCollider>();
-
-            if (terrainCollider == null)
+            if (monsterPrefab == null)
             {
-                Debug.LogError("TerrainCollider component not found!");
-                Destroy(terrainPrefab);
+                Debug.LogError("Monster prefab not assigned!");
                 return;
             }
 
-            Vector3 terrainSize = terrainCollider.bounds.size;
-            float length = terrainSize.x;
-            float width = terrainSize.z;
-
-
-            int numberOfMonsters = 10;
-            float perimeter = 2 * (length + width);
-            float segmentLength = perimeter / numberOfMonsters;
-
-            // Create monster objects and add them to the object pool
-            for (int i = 0; i < numberOfMonsters; i++)
+            if (terrain == null)
             {
-                Monster monster = new Monster(monsterPrefab);
-                _monsterPool.AddObject(monster);
+                Debug.LogError("Terrain reference not set!");
+                return;
             }
 
-            // Activate and position monsters from the object pool
-            for (int i = 0; i < numberOfMonsters; i++)
+            // Create and initialize the monster pool
+            _monsterPool = gameObject.AddComponent<ObjectPool>();
+            _monsterPool.Initialize(monsterPrefab, monsterCount);
+
+            GenerateMonsters();
+        }
+
+        private void GenerateMonsters()
+        {
+            for (int i = 0; i < monsterCount; i++)
             {
-                Monster monster = _monsterPool.GetObject();
-                monster.SetActive(true);
-
-                // Generate random positions for x and z coordinates within the terrain's bounds
-                float x = Random.Range(minXPosition, length);
-                float z = Random.Range(minZPosition, width);
-                float y = monsterYPosition; // Set a fixed value for the Y position
-
-                monster.SetPosition(new Vector3(x, y, z));
+                GameObject monster = _monsterPool.GetObjectFromPool();
+                if (monster != null)
+                {
+                    Vector3 spawnPosition = GetRandomSpawnPosition();
+                    monster.transform.position = spawnPosition;
+                    monster.SetActive(true);
+                }
             }
+        }
+
+        private Vector3 GetRandomSpawnPosition()
+        {
+            Vector3 terrainSize = terrain.terrainData.size;
+            float x = Random.Range(1f, terrainSize.x);
+            float z = Random.Range(1f, terrainSize.z);
+            float y = terrain.SampleHeight(new Vector3(x, 0f, z)) + terrain.GetPosition().y;
+
+            return new Vector3(x, y, z);
+        }
+
+        private void OnDrawGizmosSelected()
+        {
+            if (terrain == null)
+                return;
+
+            Bounds terrainBounds = terrain.terrainData.bounds;
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireCube(terrainBounds.center, terrainBounds.size);
         }
     }
 }

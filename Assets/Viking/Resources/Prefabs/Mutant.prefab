@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 638978407}
   m_Layer: 0
   m_Name: Mutant
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -418,7 +418,7 @@ CapsuleCollider:
   m_Radius: 0.8
   m_Height: 2.2
   m_Direction: 1
-  m_Center: {x: 0, y: 0.82, z: 0.16}
+  m_Center: {x: 0, y: 0.88, z: 0.16}
 --- !u!1 &3590565633985699057
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,32 +3,47 @@ using System.Collections.Generic;
 
 namespace Viking.Scripts.Monster
 {
-    public class ObjectPool<T> 
+    using UnityEngine;
+    using System.Collections.Generic;
+
+    public class ObjectPool : MonoBehaviour
     {
-        private readonly List<T> _objectList = new();
-        private int _currentIndex = 0;
+        private GameObject prefab;
+        private int initialPoolSize;
+        private List<GameObject> pool = new List<GameObject>();
 
-        public void AddObject(T obj)
+        public void Initialize(GameObject prefab, int initialPoolSize)
         {
-            _objectList.Add(obj);
+            this.prefab = prefab;
+            this.initialPoolSize = initialPoolSize;
+            CreatePool();
         }
 
-        public T GetObject()
+        private void CreatePool()
         {
-            if (_currentIndex >= _objectList.Count)
-                _currentIndex = 0;
-
-            T obj = _objectList[_currentIndex];
-            _currentIndex++;
-
-            return obj;
+            for (int i = 0; i < initialPoolSize; i++)
+            {
+                GameObject obj = Instantiate(prefab, transform);
+                obj.SetActive(false);
+                pool.Add(obj);
+            }
         }
 
-
-        public T[] ToArray()
+        public GameObject GetObjectFromPool()
         {
-            return _objectList.ToArray();
+            for (int i = 0; i < pool.Count; i++)
+            {
+                if (!pool[i].activeInHierarchy)
+                {
+                    return pool[i];
+                }
+            }
+
+            GameObject newObj = Instantiate(prefab, transform);
+            pool.Add(newObj);
+            return newObj;
         }
     }
+
 
 }

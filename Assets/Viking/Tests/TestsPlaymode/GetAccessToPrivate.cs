@@ -2,6 +2,7 @@ using System;
 using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
+using Viking.Scripts.Monster;
 using Viking.Scripts.UI.StartScreen;
 
 namespace Viking.Scripts.Tests.TestsPlaymode
@@ -66,7 +67,29 @@ namespace Viking.Scripts.Tests.TestsPlaymode
             }
         }
 
+        public void SetPrivateFieldValue(Type type, object instance, string name, int value)
+        {
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+
+            // Set the value of the private field
+            if (fieldInfo != null)
+            {
+                fieldInfo.SetValue(instance, value);
+            }
+        }
+
         public void SetPrivateFieldValue(Type type, object instance, string name, GameObject[] value)
+        {
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+
+            // Set the value of the private field
+            if (fieldInfo != null)
+            {
+                fieldInfo.SetValue(instance, value);
+            }
+        }
+        
+        public void SetPrivateFieldValue(Type type, object instance, string name, Terrain value)
         {
             FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
 
@@ -110,14 +133,11 @@ namespace Viking.Scripts.Tests.TestsPlaymode
             }
         }
 
-        public void GetPrivateMethod(Type type,object instance ,string name)
+        public void GetPrivateMethod(Type type, object instance, string name)
         {
-           type.InvokeMember(name,
-                BindingFlags.InvokeMethod | BindingFlags.NonPublic |
-                BindingFlags.Public | BindingFlags.Instance,
-                null, instance, null);
             // Get the private method "MyPrivateMethod"
-            var methodInfo = type.GetMethod(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            var methodInfo = type.GetMethod(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                  BindingFlags.Public | BindingFlags.Instance);
         }
 
         public void GetPrivateMethod(Type type, object instance, string name, object[] parameters)
@@ -125,5 +145,7 @@ namespace Viking.Scripts.Tests.TestsPlaymode
             // Get the private method "MyPrivateMethod"
             MethodInfo methodInfo = type.GetMethod(name, BindingFlags.NonPublic | BindingFlags.Instance);
         }
+
+      
     }
 }

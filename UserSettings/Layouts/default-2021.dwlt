@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 23
+  controlID: 89
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,12 +141,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 786
+    width: 710
     height: 761
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 143
+  controlID: 187
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +162,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 786
+    x: 710
     y: 0
-    width: 272
+    width: 308
     height: 761
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -188,9 +188,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1058
+    x: 1018
     y: 0
-    width: 166
+    width: 310
     height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -209,23 +209,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1224
+    x: 1328
     y: 0
-    width: 376
+    width: 272
     height: 761
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -236,24 +236,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 786
-    height: 569
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+    width: 710
+    height: 371
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,11 +270,11 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 569
-    width: 786
-    height: 192
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+    y: 371
+    width: 710
+    height: 390
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -368,8 +368,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 785
-    height: 475
+    width: 709
+    height: 350
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -397,30 +397,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 785
-    height: 548
+    width: 709
+    height: 350
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 196
-    splitterInitialOffset: 0
+    ID: 222
+    splitterInitialOffset: 333
     currentActiveSplitter: -1
     realSizes:
-    - 358
-    - 120
+    - 150
+    - 130
     relativeSizes:
-    - 0.75
-    - 0.25
+    - 0.534413
+    - 0.46558702
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 478
+    lastTotalSize: 280
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -436,9 +436,9 @@ MonoBehaviour:
       uniqueId: '[VikingTestTask][suite]'
       name: VikingTestTask
       fullName: VikingTestTask
-      resultStatus: 1
-      duration: 114.341156
-      messages: 
+      resultStatus: 2
+      duration: 3.364699
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -452,9 +452,9 @@ MonoBehaviour:
       uniqueId: '[TestsPlaymode.dll][suite]'
       name: TestsPlaymode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
-      resultStatus: 1
-      duration: 113.33141
-      messages: 
+      resultStatus: 2
+      duration: 2.334613
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -468,9 +468,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/[Viking][suite]
       name: Viking
       fullName: Viking
-      resultStatus: 1
-      duration: 113.28112
-      messages: 
+      resultStatus: 2
+      duration: 2.294788
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -484,9 +484,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
       name: Tests
       fullName: Viking.Tests
-      resultStatus: 1
-      duration: 113.2726
-      messages: 
+      resultStatus: 2
+      duration: 2.2887979
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -500,9 +500,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
       name: TestsPlaymode
       fullName: Viking.Tests.TestsPlaymode
-      resultStatus: 1
-      duration: 113.26508
-      messages: 
+      resultStatus: 2
+      duration: 2.2837925
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -516,9 +516,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
       name: MonsterGeneratorTests
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
-      resultStatus: 1
-      duration: 113.25724
-      messages: 
+      resultStatus: 2
+      duration: 1.2151303
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -532,9 +532,11 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.MonsterGenerator_PositionsMonstersWithinTerrainBounds]
       name: MonsterGenerator_PositionsMonstersWithinTerrainBounds
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.MonsterGenerator_PositionsMonstersWithinTerrainBounds
-      resultStatus: 1
-      duration: 113.22151
-      messages: 
+      resultStatus: 2
+      duration: 1.1862068
+      messages: "  Check if all monsters are within the terrain bounds  monsterPosition
+        (226.23, -98.79, 60.53)  terrainBounds (0.00, 0.00, 0.00)\n  Expected: True\n 
+        But was:  False\n"
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
@@ -636,7 +638,14 @@ MonoBehaviour:
         at all
 
 '
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<MonsterGenerator_PositionsMonstersWithinTerrainBounds>d__3.MoveNext
+        () [0x001eb] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:87
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -650,7 +659,7 @@ MonoBehaviour:
       name: StartScreenViewTests
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
       resultStatus: 1
-      duration: 1.0799345
+      duration: 1.0617008
       messages: 
       output: 
       stacktrace: 
@@ -666,7 +675,7 @@ MonoBehaviour:
       name: PlayButton_Clicked_LoadsGameScene
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
       resultStatus: 1
-      duration: 1.0508323
+      duration: 1.0433388
       messages: 
       output: 'Play button clicked
 
@@ -680,12 +689,85 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: MonsterGeneratorTests (113.257s)
-    m_ResultStacktrace: 
+    m_ResultText: "MonsterGenerator_PositionsMonstersWithinTerrainBounds (1.186s)\n---\nCheck
+      if all monsters are within the terrain bounds  monsterPosition (226.23, -98.79,
+      60.53)  terrainBounds (0.00, 0.00, 0.00)\n  Expected: True\n  But was:  False\n---\nat
+      Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<MonsterGenerator_PositionsMonstersWithinTerrainBounds>d__3.MoveNext
+      () [0x001eb] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:87\nat
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46\n---\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all\nYou
+      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
+      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
+      your script can inherit from ScriptableObject or no base class at all"
+    m_ResultStacktrace: 'at Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<MonsterGenerator_PositionsMonstersWithinTerrainBounds>d__3.MoveNext
+      () [0x001eb] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:87
+
+      at
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86979e38
-      m_LastClickedID: 949917574
+      m_SelectedIDs: 4fd99993
+      m_LastClickedID: -1818633905
       m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf1486979e38b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -784,9 +866,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1224
+    x: 1328
     y: 119
-    width: 375
+    width: 271
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -798,9 +880,9 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -886,10 +968,10 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
-    commitMessage: 
+    commitMessage: Becap
     currentBranch: '[main]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
@@ -897,20 +979,16 @@ MonoBehaviour:
         keys:
         - 00000000000000001000000000000000
         - 5646a4dacaa682ed0a1ab319ba5a8f34
-        - 6df4776d71ad3d10ea0b7c04dd6be6de
-        - 95d5b018d0c279e11bfaaa367052aebf
-        - 6be40d025e9f087838b1361b5f2db0b1
-        - e82245cf60b6e5bea85cfe65ab963628
-        - f12d436684d1f69da9954193b5acf243
+        - 62f185c5659b46dfb970ef23c2445795
+        - a58e26524f392c405ae2a1b784e455a1
+        - 56dee87f715120df28e5f5d8ff616d7e
+        - 8ad327f2739b1394c88ab8ba2ecf06d2
+        - 3b95be3def643d145ab1cf52aa0188a3
         - 5c40419d458d9da3193d0ef19cd02ff5
         - 00fa87e0af5a38457989fd96fab0c8fd
         - 0414e6cc0ecf4b9ea050fb787c833c7a
         - 304871403fe24aa58bc530e3a9c029bb
-        - e1ec715af7934d419cd3d9208757cdb6
-        - 5f618d2da63141a3a6438e4886b442d4
-        - 7b6ab41357d247a5aeb1ecb117be713c
-        - 0dd55822d31b40f0adc1203761d5b4a1
-        - 332062b573b841d09ac9096e4cc5fd85
+        - b7add6b6928f4d6aa17fee649d969e6e
         - 295ae06edfec8440798a32d68e7ff360
         - d1cb4a55614d845b790d5b4f5fa626ea
         - f9a7faf2432e4f3e95a16eb57d1c3864
@@ -924,7 +1002,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -942,7 +1020,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -951,8 +1029,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models
-          label: Models
+        - path: Assets/Viking/Resources
+          label: Resources
           level: 2
           isFolder: 1
           isContainer: 0
@@ -960,7 +1038,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -969,8 +1047,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models/Mutant
-          label: Mutant
+        - path: Assets/Viking/Resources/Prefabs
+          label: Prefabs
           level: 3
           isFolder: 1
           isContainer: 0
@@ -978,7 +1056,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -987,44 +1065,26 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models/Mutant/Animations
-          label: Animations
+        - path: Assets/Viking/Resources/Prefabs/Mutant.prefab
+          label: Mutant.prefab
           level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-          label: Mutant.controller
-          level: 5
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Mutant/Animations/Mutant.controller
-            projectPath: Assets/Viking/Models/Mutant/Animations/Mutant.controller
+            path: Assets/Viking/Resources/Prefabs/Mutant.prefab
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Mutant.prefab
+            projectPath: Assets/Viking/Resources/Prefabs/Mutant.prefab
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets/Viking/Models/Viking
-          label: Viking
+        - path: Assets/Viking/Resources/Terrain
+          label: Terrain
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1032,7 +1092,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1041,6 +1101,24 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets/Viking/Resources/Terrain/Terrain.prefab
+          label: Terrain.prefab
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Viking/Resources/Terrain/Terrain.prefab
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Terrain/Terrain.prefab
+            projectPath: Assets/Viking/Resources/Terrain/Terrain.prefab
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
         - path: Assets/Viking/Scenes
           label: Scenes
           level: 2
@@ -1050,7 +1128,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1068,7 +1146,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: Assets/Viking/Scenes/VikingScene.unity
@@ -1086,7 +1164,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1104,7 +1182,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1113,93 +1191,21 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Monster/Monster.cs
-          label: Monster.cs
+        - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+          label: MonsterGenerator.cs
           level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/Monster.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs
-            projectPath: Assets/Viking/Scripts/Monster/Monster.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-          label: ObjectPool.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs
-            projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/UI
-          label: UI
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/UI/StartScreen
-          label: StartScreen
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-          label: StartScreenView.cs
-          level: 5
           isFolder: 0
           isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-            projectPath: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
+            path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+            projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
@@ -1212,7 +1218,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1230,7 +1236,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1248,7 +1254,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
@@ -1261,20 +1267,12 @@ MonoBehaviour:
         keys:
         - Assets
         - Assets/Viking
-        - Assets/Viking/Models
-        - Assets/Viking/Models/Mutant
-        - Assets/Viking/Models/Mutant/Animations
-        - Assets/Viking/Models/Viking
+        - Assets/Viking/Resources
+        - Assets/Viking/Resources/Prefabs
+        - Assets/Viking/Resources/Terrain
         - Assets/Viking/Scenes
         - Assets/Viking/Scripts
         - Assets/Viking/Scripts/Monster
-        - Assets/Viking/Scripts/Tolls
-        - Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets
-        - Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking
-        - Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts
-        - Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster
-        - Assets/Viking/Scripts/UI
-        - Assets/Viking/Scripts/UI/StartScreen
         - Assets/Viking/Tests
         - Assets/Viking/Tests/TestsPlaymode
         - UserSettings
@@ -1289,7 +1287,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1307,7 +1305,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1316,8 +1314,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models
-          label: Models
+        - path: Assets/Viking/Resources
+          label: Resources
           level: 2
           isFolder: 1
           isContainer: 0
@@ -1325,7 +1323,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1334,8 +1332,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models/Mutant
-          label: Mutant
+        - path: Assets/Viking/Resources/Prefabs
+          label: Prefabs
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1343,7 +1341,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1352,26 +1350,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Models/Mutant/Animations
-          label: Animations
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking
-          label: Viking
+        - path: Assets/Viking/Resources/Terrain
+          label: Terrain
           level: 3
           isFolder: 1
           isContainer: 0
@@ -1379,7 +1359,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1397,7 +1377,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1415,7 +1395,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1433,133 +1413,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls
-          label: Tolls
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets
-          label: MonsterGenerator.cs -> Assets
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking
-          label: Viking
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts
-          label: Scripts
-          level: 6
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster
-          label: Monster
-          level: 7
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/UI
-          label: UI
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/UI/StartScreen
-          label: StartScreen
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1577,7 +1431,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1595,7 +1449,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1613,7 +1467,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1631,7 +1485,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -1641,275 +1495,8 @@ MonoBehaviour:
             indexStatus: 0
             workTreeStatus: 0
       checkedFileNodes:
-        keys:
-        - Assets/Viking/Scripts/Monster/Monster.cs
-        - Assets/Viking/Scripts/Monster.meta
-        - Assets/Viking/Scenes/VikingScene.unity
-        - Assets/Viking/Models/Viking/Scrpts.meta
-        - Assets/Viking/Models/Mutant/Animations/Mutant.controller
-        - UserSettings/Layouts/default-2021.dwlt
-        - Assets/Viking/Scripts/Monster/Monster.cs.meta
-        - Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-        - Assets/Viking/Scripts/Monster/ObjectPool.cs
-        - Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-        - Assets/Viking/Scripts/Tolls.meta
-        - Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-        - Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-        - Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
-        values:
-        - path: Assets/Viking/Scripts/Monster/Monster.cs
-          label: Monster.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/Monster.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs
-            projectPath: Assets/Viking/Scripts/Monster/Monster.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Monster.meta
-          label: Monster.meta
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster.meta
-            projectPath: Assets/Viking/Scripts/Monster.meta
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 0
-        - path: Assets/Viking/Scenes/VikingScene.unity
-          label: VikingScene.unity
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scenes/VikingScene.unity
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scenes/VikingScene.unity
-            projectPath: Assets/Viking/Scenes/VikingScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets/Viking/Models/Viking/Scrpts.meta
-          label: Scrpts.meta
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Models/Viking/Scrpts.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Scrpts.meta
-            projectPath: Assets/Viking/Models/Viking/Scrpts.meta
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 5
-        - path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-          label: Mutant.controller
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Mutant/Animations/Mutant.controller
-            projectPath: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: UserSettings/Layouts/default-2021.dwlt
-          label: default-2021.dwlt
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: UserSettings/Layouts/default-2021.dwlt
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
-            projectPath: UserSettings/Layouts/default-2021.dwlt
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Monster/Monster.cs.meta
-          label: Monster.cs.meta
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/Monster.cs.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs.meta
-            projectPath: Assets/Viking/Scripts/Monster/Monster.cs.meta
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-          label: MonsterGenerator.cs.meta
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-            projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-            originalPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs.meta
-            indexStatus: 6
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-          label: ObjectPool.cs
-          level: 4
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs
-            projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-          label: ObjectPool.cs.meta
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-            projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls.meta
-          label: Tolls.meta
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Tolls.meta
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls.meta
-            projectPath: Assets/Viking/Scripts/Tolls.meta
-            originalPath: 
-            indexStatus: 5
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-          label: MonsterGenerator.cs
-          level: 8
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls/MonsterGenerator.cs
-              -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-            projectPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-            originalPath: 
-            indexStatus: 6
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-          label: StartScreenView.cs
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-            projectPath: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
-          label: MonsterGeneratorTests.cs
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
-            projectPath: Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       title: 
       pathSeparator: /
       displayRootNode: 0
@@ -1926,7 +1513,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1944,7 +1531,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1962,7 +1549,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1971,8 +1558,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Models
-        label: Models
+      - path: Assets/Viking/Resources
+        label: Resources
         level: 2
         isFolder: 1
         isContainer: 0
@@ -1980,7 +1567,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1989,8 +1576,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Models/Mutant
-        label: Mutant
+      - path: Assets/Viking/Resources/Prefabs
+        label: Prefabs
         level: 3
         isFolder: 1
         isContainer: 0
@@ -1998,7 +1585,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2007,44 +1594,26 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Models/Mutant/Animations
-        label: Animations
+      - path: Assets/Viking/Resources/Prefabs/Mutant.prefab
+        label: Mutant.prefab
         level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-        label: Mutant.controller
-        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Mutant/Animations/Mutant.controller
-          projectPath: Assets/Viking/Models/Mutant/Animations/Mutant.controller
+          path: Assets/Viking/Resources/Prefabs/Mutant.prefab
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Mutant.prefab
+          projectPath: Assets/Viking/Resources/Prefabs/Mutant.prefab
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets/Viking/Models/Viking
-        label: Viking
+      - path: Assets/Viking/Resources/Terrain
+        label: Terrain
         level: 3
         isFolder: 1
         isContainer: 0
@@ -2052,7 +1621,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2061,8 +1630,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Models/Viking/Scrpts.meta
-        label: Scrpts.meta
+      - path: Assets/Viking/Resources/Terrain/Terrain.prefab
+        label: Terrain.prefab
         level: 4
         isFolder: 0
         isContainer: 0
@@ -2070,15 +1639,15 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Models/Viking/Scrpts.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Scrpts.meta
-          projectPath: Assets/Viking/Models/Viking/Scrpts.meta
+          path: Assets/Viking/Resources/Terrain/Terrain.prefab
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Terrain/Terrain.prefab
+          projectPath: Assets/Viking/Resources/Terrain/Terrain.prefab
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 5
+          workTreeStatus: 3
       - path: Assets/Viking/Scenes
         label: Scenes
         level: 2
@@ -2088,7 +1657,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2106,7 +1675,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Assets/Viking/Scenes/VikingScene.unity
@@ -2124,7 +1693,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2132,24 +1701,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Monster.meta
-        label: Monster.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster.meta
-          projectPath: Assets/Viking/Scripts/Monster.meta
-          originalPath: 
-          indexStatus: 4
           workTreeStatus: 0
       - path: Assets/Viking/Scripts/Monster
         label: Monster
@@ -2160,7 +1711,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2169,274 +1720,21 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Monster/Monster.cs
-        label: Monster.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster/Monster.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs
-          projectPath: Assets/Viking/Scripts/Monster/Monster.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 3
-      - path: Assets/Viking/Scripts/Monster/Monster.cs.meta
-        label: Monster.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster/Monster.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs.meta
-          projectPath: Assets/Viking/Scripts/Monster/Monster.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-        label: MonsterGenerator.cs.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-          projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-          originalPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs.meta
-          indexStatus: 6
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-        label: ObjectPool.cs
-        level: 4
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs
-          projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 3
-      - path: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-        label: ObjectPool.cs.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-          projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls.meta
-        label: Tolls.meta
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Tolls.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls.meta
-          projectPath: Assets/Viking/Scripts/Tolls.meta
-          originalPath: 
-          indexStatus: 5
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls
-        label: Tolls
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets
-        label: MonsterGenerator.cs -> Assets
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking
-        label: Viking
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts
-        label: Scripts
-        level: 6
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster
-        label: Monster
-        level: 7
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+      - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
         label: MonsterGenerator.cs
-        level: 8
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls/MonsterGenerator.cs
-            -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-          projectPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-          originalPath: 
-          indexStatus: 6
-          workTreeStatus: 3
-      - path: Assets/Viking/Scripts/UI
-        label: UI
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/UI/StartScreen
-        label: StartScreen
         level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-        label: StartScreenView.cs
-        level: 5
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-          projectPath: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
+          path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+          projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2449,7 +1747,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2467,7 +1765,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2485,7 +1783,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs
@@ -2503,7 +1801,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2521,7 +1819,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -2539,7 +1837,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: UserSettings/Layouts/default-2021.dwlt
@@ -2568,76 +1866,27 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets/Viking/Models/Mutant/Animations/Mutant.controller
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Mutant/Animations/Mutant.controller
-      projectPath: Assets/Viking/Models/Mutant/Animations/Mutant.controller
+    - path: Assets/Viking/Resources/Prefabs/Mutant.prefab
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Mutant.prefab
+      projectPath: Assets/Viking/Resources/Prefabs/Mutant.prefab
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Viking/Models/Viking/Scrpts.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Scrpts.meta
-      projectPath: Assets/Viking/Models/Viking/Scrpts.meta
+    - path: Assets/Viking/Resources/Terrain/Terrain.prefab
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Terrain/Terrain.prefab
+      projectPath: Assets/Viking/Resources/Terrain/Terrain.prefab
       originalPath: 
       indexStatus: 0
-      workTreeStatus: 5
+      workTreeStatus: 3
     - path: Assets/Viking/Scenes/VikingScene.unity
       fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scenes/VikingScene.unity
       projectPath: Assets/Viking/Scenes/VikingScene.unity
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Viking/Scripts/Monster.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster.meta
-      projectPath: Assets/Viking/Scripts/Monster.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Monster/Monster.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs
-      projectPath: Assets/Viking/Scripts/Monster/Monster.cs
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 3
-    - path: Assets/Viking/Scripts/Monster/Monster.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/Monster.cs.meta
-      projectPath: Assets/Viking/Scripts/Monster/Monster.cs.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-      projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs.meta
-      originalPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs.meta
-      indexStatus: 6
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Monster/ObjectPool.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs
-      projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 3
-    - path: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-      projectPath: Assets/Viking/Scripts/Monster/ObjectPool.cs.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Tolls.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls.meta
-      projectPath: Assets/Viking/Scripts/Tolls.meta
-      originalPath: 
-      indexStatus: 5
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Tolls/MonsterGenerator.cs
-        -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-      projectPath: Assets/Viking/Scripts/Tolls/MonsterGenerator.cs -> Assets/Viking/Scripts/Monster/MonsterGenerator.cs
-      originalPath: 
-      indexStatus: 6
-      workTreeStatus: 3
-    - path: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
-      projectPath: Assets/Viking/Scripts/UI/StartScreen/StartScreenView.cs
+    - path: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Monster/MonsterGenerator.cs
+      projectPath: Assets/Viking/Scripts/Monster/MonsterGenerator.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -2653,15 +1902,15 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 14 changed files
+    changedFilesText: 6 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-17T15:29:29.533+03:00
+      updatedTimeString: 2023-06-18T21:36:38.932+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-17T18:51:13.176+03:00
+      updatedTimeString: 2023-06-19T03:36:21.513+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-17T18:48:19.291+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2854,13 +2103,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-15T00:50:59.032+03:00
+    updatedTimeString: 2023-06-18T21:36:38.932+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-15T00:55:05.062+03:00
+    updatedTimeString: 2023-06-18T21:36:39.023+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-17T18:51:13.176+03:00
+    updatedTimeString: 2023-06-18T21:40:42.360+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2904,9 +2153,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 786
+    x: 710
     y: 119
-    width: 270
+    width: 306
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2916,9 +2165,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: d83f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2e5bffff825bffff6660ffffe861ffff2862ffff9663ffff6c65ffffac65ffff1a67fffff072ffff3073ffff0e75ffff0276ffff4276ffff2278ffffe090ffffe690ffff2691ffff2293ffff929effffd29effffdea0ffff3ebeffff7ebeffff5ec0ffffbcc1fffffcc1ffff3ac4ffff2cc9ffff6cc9ffff3acbffff8ceaffff9ceaffff6af1ffffaaf1ffff76f3ffff2ef4ffff6ef4ffff3af6ffff52f7ffff92f7ffff64f9fffff0faffff
+      m_ExpandedIDs: 3036ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2962,9 +2211,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1224
+    x: 1328
     y: 119
-    width: 375
+    width: 271
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3004,9 +2253,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1058
+    x: 1018
     y: 119
-    width: 164
+    width: 308
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3026,22 +2275,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Viking
+    - Assets/Viking/Scripts/Monster
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Viking/Resources
+  - Assets/Viking/Scripts/Monster
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f86c0000
-    m_LastClickedID: 27896
-    m_ExpandedIDs: 00000000f66c0000f86c0000fa6c0000fc6c0000fe6c0000006d0000386d0000406d00004c6d000000ca9a3b
+    m_SelectedIDs: 02840000
+    m_LastClickedID: 33794
+    m_ExpandedIDs: 00000000326d0000346d0000366d0000386d00003a6d00007c6d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3069,7 +2318,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f66c0000f86c0000fa6c0000fc6c0000fe6c0000006d0000
+    m_ExpandedIDs: 00000000326d0000346d0000366d0000386d00003a6d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3096,8 +2345,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 006e0000c66b0000326b0000
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 006e0000c66b0000326b00003c6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3113,7 +2362,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 8}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -3124,7 +2373,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 114
+  m_DirectoriesAreaWidth: 187
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3147,8 +2396,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 785
-    height: 548
+    width: 709
+    height: 350
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3202,7 +2451,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -3224,9 +2473,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: -171}
+      snapOffset: {x: 67.5, y: 0}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 2
+      snapCorner: 0
       id: Orientation
       index: 0
       layout: 4
@@ -3417,9 +2666,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 165.44635, y: 20, z: 246.77155}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 165.44635, y: 20, z: 246.77155}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -3468,11 +2717,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
   m_Size:
-    m_Target: 122.92166
+    m_Target: 14.221005
     speed: 2
-    m_Value: 117.62839
+    m_Value: 14.221005
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -3518,9 +2767,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 688
-    width: 785
-    height: 171
+    y: 490
+    width: 709
+    height: 369
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3570,23 +2819,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 785
-      height: 150
-    m_Scale: {x: 0.06944445, y: 0.06944445}
-    m_Translation: {x: 392.5, y: 75}
+      width: 709
+      height: 348
+    m_Scale: {x: 0.16111112, y: 0.16111112}
+    m_Translation: {x: 354.5, y: 174}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -5651.9995
+      x: -2200.3447
       y: -1080
-      width: 11303.999
+      width: 4400.6895
       height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 0.06944445
-  m_LastWindowPixelSize: {x: 785, y: 171}
+  m_defaultScale: 0.16111112
+  m_LastWindowPixelSize: {x: 709, y: 369}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
