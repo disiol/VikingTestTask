@@ -13,10 +13,9 @@ namespace Viking.Tests.TestsPlaymode
     {
         private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
 
-        GameObject _terrainPrefab;
 
         [UnitySetUp]
-        public IEnumerator SetUp()
+        public void SetUp()
         {
             var root = new GameObject();
             // Attach a camera to our root game object.
@@ -27,10 +26,6 @@ namespace Viking.Tests.TestsPlaymode
             // Add our game object (with the camera included) to the scene by instantiating it.
             root = GameObject.Instantiate(root);
             // Load the terrainPrefab
-            ResourceRequest prefabLoadRequest = Resources.LoadAsync<GameObject>("Terrain/Terrain");
-            yield return prefabLoadRequest;
-
-            _terrainPrefab = prefabLoadRequest.asset as GameObject;
         }
 
         [UnityTest]
@@ -40,22 +35,22 @@ namespace Viking.Tests.TestsPlaymode
             GameObject monsterGeneratorGo = new GameObject();
             MonsterGenerator monsterGenerator = monsterGeneratorGo.AddComponent<MonsterGenerator>();
 
-            GameObject
-                monsterPrefab =
-                    Resources.Load<GameObject>("Prefabs/Mutant");
+            GameObject monster = Resources.Load<GameObject>("Prefabs/Mutant");
             GameObject
                 terrainPrefab =
                     Resources.Load<GameObject>("Terrain/Terrain");
 
 
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterPrefab",
-                monsterPrefab);
+                monster);
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "terrain",
                 terrainPrefab.GetComponent<Terrain>());
 
             int monsterCount = 10;
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterCount",
                 monsterCount);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "spawnRadius",
+                200);
             // Act
             _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator, "GenerateMonsters");
 
@@ -69,6 +64,8 @@ namespace Viking.Tests.TestsPlaymode
                     "monsterCount");
             Assert.AreEqual(monsterGeneratorMonsterCount, activeMonsterCount,
                 "Expected " + monsterCount + " find " + activeMonsterCount);
+            Object.Destroy(monsterGeneratorGo);
+
         }
 
 
@@ -81,9 +78,13 @@ namespace Viking.Tests.TestsPlaymode
             GameObject monsterGeneratorGo = new GameObject();
             MonsterGenerator monsterGenerator = monsterGeneratorGo.AddComponent<MonsterGenerator>();
 
-            GameObject
-                monsterPrefab =
-                    Resources.Load<GameObject>("Prefabs/Mutant");
+            GameObject monster =new GameObject("Mutant");
+            Rigidbody rigidbody = monster.AddComponent<Rigidbody>();
+            rigidbody.freezeRotation = true;
+            monster.AddComponent<CapsuleCollider>();
+            monster.AddComponent<TerrainCollisionDetector>();
+
+
             GameObject
                 terrainPrefab =
                     Resources.Load<GameObject>("Terrain/Terrain");
@@ -92,36 +93,40 @@ namespace Viking.Tests.TestsPlaymode
 
 
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterPrefab",
-                monsterPrefab);
+                monster);
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "terrain",
                 terrainPrefab.GetComponent<Terrain>());
 
             int monsterCount = 10;
             _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "monsterCount",
                 monsterCount);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(MonsterGenerator), monsterGenerator, "spawnRadius",
+                200);
 
-
-            Terrain terrain = Object.FindObjectOfType<Terrain>(); // Assuming there is a Terrain component in the scene
 
             // Act
             _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator, "GenerateMonsters");
 
             // Wait for one frame to allow the monsters to be spawned
-            yield return null;
+            yield return new WaitForSeconds(10f);
 
             // Assert
             Assert.IsTrue(AreAllMonstersWithinTerrainBounds());
+            
+            Object.Destroy(monsterGeneratorGo);
         }
 
         private bool AreAllMonstersWithinTerrainBounds()
         {
-            Terrain terrain = GameObject.FindObjectOfType<Terrain>();
-            GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster"); // Update with the actual tag used for monsters
+            GameObject[]
+                monsters = GameObject.FindGameObjectsWithTag("Monster"); // Update with the actual tag used for monsters
 
             foreach (GameObject monster in monsters)
             {
-                Vector3 monsterPosition = monster.transform.position;
-                if (!terrain.terrainData.bounds.Contains(monsterPosition))
+                bool isTerrainCollisionDetected =
+                    monster.GetComponent<TerrainCollisionDetector>().isTerrainCollisionDetected;
+
+                if (!isTerrainCollisionDetected)
                 {
                     return false;
                 }
@@ -129,12 +134,30 @@ namespace Viking.Tests.TestsPlaymode
 
             return true;
         }
-    
+
         private int GetActiveMonsterCount()
         {
             GameObject[]
                 monsters = GameObject.FindGameObjectsWithTag("Monster"); // Update with the actual tag used for monsters
             return monsters.Length;
+        }
+        
+        
+    }
+  
+
+    public class TerrainCollisionDetector : MonoBehaviour
+    {
+        public bool isTerrainCollisionDetected = false;
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.CompareTag("Terrain"))
+            {
+                Debug.Log("Collision with terrain detected!");
+                isTerrainCollisionDetected = true;
+                // Perform actions or logic when collision with terrain occurs.
+            }
         }
     }
 }

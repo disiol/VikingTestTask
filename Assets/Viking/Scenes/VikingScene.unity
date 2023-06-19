@@ -441,6 +441,7 @@ MonoBehaviour:
   monsterPrefab: {fileID: 3590565633658594999, guid: 56dee87f715120df28e5f5d8ff616d7e, type: 3}
   terrain: {fileID: 2039891530}
   monsterCount: 10
+  spawnRadius: 200
 --- !u!4 &1917028308
 Transform:
   m_ObjectHideFlags: 0

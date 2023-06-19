@@ -2,20 +2,17 @@ using UnityEngine;
 
 namespace Viking.Scripts.Monster
 {
-    using UnityEngine;
-
     public class MonsterGenerator : MonoBehaviour
     {
         private ObjectPool _monsterPool;
-    
-        [SerializeField]
-        private GameObject monsterPrefab;
 
-        [SerializeField]
-        private Terrain terrain;
+        [SerializeField] private GameObject monsterPrefab;
 
-        [SerializeField]
-        private int monsterCount = 10;
+        [SerializeField] private Terrain terrain;
+
+        [SerializeField] private int monsterCount;
+
+        [SerializeField] private float spawnRadius; // Update with the desired spawn radius
 
         private void Start()
         {
@@ -31,35 +28,29 @@ namespace Viking.Scripts.Monster
                 return;
             }
 
-            // Create and initialize the monster pool
             _monsterPool = gameObject.AddComponent<ObjectPool>();
-            _monsterPool.Initialize(monsterPrefab, monsterCount);
 
+            _monsterPool.Initialize(monsterPrefab, monsterCount);
             GenerateMonsters();
         }
 
         private void GenerateMonsters()
         {
+            Vector3 centralPoint = terrain.transform.position + terrain.terrainData.bounds.center;
             for (int i = 0; i < monsterCount; i++)
             {
                 GameObject monster = _monsterPool.GetObjectFromPool();
                 if (monster != null)
                 {
-                    Vector3 spawnPosition = GetRandomSpawnPosition();
+                    Vector2 randomPoint = Random.insideUnitCircle * spawnRadius;
+                    Vector3 spawnPosition = centralPoint + new Vector3(randomPoint.x, 0f, randomPoint.y);
+                    float y = terrain.SampleHeight(spawnPosition) + terrain.transform.position.y;
+                    spawnPosition.y = y;
+
                     monster.transform.position = spawnPosition;
                     monster.SetActive(true);
                 }
             }
-        }
-
-        private Vector3 GetRandomSpawnPosition()
-        {
-            Vector3 terrainSize = terrain.terrainData.size;
-            float x = Random.Range(1f, terrainSize.x);
-            float z = Random.Range(1f, terrainSize.z);
-            float y = terrain.SampleHeight(new Vector3(x, 0f, z)) + terrain.GetPosition().y;
-
-            return new Vector3(x, y, z);
         }
 
         private void OnDrawGizmosSelected()
@@ -70,6 +61,10 @@ namespace Viking.Scripts.Monster
             Bounds terrainBounds = terrain.terrainData.bounds;
             Gizmos.color = Color.blue;
             Gizmos.DrawWireCube(terrainBounds.center, terrainBounds.size);
+
+            Vector3 centralPoint = terrain.transform.position + terrainBounds.center;
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(centralPoint, spawnRadius);
         }
     }
 }

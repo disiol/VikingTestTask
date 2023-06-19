@@ -6,6 +6,7 @@ TagManager:
   tags:
   - LifePlas
   - Monster
+  - Terrain
   layers:
   - Default
   - TransparentFX
