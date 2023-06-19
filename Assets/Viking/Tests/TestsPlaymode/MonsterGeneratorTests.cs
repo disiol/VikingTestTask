@@ -108,7 +108,7 @@ namespace Viking.Tests.TestsPlaymode
             _getAccessToPrivate.GetPrivateMethod(typeof(MonsterGenerator), monsterGenerator, "GenerateMonsters");
 
             // Wait for one frame to allow the monsters to be spawned
-            yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(1f);
 
             // Assert
             Assert.IsTrue(AreAllMonstersWithinTerrainBounds());

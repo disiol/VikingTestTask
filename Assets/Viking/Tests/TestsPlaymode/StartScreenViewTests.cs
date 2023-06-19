@@ -53,7 +53,7 @@ namespace Viking.Tests.TestsPlaymode
 
 
             // Act
-            _getAccessToPrivate.GetPrivateMethod(typeof(StartScreenView),_startScreenView, "OnPlayButtonClick");
+            _getAccessToPrivate.GetPrivateMethod(typeof(StartScreenView),_startScreenView, "OnPlayButtonClick",null);
 
             // Wait for the scene to load
             yield return new WaitForSeconds(1f);

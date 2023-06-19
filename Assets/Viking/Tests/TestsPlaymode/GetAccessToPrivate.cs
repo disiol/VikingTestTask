@@ -133,17 +133,19 @@ namespace Viking.Scripts.Tests.TestsPlaymode
             }
         }
 
-        public void GetPrivateMethod(Type type, object instance, string name)
+        public void GetPrivateMethod(Type type, object instance, string name,object[] parameters)
         {
             // Get the private method "MyPrivateMethod"
             var methodInfo = type.GetMethod(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
                                                   BindingFlags.Public | BindingFlags.Instance);
+            if (methodInfo != null) methodInfo.Invoke(instance, parameters);
         }
 
-        public void GetPrivateMethod(Type type, object instance, string name, object[] parameters)
+        public void GetPrivateMethod(Type type, object instance, string name)
         {
             // Get the private method "MyPrivateMethod"
-            MethodInfo methodInfo = type.GetMethod(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            MethodInfo methodInfo = type.GetMethod(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                         BindingFlags.Public | BindingFlags.Instance);
         }
 
       
