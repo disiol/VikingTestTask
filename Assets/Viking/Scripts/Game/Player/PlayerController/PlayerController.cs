@@ -27,8 +27,8 @@ namespace Viking.Scripts.Game.Player.PlayerController
             _playerControls = new PlayerControls();
             _playerControls.Player.Move.performed += OnMovement;
             _playerControls.Player.Move.canceled += OnMovement;
-            _playerControls.Player.Look.performed += OnLuk;
-            _playerControls.Player.Look.canceled += OnLuk;
+            _playerControls.Player.Look.performed += OnLook;
+            _playerControls.Player.Look.canceled += OnLook;
             _playerControls.Player.Attack.started += OnAttack;
             _playerControls.Player.Attack.canceled += OnAttack;
             _playerControls.Enable();
@@ -40,8 +40,8 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             _playerControls.Player.Move.performed -= OnMovement;
             _playerControls.Player.Move.canceled -= OnMovement;
-            _playerControls.Player.Look.performed -= OnLuk;
-            _playerControls.Player.Look.canceled -= OnLuk;
+            _playerControls.Player.Look.performed -= OnLook;
+            _playerControls.Player.Look.canceled -= OnLook;
             _playerControls.Player.Attack.started -= OnAttack;
             _playerControls.Player.Attack.canceled -= OnAttack;
             _playerControls.Disable();
@@ -50,7 +50,7 @@ namespace Viking.Scripts.Game.Player.PlayerController
         private void Update()
         {
 
-            OnLuk();
+            OnLook();
 
 
             if (_isAttacking)
@@ -65,16 +65,16 @@ namespace Viking.Scripts.Game.Player.PlayerController
             Movement();
         }
 
-        private void OnLuk()
+        private void OnLook()
         {
-            Debug.Log("PlayerController OnLuk  before rotation rotation = "+ transform.rotation);
+            // Debug.Log("PlayerController OnLook  before rotation rotation = "+ transform.rotation);
             float lukInputX = _lukInput.x;
            
            
             transform.Rotate(Vector3.up * lukInputX * turnSpeed * Time.deltaTime);
            
             // _playerCameraController.LukInput = _lukInput;
-            Debug.Log("PlayerController OnLuk   rotation = "+ transform.rotation);
+            // Debug.Log("PlayerController OnLook   rotation = "+ transform.rotation);
 
         }
 
@@ -98,11 +98,11 @@ namespace Viking.Scripts.Game.Player.PlayerController
             Debug.Log("PlayerController OnMovement _movementInput = " + _movementInput);
         }
 
-        public void OnLuk(InputAction.CallbackContext context)
+        public void OnLook(InputAction.CallbackContext context)
         {
             _lukInput = context.ReadValue<Vector2>().normalized;
 
-            Debug.Log("PlayerController OnLuk _lukInput = " + _lukInput);
+            Debug.Log("PlayerController OnLook _lukInput = " + _lukInput);
         }
 
         public void OnAttack(InputAction.CallbackContext context)

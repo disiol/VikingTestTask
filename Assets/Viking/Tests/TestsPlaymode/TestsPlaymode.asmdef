@@ -6,7 +6,8 @@
         "UnityEditor.TestRunner",
         "Scripts",
         "Perfabs",
-        "Terrain"
+        "Unity.InputSystem.TestFramework",
+        "Unity.InputSystem"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
