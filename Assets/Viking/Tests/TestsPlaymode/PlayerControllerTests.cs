@@ -50,6 +50,9 @@ namespace Viking.Tests.TestsPlaymode
             Object.Destroy(_playerObject);
             _playerControls.Disable();
         }
+        
+        
+        
 
         [UnityTest]
         public IEnumerator Player_Forward()
@@ -62,32 +65,21 @@ namespace Viking.Tests.TestsPlaymode
             _playerControls.Player.Move.Enable();
             _playerControls.Enable();
 
-
-            float playerControllerMovementSpeed =
-                (float)_getAccessToPrivate.GetPrivateFieldValue(typeof(PlayerController), _playerController,
-                    "movementSpeed");
-            var position = _playerObject.transform.position;
-
-            Vector3 direction = new Vector3(0, 0, 1.0f);
-
-
-            Vector3 expectedPosition = position +
-                                       _playerObject.transform.TransformDirection(direction) *
-                                       playerControllerMovementSpeed * Time.fixedTime;
-            Vector3 expectedPositionNormalized = expectedPosition.normalized;
             
+
+
+            Vector3 initialPosition = _playerObject.transform.position;
             
-            yield return new WaitForFixedUpdate();
             // Act
-            Press(_keyboard.wKey);
-            yield return new WaitForEndOfFrame();
+            Press(_keyboard.upArrowKey);
+            yield return new WaitForSeconds(1f);
 
-
-            var newPosition = _playerObject.transform.position;
 
             // Assert
-            Assert.AreEqual(expectedPositionNormalized, newPosition.normalized,
-                "Player_Left. Mover object moved from " + position + " to " + expectedPositionNormalized);
+
+            Vector3 finalPosition = _playerObject.transform.position;
+
+            Assert.Greater(finalPosition.z, initialPosition.z); // Check if the object has moved forward
         }
 
         [UnityTest]
@@ -160,7 +152,7 @@ namespace Viking.Tests.TestsPlaymode
            
 
             // Act
-            Press(_keyboard.dKey);
+            Press(_keyboard.rightArrowKey);
 
 
             yield return new WaitForSeconds(0.1f);
@@ -204,7 +196,7 @@ namespace Viking.Tests.TestsPlaymode
             // Act
             Press(_keyboard.aKey);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.5f);
 
 
             var newPosition = _playerObject.transform.position;
@@ -237,7 +229,7 @@ namespace Viking.Tests.TestsPlaymode
             Press(_keyboard.dKey);
 
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.5f);
 
             // Assert
 

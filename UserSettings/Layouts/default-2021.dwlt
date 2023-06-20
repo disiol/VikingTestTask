@@ -8,30 +8,6 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_PixelRect:
-    serializedVersion: 2
-    x: 240
-    y: 196
-    width: 600
-    height: 573
-  m_ShowMode: 0
-  m_Title: (*) PlayerControls (Input Actions)
-  m_RootView: {fileID: 4}
-  m_MinSize: {x: 600, y: 321}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_Maximized: 0
---- !u!114 &2
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12004, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -43,62 +19,12 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: GitHub
-  m_RootView: {fileID: 5}
+  m_Title: Console
+  m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
---- !u!114 &3
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InputActionEditorWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 600
-    height: 573
-  m_MinSize: {x: 600, y: 321}
-  m_MaxSize: {x: 4000, y: 4021}
-  m_ActualView: {fileID: 15}
-  m_Panes:
-  - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &4
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 3}
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 600
-    height: 573
-  m_MinSize: {x: 600, y: 321}
-  m_MaxSize: {x: 4000, y: 4021}
-  vertical: 0
-  controlID: 282
---- !u!114 &5
+--- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -111,9 +37,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 6}
-  - {fileID: 7}
-  - {fileID: 8}
+  - {fileID: 3}
+  - {fileID: 4}
+  - {fileID: 5}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -126,7 +52,7 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
---- !u!114 &6
+--- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
---- !u!114 &7
+--- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,10 +87,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+  - {fileID: 6}
+  - {fileID: 7}
+  - {fileID: 8}
   - {fileID: 9}
-  - {fileID: 10}
-  - {fileID: 11}
-  - {fileID: 12}
   m_Position:
     serializedVersion: 2
     x: 0
@@ -174,8 +100,8 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 100
---- !u!114 &8
+  controlID: 16
+--- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +122,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
---- !u!114 &9
+--- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,19 +135,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
-  - {fileID: 13}
-  - {fileID: 14}
+  - {fileID: 10}
+  - {fileID: 11}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 791
+    width: 732
     height: 761
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 248
---- !u!114 &10
+  controlID: 17
+--- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -236,18 +162,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 791
+    x: 732
     y: 0
-    width: 144
+    width: 108
     height: 761
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 20}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 16}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &11
+--- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -262,18 +188,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 935
+    x: 840
     y: 0
-    width: 322
+    width: 493
     height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
---- !u!114 &12
+--- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -283,24 +209,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1257
+    x: 1333
     y: 0
-    width: 343
+    width: 267
     height: 761
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 21}
-  - {fileID: 19}
-  m_Selected: 1
-  m_LastSelected: 0
---- !u!114 &13
+  - {fileID: 17}
+  - {fileID: 15}
+  m_Selected: 0
+  m_LastSelected: 1
+--- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,18 +243,18 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 791
-    height: 380
+    width: 732
+    height: 516
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 23}
-  - {fileID: 18}
-  - {fileID: 17}
+  - {fileID: 19}
+  - {fileID: 14}
+  - {fileID: 13}
   m_Selected: 2
-  m_LastSelected: 0
---- !u!114 &14
+  m_LastSelected: 1
+--- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -344,230 +270,18 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 380
-    width: 791
-    height: 381
+    y: 516
+    width: 732
+    height: 245
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 24}
-  - {fileID: 16}
+  - {fileID: 20}
+  - {fileID: 12}
   m_Selected: 0
   m_LastSelected: 1
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb55afc2c109f42f2af37941a8c9300e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 600, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: PlayerControls (Input Actions)
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 240
-    y: 196
-    width: 600
-    height: 552
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-    m_OverlaysVisible: 1
-  m_ActionMapsTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 897bced3
-    m_LastClickedID: -741442679
-    m_ExpandedIDs: 00000000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-  m_ActionsTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 558947ad
-    m_LastClickedID: -1387820715
-    m_ExpandedIDs: 61a56dc8897bced3745724d61024fceecb6303ffe745b152
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 0
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-  m_ControlPickerViewState:
-    m_AdvancedDropdownState:
-      states:
-      - itemId: 371857150
-        selectedIndex: 5
-        scroll: {x: 0, y: 0}
-      - itemId: 82801685
-        selectedIndex: 2
-        scroll: {x: 0, y: 0}
-      - itemId: -1811395113
-        selectedIndex: -1
-        scroll: {x: 0, y: 0}
-      - itemId: 917488242
-        selectedIndex: -1
-        scroll: {x: 0, y: 0}
-      - itemId: -1721939733
-        selectedIndex: -1
-        scroll: {x: 0, y: 0}
-      - itemId: 101209689
-        selectedIndex: -1
-        scroll: {x: 0, y: 0}
-    m_ManualPathEditMode: 0
-  m_ActionAssetManager:
-    m_AssetObjectForEditing: {fileID: 0}
-    m_ImportedAssetObject: {fileID: -944628639613478452, guid: 2390c5cb119e603e2a18c0378f747c93, type: 3}
-    m_AssetGUID: 2390c5cb119e603e2a18c0378f747c93
-    m_ImportedAssetJson: "{\n    \"name\": \"PlayerControls\",\n    \"maps\": [\n       
-      {\n            \"name\": \"Player\",\n            \"id\": \"4e8fb568-b798-47b6-ad4f-7413d43683c9\",\n           
-      \"actions\": [\n                {\n                    \"name\": \"Move\",\n                   
-      \"type\": \"Value\",\n                    \"id\": \"5b9f77db-6cb7-423e-aeb1-e6a125eff6ea\",\n                   
-      \"expectedControlType\": \"Vector2\",\n                    \"processors\":
-      \"\",\n                    \"interactions\": \"\",\n                    \"initialStateCheck\":
-      true\n                },\n                {\n                    \"name\":
-      \"Look\",\n                    \"type\": \"Value\",\n                    \"id\":
-      \"3a450504-d98b-465b-80b3-eed9c40cf35a\",\n                    \"expectedControlType\":
-      \"Vector2\",\n                    \"processors\": \"\",\n                   
-      \"interactions\": \"\",\n                    \"initialStateCheck\": true\n               
-      },\n                {\n                    \"name\": \"Attack\",\n                   
-      \"type\": \"Button\",\n                    \"id\": \"f6f4090e-71fb-4ead-af5c-0fea2e737284\",\n                   
-      \"expectedControlType\": \"Button\",\n                    \"processors\": \"\",\n                   
-      \"interactions\": \"\",\n                    \"initialStateCheck\": false\n               
-      }\n            ],\n            \"bindings\": [\n                {\n                   
-      \"name\": \"\",\n                    \"id\": \"9c76d0df-fce4-49e9-a365-c0cdcdc018b5\",\n                   
-      \"path\": \"<Mouse>/leftButton\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Attack\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": false\n                },\n                {\n                   
-      \"name\": \"2D Vector\",\n                    \"id\": \"c648abca-dab6-4aea-8f81-938692555cc2\",\n                   
-      \"path\": \"2DVector\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": true,\n                   
-      \"isPartOfComposite\": false\n                },\n                {\n                   
-      \"name\": \"Up\",\n                    \"id\": \"c8ad70fc-0e65-4868-acfd-adc161042aef\",\n                   
-      \"path\": \"<Keyboard>/w\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"Down\",\n                    \"id\": \"66dab1fb-a8c3-4fbc-9233-4cd8035104e3\",\n                   
-      \"path\": \"<Keyboard>/s\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"Left\",\n                    \"id\": \"ec1af8b3-e177-4547-a74a-39dd859abd61\",\n                   
-      \"path\": \"<Keyboard>/a\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"Right\",\n                    \"id\": \"9a1d3957-6d06-44a7-a6a6-10fcd2bc06bb\",\n                   
-      \"path\": \"<Keyboard>/d\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"2D Vector\",\n                    \"id\": \"a7753609-e5f9-46e8-bf68-87b80d55368c\",\n                   
-      \"path\": \"2DVector\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": true,\n                   
-      \"isPartOfComposite\": false\n                },\n                {\n                   
-      \"name\": \"up\",\n                    \"id\": \"cbf9132b-4d20-4b10-b383-631b26c552b4\",\n                   
-      \"path\": \"<Keyboard>/upArrow\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Move\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"down\",\n                    \"id\": \"cc657ade-d46b-410f-9cd6-63d79f7c7abb\",\n                   
-      \"path\": \"<Keyboard>/downArrow\",\n                    \"interactions\":
-      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
-      \"\",\n                    \"action\": \"Move\",\n                    \"isComposite\":
-      false,\n                    \"isPartOfComposite\": true\n                },\n               
-      {\n                    \"name\": \"left\",\n                    \"id\": \"6d4ad7c1-a38d-4f36-abbf-bdb75f44e5f7\",\n                   
-      \"path\": \"<Keyboard>/leftArrow\",\n                    \"interactions\":
-      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
-      \"\",\n                    \"action\": \"Move\",\n                    \"isComposite\":
-      false,\n                    \"isPartOfComposite\": true\n                },\n               
-      {\n                    \"name\": \"right\",\n                    \"id\": \"daf49102-b01f-46ec-a32e-ffaed08ee3ae\",\n                   
-      \"path\": \"<Keyboard>/rightArrow\",\n                    \"interactions\":
-      \"\",\n                    \"processors\": \"\",\n                    \"groups\":
-      \"\",\n                    \"action\": \"Move\",\n                    \"isComposite\":
-      false,\n                    \"isPartOfComposite\": true\n                },\n               
-      {\n                    \"name\": \"2D Vector\",\n                    \"id\":
-      \"3376d1d9-fd00-4bda-8c0f-f0244507a0b2\",\n                    \"path\": \"2DVector\",\n                   
-      \"interactions\": \"\",\n                    \"processors\": \"\",\n                   
-      \"groups\": \"\",\n                    \"action\": \"Look\",\n                   
-      \"isComposite\": true,\n                    \"isPartOfComposite\": false\n               
-      },\n                {\n                    \"name\": \"up\",\n                   
-      \"id\": \"5a15de7e-f59e-41f1-bac6-fd98b3d7d59a\",\n                    \"path\":
-      \"<Mouse>/position/y\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Look\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"down\",\n                    \"id\": \"fe156957-baf4-4ae1-89c7-e1726ea206f2\",\n                   
-      \"path\": \"<Mouse>/position/y\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Look\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"left\",\n                    \"id\": \"e760d69b-2f79-4120-ba86-73b24b90ee7e\",\n                   
-      \"path\": \"<Mouse>/position/x\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Look\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                },\n                {\n                   
-      \"name\": \"right\",\n                    \"id\": \"c0d6c3f9-1373-4e0a-9c81-4b61419ea761\",\n                   
-      \"path\": \"<Mouse>/position/x\",\n                    \"interactions\": \"\",\n                   
-      \"processors\": \"\",\n                    \"groups\": \"\",\n                   
-      \"action\": \"Look\",\n                    \"isComposite\": false,\n                   
-      \"isPartOfComposite\": true\n                }\n            ]\n        }\n   
-      ],\n    \"controlSchemes\": []\n}"
-    m_IsDirty: 0
-  m_Toolbar:
-    m_IsDirty: 0
-    m_SelectedControlSchemeIndex: -1
-    m_SelectedDeviceRequirementIndex: -1
-    m_ControlSchemes: []
-    m_SearchText: 
-  m_DirtyTitle:
-    m_Text: (*) PlayerControls (Input Actions)
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Title:
-    m_Text: PlayerControls (Input Actions)
-    m_Image: {fileID: 0}
-    m_Tooltip: 
---- !u!114 &16
+--- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -666,7 +380,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &17
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -688,14 +402,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 790
-    height: 359
+    width: 731
+    height: 495
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
---- !u!114 &18
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -717,30 +431,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 792
-    height: 359
+    width: 731
+    height: 573
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 11087
-    splitterInitialOffset: 333
+    ID: 204
+    splitterInitialOffset: 336
     currentActiveSplitter: -1
     realSizes:
-    - 154
-    - 135
+    - 400
+    - 103
     relativeSizes:
-    - 0.534413
-    - 0.46558702
+    - 0.79464287
+    - 0.20535713
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 289
+    lastTotalSize: 503
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -750,14 +464,14 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 18}
+    m_Window: {fileID: 14}
     m_NewResultList:
     - id: 1005
       uniqueId: '[VikingTestTask][suite]'
       name: VikingTestTask
       fullName: VikingTestTask
       resultStatus: 2
-      duration: 21.239094
+      duration: 3.4111345
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -773,7 +487,7 @@ MonoBehaviour:
       name: TestsPlaymode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
       resultStatus: 2
-      duration: 20.252522
+      duration: 2.4357717
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -789,7 +503,7 @@ MonoBehaviour:
       name: Viking
       fullName: Viking
       resultStatus: 2
-      duration: 20.200306
+      duration: 2.3869123
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -805,7 +519,7 @@ MonoBehaviour:
       name: Tests
       fullName: Viking.Tests
       resultStatus: 2
-      duration: 20.188555
+      duration: 2.3797803
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -821,7 +535,7 @@ MonoBehaviour:
       name: TestsPlaymode
       fullName: Viking.Tests.TestsPlaymode
       resultStatus: 2
-      duration: 20.182798
+      duration: 2.3728766
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -836,9 +550,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
       name: MonsterGeneratorTests
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
-      resultStatus: 2
-      duration: 20.170635
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 1.2443569
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -853,7 +567,7 @@ MonoBehaviour:
       name: GenerateMonsters_GeneratesExpectedNumberOfMonsters
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters
       resultStatus: 1
-      duration: 0.5104327
+      duration: 0.1783384
       messages: 
       output: 
       stacktrace: 
@@ -869,18 +583,11 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain]
       name: GenerateMonsters_MonstersOnTerrain
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain
-      resultStatus: 2
-      duration: 20.139431
-      messages: "  Expected: True\n  But was:  False\n"
+      resultStatus: 1
+      duration: 1.0397822
+      messages: 
       output: 
-      stacktrace: 'at Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<GenerateMonsters_MonstersOnTerrain>d__4.MoveNext
-        () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:116
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
-        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -889,12 +596,1755 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
+    - id: 1004
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+      name: PlayerControllerTests
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests
+      resultStatus: 2
+      duration: 2.3629909
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1019
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
+    - id: 1012
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse]
+      name: Attack_Canceled_SetsIsAttackingToFalse
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse
+      resultStatus: 1
+      duration: 0.1864894
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1011
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
+      name: Fire_Started_SetsIsAttackingToTrue
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
+      resultStatus: 1
+      duration: 0.1353278
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1013
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse]
+      name: IsAttacking_DefaultValue_IsFalse
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse
+      resultStatus: 1
+      duration: 0.178935
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1006
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back]
+      name: Player_Back
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back
+      resultStatus: 1
+      duration: 0.3174178
+      messages: 
+      output: 'PlayerController OnMovement _movementInput = (0.00, -1.00)
+
+        PlayerController
+        OnMovement _movementInput = (0.00, -1.00)
+
+        PlayerController OnMovement
+        _movementInput = (0.00, 0.00)
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1005
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward]
+      name: Player_Forward
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
+      resultStatus: 2
+      duration: 0.2907541
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1008
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left]
+      name: Player_Left
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left
+      resultStatus: 2
+      duration: 0.3220209
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1007
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right]
+      name: Player_Right
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right
+      resultStatus: 2
+      duration: 0.295428
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1010
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft]
+      name: RotatesPlayerLeft
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft
+      resultStatus: 2
+      duration: 0.298905
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1009
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight]
+      name: RotatesPlayerRight
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight
+      resultStatus: 2
+      duration: 0.301711
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+        (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
     - id: 1001
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
       name: StartScreenViewTests
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
       resultStatus: 1
-      duration: 1.0617008
+      duration: 1.3947686
       messages: 
       output: 
       stacktrace: 
@@ -910,7 +2360,7 @@ MonoBehaviour:
       name: PlayButton_Clicked_LoadsGameScene
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
       resultStatus: 1
-      duration: 1.0433388
+      duration: 1.2823426
       messages: 
       output: 'Play button clicked
 
@@ -924,24 +2374,317 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: "GenerateMonsters_MonstersOnTerrain (20.139s)\n---\nExpected: True\n 
-      But was:  False\n---\nat Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<GenerateMonsters_MonstersOnTerrain>d__4.MoveNext
-      () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:116\nat
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46"
-    m_ResultStacktrace: 'at Viking.Tests.TestsPlaymode.MonsterGeneratorTests+<GenerateMonsters_MonstersOnTerrain>d__4.MoveNext
-      () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterGeneratorTests.cs:116
+    m_ResultText: 'Player_Forward (0.291s)
 
-      at
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+      ---
+
+      SetUp : Unhandled log
+      message: ''[Error] NotSupportedException while resolving binding ''Move:<Keyboard>/d''
+      in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
+      Use UnityEngine.TestTools.LogAssert.Expect
+
+      TearDown : Unhandled log
+      message: ''[Exception] NullReferenceException: Object reference not set to
+      an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
+
+      ---
+
+      Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+      () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+      UnityEngine.Object:Destroy(Object)
+
+      Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+      (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+      System.Reflection.MethodBase:Invoke(Object,
+      Object[])
+
+      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+      Object, Object[])
+
+      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+      Object)
+
+      UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+      (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+      ---
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NotSupportedException
+      while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
+      (UnityEngine.InputSystem.InputActionAsset):Player''
+
+      NotSupportedException:
+      Control count per binding cannot exceed byte.MaxValue=255
+
+      NullReferenceException:
+      Object reference not set to an instance of an object'
+    m_ResultStacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+      () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+
+      UnityEngine.Object:Destroy(Object)
+
+      Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+      (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
+
+      System.Reflection.MethodBase:Invoke(Object,
+      Object[])
+
+      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+      Object, Object[])
+
+      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+      Object)
+
+      UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+      (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
 
 '
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ffd11b76
-      m_LastClickedID: 1981534719
-      m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf1486979e38b470f871f9d21a74ffffff7f
+      m_SelectedIDs: 586150e2
+      m_LastClickedID: -498048680
+      m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf1486979e387cab0161b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -969,7 +2712,7 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 18}
+    m_Window: {fileID: 14}
     m_NewResultList:
     - id: 1000
       uniqueId: '[VikingTestTask][suite]'
@@ -1019,7 +2762,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &19
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1039,23 +2782,23 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1257
+    x: 1333
     y: 119
-    width: 342
+    width: 266
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 768.93634178
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1140,628 +2883,20 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
-    commitMessage: PlayerController
+    commitMessage: 
     currentBranch: '[main]'
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 5646a4dacaa682ed0a1ab319ba5a8f34
-        - 6df4776d71ad3d10ea0b7c04dd6be6de
-        - f12d436684d1f69da9954193b5acf243
-        - be24b44f7748f655989da2ec58fad148
-        - 7ec12cc97940f5716b41262f3371bf1a
-        - 62f185c5659b46dfb970ef23c2445795
-        - a58e26524f392c405ae2a1b784e455a1
-        - 3c66f711e69430684a5fb7e82119d4bc
-        - 07a49798e1ccc7eccbb1f85c298e0df4
-        - 5c40419d458d9da3193d0ef19cd02ff5
-        - 00fa87e0af5a38457989fd96fab0c8fd
-        - 0414e6cc0ecf4b9ea050fb787c833c7a
-        - 4c8bd5030d894da88284ef203f2703c3
-        - f3fb2030c746ce11ca7e6d76b3dcd0b2
-        - 8a4cdd804fe4ae49ab8702db9b1861a0
-        - bf04d94cc6401aca19049470b909b311
-        - 18676b1ce9c2f051e8a08f5bfc9fb679
-        - 2390c5cb119e603e2a18c0378f747c93
-        - 5ca319b407eb5adf2bd05b9a3b31a5fa
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking
-          label: Viking
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models
-          label: Models
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking
-          label: Viking
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking/Animations
-          label: Animations
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking/Animations/Vicing.controller
-          label: Vicing.controller
-          level: 5
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Models/Viking/Animations/Vicing.controller
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Animations/Vicing.controller
-            projectPath: Assets/Viking/Models/Viking/Animations/Vicing.controller
-            originalPath: 
-            indexStatus: 3
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources
-          label: Resources
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources/Prefabs
-          label: Prefabs
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources/Prefabs/Game.prefab
-          label: Game.prefab
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Resources/Prefabs/Game.prefab
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Game.prefab
-            projectPath: Assets/Viking/Resources/Prefabs/Game.prefab
-            originalPath: 
-            indexStatus: 3
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources/Prefabs/Vicing.prefab
-          label: Vicing.prefab
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Resources/Prefabs/Vicing.prefab
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Vicing.prefab
-            projectPath: Assets/Viking/Resources/Prefabs/Vicing.prefab
-            originalPath: 
-            indexStatus: 3
-            workTreeStatus: 0
-        - path: Assets/Viking/Scenes
-          label: Scenes
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scenes/VikingScene.unity
-          label: VikingScene.unity
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scenes/VikingScene.unity
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scenes/VikingScene.unity
-            projectPath: Assets/Viking/Scenes/VikingScene.unity
-            originalPath: 
-            indexStatus: 3
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game
-          label: Game
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player
-          label: Player
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player/PlayerController
-          label: PlayerController
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-          label: PlayerController.cs
-          level: 6
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-            projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-          label: PlayerControls.cs
-          level: 6
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-            projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-          label: PlayerControls.inputactions
-          level: 6
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-            projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-            originalPath: 
-            indexStatus: 4
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Scripts.asmdef
-          label: Scripts.asmdef
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets/Viking/Scripts/Scripts.asmdef
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Scripts.asmdef
-            projectPath: Assets/Viking/Scripts/Scripts.asmdef
-            originalPath: 
-            indexStatus: 3
-            workTreeStatus: 0
+        keys: []
+        values: []
       folders:
-        keys:
-        - Assets
-        - Assets/Viking
-        - Assets/Viking/Models
-        - Assets/Viking/Models/Viking
-        - Assets/Viking/Models/Viking/Animations
-        - Assets/Viking/Resources
-        - Assets/Viking/Resources/Prefabs
-        - Assets/Viking/Scenes
-        - Assets/Viking/Scripts
-        - Assets/Viking/Scripts/Game
-        - Assets/Viking/Scripts/Game/Player
-        - Assets/Viking/Scripts/Game/Player/PlayerController
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking
-          label: Viking
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models
-          label: Models
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking
-          label: Viking
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Models/Viking/Animations
-          label: Animations
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources
-          label: Resources
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Resources/Prefabs
-          label: Prefabs
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scenes
-          label: Scenes
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game
-          label: Game
-          level: 3
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player
-          label: Player
-          level: 4
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/Player/PlayerController
-          label: PlayerController
-          level: 5
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
+        keys: []
+        values: []
       checkedFileNodes:
         keys: []
         values: []
@@ -1781,7 +2916,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -1789,456 +2924,6 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking
-        label: Viking
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Models
-        label: Models
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Models/Viking
-        label: Viking
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Models/Viking/Animations
-        label: Animations
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Models/Viking/Animations/Vicing.controller
-        label: Vicing.controller
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Models/Viking/Animations/Vicing.controller
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Animations/Vicing.controller
-          projectPath: Assets/Viking/Models/Viking/Animations/Vicing.controller
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets/Viking/Resources
-        label: Resources
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Resources/Prefabs
-        label: Prefabs
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Resources/Prefabs/Game.prefab
-        label: Game.prefab
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Resources/Prefabs/Game.prefab
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Game.prefab
-          projectPath: Assets/Viking/Resources/Prefabs/Game.prefab
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets/Viking/Resources/Prefabs/Vicing.prefab
-        label: Vicing.prefab
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Resources/Prefabs/Vicing.prefab
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Vicing.prefab
-          projectPath: Assets/Viking/Resources/Prefabs/Vicing.prefab
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets/Viking/Scenes
-        label: Scenes
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scenes/VikingScene.unity
-        label: VikingScene.unity
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scenes/VikingScene.unity
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scenes/VikingScene.unity
-          projectPath: Assets/Viking/Scenes/VikingScene.unity
-          originalPath: 
-          indexStatus: 3
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts
-        label: Scripts
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game
-        label: Game
-        level: 3
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player.meta
-        label: Player.meta
-        level: 4
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player.meta
-          projectPath: Assets/Viking/Scripts/Game/Player.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player
-        label: Player
-        level: 4
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController.meta
-        label: PlayerController.meta
-        level: 5
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController.meta
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController
-        label: PlayerController
-        level: 5
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-        label: PlayerController.cs
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 3
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-        label: PlayerController.cs.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-        label: PlayerControls.cs
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-        label: PlayerControls.cs.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-        label: PlayerControls.inputactions
-        level: 6
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-        label: PlayerControls.inputactions.meta
-        level: 7
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-          projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Scripts.asmdef
-        label: Scripts.asmdef
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Scripts/Scripts.asmdef
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Scripts.asmdef
-          projectPath: Assets/Viking/Scripts/Scripts.asmdef
-          originalPath: 
-          indexStatus: 3
           workTreeStatus: 0
       selectedNode:
         path: 
@@ -2259,94 +2944,16 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries:
-    - path: Assets/Viking/Models/Viking/Animations/Vicing.controller
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Models/Viking/Animations/Vicing.controller
-      projectPath: Assets/Viking/Models/Viking/Animations/Vicing.controller
-      originalPath: 
-      indexStatus: 3
-      workTreeStatus: 0
-    - path: Assets/Viking/Resources/Prefabs/Game.prefab
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Game.prefab
-      projectPath: Assets/Viking/Resources/Prefabs/Game.prefab
-      originalPath: 
-      indexStatus: 3
-      workTreeStatus: 0
-    - path: Assets/Viking/Resources/Prefabs/Vicing.prefab
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Resources/Prefabs/Vicing.prefab
-      projectPath: Assets/Viking/Resources/Prefabs/Vicing.prefab
-      originalPath: 
-      indexStatus: 3
-      workTreeStatus: 0
-    - path: Assets/Viking/Scenes/VikingScene.unity
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scenes/VikingScene.unity
-      projectPath: Assets/Viking/Scenes/VikingScene.unity
-      originalPath: 
-      indexStatus: 3
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player.meta
-      projectPath: Assets/Viking/Scripts/Game/Player.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController.meta
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 3
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.cs.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-      projectPath: Assets/Viking/Scripts/Game/Player/PlayerController/PlayerControls.inputactions.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    - path: Assets/Viking/Scripts/Scripts.asmdef
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Scripts.asmdef
-      projectPath: Assets/Viking/Scripts/Scripts.asmdef
-      originalPath: 
-      indexStatus: 3
-      workTreeStatus: 0
-    changedFilesText: 13 changed files
+    gitStatusEntries: []
+    changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-19T22:45:59.137+03:00
+      updatedTimeString: 2023-06-20T15:32:25.987+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-19T22:58:01.488+03:00
+      updatedTimeString: 2023-06-20T16:25:12.030+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-19T22:57:04.814+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2539,13 +3146,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-19T22:45:59.137+03:00
+    updatedTimeString: 2023-06-19T22:59:02.630+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-19T22:47:20.501+03:00
+    updatedTimeString: 2023-06-20T14:29:12.719+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-19T22:58:01.488+03:00
+    updatedTimeString: 2023-06-20T15:29:13.900+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2563,13 +3170,13 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0.5
-  repositoryProgressMessage: Updating branches...
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: 
---- !u!114 &20
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2589,9 +3196,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 791
+    x: 732
     y: 119
-    width: 142
+    width: 106
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2601,9 +3208,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a8730000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: eefaffff
+      m_ExpandedIDs: 84a1ffffc4a1ffff1ca4ffffc8a8ffff08a9ffff74abffff24bbffff64bbffffc8bdffff62c0ffffa2c0ffff08c3ffff32c6ffff72c6ffffaad1ffff92d5ffffd2d5ffff36d7ffffa8d9ffffe8d9ffff4cdcffff06dfffff46dfffffaae0ffff2ce3ffff6ce3ffffd2e4ffff10e8ffff50e8ffffb4e9ffff46ecffff86ecffffa2f7ffffecfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2619,7 +3226,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 7}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -2627,7 +3234,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: b9f02a40769334843a479d7b4ea68ede
---- !u!114 &21
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2647,9 +3254,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1259
+    x: 1333
     y: 119
-    width: 340
+    width: 266
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2662,14 +3269,14 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 29608
+  m_LastInspectedObjectInstanceID: -1
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &22
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2689,9 +3296,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 935
+    x: 840
     y: 119
-    width: 320
+    width: 491
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2711,22 +3318,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Viking/Scripts/Game/Player/PlayerController
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Viking/Scripts/Game/Player/PlayerController
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: a8730000
-    m_LastClickedID: 29608
-    m_ExpandedIDs: 00000000a8730000aa730000ac730000ae730000b0730000b2730000b4730000b6730000b8730000ba730000bc730000be73000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 02740000
+    m_LastClickedID: 29698
+    m_ExpandedIDs: 00000000987300009a7300009c7300009e730000a0730000a2730000a4730000a6730000a8730000aa730000ac730000ae730000b0730000b273000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2742,7 +3349,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 8}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2754,7 +3361,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a8730000aa730000ac730000ae730000b0730000b2730000b4730000b6730000b8730000ba730000bc730000be730000
+    m_ExpandedIDs: 00000000987300009a7300009c7300009e730000a0730000a2730000a4730000a6730000a8730000aa730000ac730000ae730000b0730000b2730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2798,7 +3405,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 11}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2809,8 +3416,8 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 74
---- !u!114 &23
+  m_DirectoriesAreaWidth: 136
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2832,8 +3439,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 791
-    height: 359
+    width: 731
+    height: 369
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3182,7 +3789,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &24
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3203,9 +3810,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 499
-    width: 790
-    height: 360
+    y: 635
+    width: 731
+    height: 224
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3255,23 +3862,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 790
-      height: 339
-    m_Scale: {x: 0.17950082, y: 0.1795008}
-    m_Translation: {x: 395, y: 178.12547}
+      width: 731
+      height: 203
+    m_Scale: {x: 0.17950076, y: 0.17950074}
+    m_Translation: {x: 365.5, y: 110.12536}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2200.547
-      y: -992.338
-      width: 4401.094
-      height: 1888.5709
+      x: -2036.2031
+      y: -613.5092
+      width: 4072.4062
+      height: 1130.9146
     m_MinimalGUI: 1
-  m_defaultScale: 0.15694444
-  m_LastWindowPixelSize: {x: 790, y: 360}
+  m_defaultScale: 0.09398148
+  m_LastWindowPixelSize: {x: 731, y: 224}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
