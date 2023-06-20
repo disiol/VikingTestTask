@@ -1,6 +1,6 @@
 using System;
 
-namespace Viking.Scripts.Game.Model
+namespace Viking.Scripts.Game.GameManager.Model
 {
 
     public class GameDataModel

@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
-using Viking.Scripts.Game.Presenter;
+using Viking.Scripts.Game.GameManager.Presenter;
 
-namespace Viking.Scripts.Game.View
+namespace Viking.Scripts.Game.GameManager.View
 {
     public class GameManagerView : MonoBehaviour
     {

@@ -1,7 +1,7 @@
-using Viking.Scripts.Game.Model;
-using Viking.Scripts.Game.View;
+using Viking.Scripts.Game.GameManager.Model;
+using Viking.Scripts.Game.GameManager.View;
 
-namespace Viking.Scripts.Game.Presenter
+namespace Viking.Scripts.Game.GameManager.Presenter
 {
     public class GameManagerPresenter
     {
