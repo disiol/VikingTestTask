@@ -138,6 +138,30 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4407721468449490915, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_Name
+      value: Follov
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407721470053464204, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407721470053464204, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97440964
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407721470053464204, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.22459094
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407721470053464204, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.008971702
+      objectReference: {fileID: 0}
+    - target: {fileID: 4407721470053464204, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.002067881
+      objectReference: {fileID: 0}
     - target: {fileID: 7494948218283135080, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
       propertyPath: m_Name
       value: Game
@@ -186,8 +210,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8868854099304156947, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: follov
+      value: 
+      objectReference: {fileID: 339398387}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+--- !u!1 &339398387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4407721468449490915, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+  m_PrefabInstance: {fileID: 223799917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &405220709
 GameObject:
   m_ObjectHideFlags: 0

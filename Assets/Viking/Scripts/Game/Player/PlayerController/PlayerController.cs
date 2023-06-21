@@ -5,11 +5,10 @@ namespace Viking.Scripts.Game.Player.PlayerController
 {
     public class PlayerController : MonoBehaviour
     {
-        [Header("Player")]
-        [SerializeField] private float movementSpeed = 2f;
+        [Header("Player")] [SerializeField] private float movementSpeed = 2f;
         [SerializeField] private float turnSpeed = 200f;
-        
-        
+        [SerializeField] private GameObject follov;
+
 
         private Rigidbody _rb;
 
@@ -49,7 +48,6 @@ namespace Viking.Scripts.Game.Player.PlayerController
 
         private void Update()
         {
-
             OnLook();
 
 
@@ -57,9 +55,8 @@ namespace Viking.Scripts.Game.Player.PlayerController
             {
                 //TODO is atakink moctor? , anim
             }
-
-          
         }
+
         private void FixedUpdate()
         {
             Movement();
@@ -69,16 +66,16 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             // Debug.Log("PlayerController OnLook  before rotation rotation = "+ transform.rotation);
             float lukInputX = _lukInput.x;
-           
-           
-            transform.Rotate(Vector3.up * lukInputX * turnSpeed * Time.deltaTime);
-           
+
+
+            Vector3 rotation = Vector3.up * lukInputX * turnSpeed * Time.deltaTime;
+            transform.Rotate(rotation);
+            follov.transform.Rotate(rotation);
+
             // _playerCameraController.LukInput = _lukInput;
             // Debug.Log("PlayerController OnLook   rotation = "+ transform.rotation);
-
         }
 
-       
 
         private void Movement()
         {
@@ -116,9 +113,5 @@ namespace Viking.Scripts.Game.Player.PlayerController
                 _isAttacking = false;
             }
         }
-
-     
-
-      
     }
 }
