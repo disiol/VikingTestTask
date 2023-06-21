@@ -19,32 +19,32 @@ namespace Viking.Scripts.Game.Player.PlayerController
         private bool _isAttacking;
 
 
-        private PlayerControls _playerControls;
+        private DefaultInputActions _defaultInputActions;
         private Rigidbody _rigidbody;
 
         private void Start()
         {
-            _playerControls = new PlayerControls();
-            _playerControls.Player.Move.performed += OnMovement;
-            _playerControls.Player.Move.canceled += OnMovement;
-            _playerControls.Player.Look.performed += OnLook;
-            _playerControls.Player.Look.canceled += OnLook;
-            _playerControls.Player.Attack.started += OnAttack;
-            _playerControls.Player.Attack.canceled += OnAttack;
-            _playerControls.Enable();
+            _defaultInputActions = new DefaultInputActions();
+            _defaultInputActions.Player.Move.performed += OnMovement;
+            _defaultInputActions.Player.Move.canceled += OnMovement;
+            _defaultInputActions.Player.Look.performed += OnLook;
+            _defaultInputActions.Player.Look.canceled += OnLook;
+            _defaultInputActions.Player.Fire.started += OnAttack;
+            _defaultInputActions.Player.Fire.canceled += OnAttack;
+            _defaultInputActions.Enable();
 
             _rigidbody = gameObject.GetComponent<Rigidbody>();
         }
 
         private void OnDisable()
         {
-            _playerControls.Player.Move.performed -= OnMovement;
-            _playerControls.Player.Move.canceled -= OnMovement;
-            _playerControls.Player.Look.performed -= OnLook;
-            _playerControls.Player.Look.canceled -= OnLook;
-            _playerControls.Player.Attack.started -= OnAttack;
-            _playerControls.Player.Attack.canceled -= OnAttack;
-            _playerControls.Disable();
+            _defaultInputActions.Player.Move.performed -= OnMovement;
+            _defaultInputActions.Player.Move.canceled -= OnMovement;
+            _defaultInputActions.Player.Look.performed -= OnLook;
+            _defaultInputActions.Player.Look.canceled -= OnLook;
+            _defaultInputActions.Player.Fire.started -= OnAttack;
+            _defaultInputActions.Player.Fire.canceled -= OnAttack;
+            _defaultInputActions.Disable();
         }
 
         private void Update()

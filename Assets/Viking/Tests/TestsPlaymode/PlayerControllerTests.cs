@@ -14,7 +14,7 @@ namespace Viking.Tests.TestsPlaymode
     {
         private GameObject _playerObject;
         private PlayerController _playerController;
-        private PlayerControls _playerControls;
+        private DefaultInputActions _defaultInputActions;
         private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
         private Rigidbody _rigidbody;
         
@@ -37,7 +37,7 @@ namespace Viking.Tests.TestsPlaymode
             _rigidbody = _playerObject.AddComponent<Rigidbody>();
             _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
             _playerController = _playerObject.AddComponent<PlayerController>();
-            _playerControls = new PlayerControls();
+            _defaultInputActions = new DefaultInputActions();
            
             _keyboard = InputSystem.AddDevice<Keyboard>();
             _mouse = InputSystem.AddDevice<Mouse>();
@@ -48,7 +48,7 @@ namespace Viking.Tests.TestsPlaymode
         public void Teardown()
         {
             Object.Destroy(_playerObject);
-            _playerControls.Disable();
+            _defaultInputActions.Disable();
         }
         
         
@@ -60,10 +60,10 @@ namespace Viking.Tests.TestsPlaymode
             // Arrange
             _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
 
-            _playerControls.Player.Move.performed += _playerController.OnMovement;
-            _playerControls.Player.Move.canceled += _playerController.OnMovement;
-            _playerControls.Player.Move.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Move.performed += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.canceled += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.Enable();
+            _defaultInputActions.Enable();
 
             
 
@@ -88,10 +88,10 @@ namespace Viking.Tests.TestsPlaymode
             // Arrange
             _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
 
-            _playerControls.Player.Move.performed += _playerController.OnMovement;
-            _playerControls.Player.Move.canceled += _playerController.OnMovement;
-            _playerControls.Player.Move.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Move.performed += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.canceled += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.Enable();
+            _defaultInputActions.Enable();
 
 
             float playerControllerMovementSpeed =
@@ -129,10 +129,10 @@ namespace Viking.Tests.TestsPlaymode
             // Arrange
             _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
 
-            _playerControls.Player.Move.performed += _playerController.OnMovement;
-            _playerControls.Player.Move.canceled += _playerController.OnMovement;
-            _playerControls.Player.Move.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Move.performed += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.canceled += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.Enable();
+            _defaultInputActions.Enable();
 
 
             float playerControllerMovementSpeed =
@@ -152,7 +152,7 @@ namespace Viking.Tests.TestsPlaymode
            
 
             // Act
-            Press(_keyboard.rightArrowKey);
+            Press(_keyboard.dKey);
 
 
             yield return new WaitForSeconds(0.1f);
@@ -171,10 +171,10 @@ namespace Viking.Tests.TestsPlaymode
             // Arrange
             _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
 
-            _playerControls.Player.Move.performed += _playerController.OnMovement;
-            _playerControls.Player.Move.canceled += _playerController.OnMovement;
-            _playerControls.Player.Move.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Move.performed += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.canceled += _playerController.OnMovement;
+            _defaultInputActions.Player.Move.Enable();
+            _defaultInputActions.Enable();
 
 
             float playerControllerMovementSpeed =
@@ -213,10 +213,10 @@ namespace Viking.Tests.TestsPlaymode
             _rigidbody.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation;
 
 
-            _playerControls.Player.Look.performed += _playerController.OnLook;
-            _playerControls.Player.Look.canceled += _playerController.OnLook;
-            _playerControls.Player.Look.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Look.performed += _playerController.OnLook;
+            _defaultInputActions.Player.Look.canceled += _playerController.OnLook;
+            _defaultInputActions.Player.Look.Enable();
+            _defaultInputActions.Enable();
 
            
 
@@ -246,10 +246,10 @@ namespace Viking.Tests.TestsPlaymode
             _rigidbody.constraints = RigidbodyConstraints.FreezePosition | RigidbodyConstraints.FreezeRotation;
 
 
-            _playerControls.Player.Look.performed += _playerController.OnLook;
-            _playerControls.Player.Look.canceled += _playerController.OnLook;
-            _playerControls.Player.Look.Enable();
-            _playerControls.Enable();
+            _defaultInputActions.Player.Look.performed += _playerController.OnLook;
+            _defaultInputActions.Player.Look.canceled += _playerController.OnLook;
+            _defaultInputActions.Player.Look.Enable();
+            _defaultInputActions.Enable();
 
            
 
@@ -274,11 +274,11 @@ namespace Viking.Tests.TestsPlaymode
         [UnityTest]
         public IEnumerator Fire_Started_SetsIsAttackingToTrue()
         {
-            _playerControls.Enable();
+            _defaultInputActions.Enable();
 
-            _playerControls.Player.Attack.started += _playerController.OnAttack;
-            _playerControls.Player.Attack.Enable();
-            _playerControls.Player.Attack.ReadValue<float>();
+            _defaultInputActions.Player.Fire.started += _playerController.OnAttack;
+            _defaultInputActions.Player.Fire.Enable();
+            _defaultInputActions.Player.Fire.ReadValue<float>();
 
             yield return null;
 
@@ -291,11 +291,11 @@ namespace Viking.Tests.TestsPlaymode
         [UnityTest]
         public IEnumerator Attack_Canceled_SetsIsAttackingToFalse()
         {
-            _playerControls.Enable();
+            _defaultInputActions.Enable();
 
-            _playerControls.Player.Attack.canceled += _playerController.OnAttack;
-            _playerControls.Player.Attack.Enable();
-            _playerControls.Player.Attack.ReadValue<float>();
+            _defaultInputActions.Player.Fire.canceled += _playerController.OnAttack;
+            _defaultInputActions.Player.Fire.Enable();
+            _defaultInputActions.Player.Fire.ReadValue<float>();
 
             yield return null;
 
