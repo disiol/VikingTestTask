@@ -13,7 +13,7 @@ namespace Viking.Scripts.Tests.TestsPlaymode
         {
             // Get the private field "myPrivateField"
             FieldInfo field = type.GetField(fieldName, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
-                                                       BindingFlags.Public | BindingFlags.Instance);
+                BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Access the private field value
             object privateFieldValue = field.GetValue(instance);
@@ -25,7 +25,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
         public void SetPrivateFieldValue(Type type, object instance, string name, Transform value)
         {
             // Get the private field by name
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -37,7 +38,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
         public void SetPrivateFieldValue(Type type, object instance, string name, Transform[] value)
         {
             // Get the private field by name
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -48,7 +50,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, GameObject value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -59,7 +62,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, float value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -70,7 +74,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, int value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -81,7 +86,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, GameObject[] value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -89,10 +95,11 @@ namespace Viking.Scripts.Tests.TestsPlaymode
                 fieldInfo.SetValue(instance, value);
             }
         }
-        
+
         public void SetPrivateFieldValue(Type type, object instance, string name, Terrain value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -103,7 +110,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, BoxCollider value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -114,7 +122,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, Collider value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -125,7 +134,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
 
         public void SetPrivateFieldValue(Type type, object instance, string name, Button value)
         {
-            FieldInfo fieldInfo = type.GetField(name, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo fieldInfo = type.GetField(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                      BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 
             // Set the value of the private field
             if (fieldInfo != null)
@@ -134,11 +144,11 @@ namespace Viking.Scripts.Tests.TestsPlaymode
             }
         }
 
-        public void GetPrivateMethod(Type type, object instance, string name,object[] parameters)
+        public void GetPrivateMethod(Type type, object instance, string name, object[] parameters)
         {
             // Get the private method "MyPrivateMethod"
             var methodInfo = type.GetMethod(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
-                                                  BindingFlags.Public | BindingFlags.Instance);
+                                                  BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
             if (methodInfo != null) methodInfo.Invoke(instance, parameters);
         }
 
@@ -146,9 +156,7 @@ namespace Viking.Scripts.Tests.TestsPlaymode
         {
             // Get the private method "MyPrivateMethod"
             MethodInfo methodInfo = type.GetMethod(name, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
-                                                         BindingFlags.Public | BindingFlags.Instance);
+                                                         BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
         }
-
-      
     }
 }
