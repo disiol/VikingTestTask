@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 110
+  controlID: 147
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 111
+  controlID: 148
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -190,7 +190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1068
     y: 0
-    width: 233
+    width: 234
     height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1301
+    x: 1302
     y: 0
-    width: 299
+    width: 298
     height: 761
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -244,16 +244,16 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 830
-    height: 466
+    height: 570
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,9 +270,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 466
+    y: 570
     width: 830
-    height: 295
+    height: 191
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -302,9 +302,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 499
-    width: 792
-    height: 360
+    y: 487
+    width: 829
+    height: 372
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -351,11 +351,11 @@ MonoBehaviour:
     - e00: 0.5735973
       e01: 0
       e02: 0
-      e03: 48.453323
+      e03: 48.453445
       e10: 0
       e11: 0.5735973
       e12: 0
-      e13: 71.9672
+      e13: 71.96723
       e20: 0
       e21: 0
       e22: 1
@@ -377,7 +377,7 @@ MonoBehaviour:
   m_MiniTool: 0
   m_LockTracker:
     m_IsLocked: 0
-  m_CurrentEditor: 0
+  m_CurrentEditor: 1
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 --- !u!114 &13
@@ -403,7 +403,7 @@ MonoBehaviour:
     x: 0
     y: 119
     width: 829
-    height: 445
+    height: 549
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -432,29 +432,29 @@ MonoBehaviour:
     x: 0
     y: 119
     width: 829
-    height: 445
+    height: 549
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 199
-    splitterInitialOffset: 340
+    ID: 196
+    splitterInitialOffset: 430
     currentActiveSplitter: -1
     realSizes:
-    - 261
-    - 114
+    - 361
+    - 118
     relativeSizes:
-    - 0.6964286
-    - 0.3035714
+    - 0.75365347
+    - 0.24634653
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 375
+    lastTotalSize: 479
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -471,7 +471,7 @@ MonoBehaviour:
       name: VikingTestTask
       fullName: VikingTestTask
       resultStatus: 2
-      duration: 2.2577758
+      duration: 1.0879364
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -482,12 +482,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1004
-      uniqueId: '[TestsPlaymode.dll][suite]'
+    - id: 1022
+      uniqueId: '[TestsPlaymode][/home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll][suite]'
       name: TestsPlaymode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
       resultStatus: 2
-      duration: 1.1691973
+      duration: 0.1318955
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -498,14 +498,294 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[VikingTestTask][suite]'
+    - id: 1001
+      uniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
+      name: PlayerAnimControllerTests
+      fullName: PlayerAnimControllerTests
+      resultStatus: 2
+      duration: 0.072837
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1022
+      parentUniqueId: '[TestsPlaymode][/home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll][suite]'
+    - id: 1004
+      uniqueId: TestsPlaymode.dll/PlayerAnimControllerTests/[TestsPlaymode][PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly]
+      name: Attack_ShouldSetAnimatorParameterCorrectly
+      fullName: PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
+      resultStatus: 2
+      duration: 0.0359915
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Attack
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:34
+        \n  at PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:64
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
+    - id: 1005
+      uniqueId: TestsPlaymode.dll/PlayerAnimControllerTests/[TestsPlaymode][PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly]
+      name: Damage_ShouldSetAnimatorParameterCorrectly
+      fullName: PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly
+      resultStatus: 2
+      duration: 0.004496
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Damage
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:39
+        \n  at PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:76
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
+    - id: 1006
+      uniqueId: TestsPlaymode.dll/PlayerAnimControllerTests/[TestsPlaymode][PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly]
+      name: Die_ShouldSetAnimatorParameterCorrectly
+      fullName: PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly
+      resultStatus: 2
+      duration: 0.0036495
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Die
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:45
+        \n  at PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:89
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
+    - id: 1002
+      uniqueId: TestsPlaymode.dll/PlayerAnimControllerTests/[TestsPlaymode][PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly]
+      name: Run_ShouldSetAnimatorParametersCorrectly
+      fullName: PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly
+      resultStatus: 2
+      duration: 0.0037443
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Run
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:22
+        \n  at PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:29
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
+    - id: 1003
+      uniqueId: TestsPlaymode.dll/PlayerAnimControllerTests/[TestsPlaymode][PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly]
+      name: Stop_ShouldSetAnimatorParametersCorrectly
+      fullName: PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly
+      resultStatus: 2
+      duration: 0.0037323
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Stop
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:28
+        \n  at PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly
+        () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:46
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsPlaymode.dll/[TestsPlaymode][PlayerAnimControllerTests][suite]
     - id: 1005
       uniqueId: TestsPlaymode.dll/[Viking][suite]
       name: Viking
       fullName: Viking
       resultStatus: 2
-      duration: 1.1349247
+      duration: 6.553428
       messages: One or more child tests had errors
-      output: 
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -519,7 +799,7 @@ MonoBehaviour:
       name: Tests
       fullName: Viking.Tests
       resultStatus: 2
-      duration: 1.1289374
+      duration: 6.390837
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -535,7 +815,7 @@ MonoBehaviour:
       name: TestsPlaymode
       fullName: Viking.Tests.TestsPlaymode
       resultStatus: 2
-      duration: 1.1230742
+      duration: 6.37781
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -551,7 +831,7 @@ MonoBehaviour:
       name: MonsterGeneratorTests
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
       resultStatus: 1
-      duration: 1.2743628
+      duration: 1.2270217
       messages: 
       output: 
       stacktrace: 
@@ -567,7 +847,7 @@ MonoBehaviour:
       name: GenerateMonsters_GeneratesExpectedNumberOfMonsters
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters
       resultStatus: 1
-      duration: 0.2039668
+      duration: 0.1785655
       messages: 
       output: 
       stacktrace: 
@@ -584,7 +864,7 @@ MonoBehaviour:
       name: GenerateMonsters_MonstersOnTerrain
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain
       resultStatus: 1
-      duration: 1.0421212
+      duration: 1.0410596
       messages: 
       output: 
       stacktrace: 
@@ -601,7 +881,7 @@ MonoBehaviour:
       name: PlayerControllerTests
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests
       resultStatus: 2
-      duration: 1.114974
+      duration: 3.8177075
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -616,47 +896,22 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse]
       name: Attack_Canceled_SetsIsAttackingToFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse
-      resultStatus: 1
-      duration: 0.1899852
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1011
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
-      name: Fire_Started_SetsIsAttackingToTrue
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
       resultStatus: 2
-      duration: 0.1076053
+      duration: 0.3972236
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in action
-        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
+        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
+        TearDown
+        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
+        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -664,15 +919,8 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -685,8 +933,246 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -708,7 +1194,333 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
+
+        System.Reflection.MethodBase:Invoke(Object,
+        Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object, Object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
+        Object)
+
+        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1011
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
+      name: Fire_Started_SetsIsAttackingToTrue
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
+      resultStatus: 2
+      duration: 0.3682429
+      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
+        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
+        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
+
+        TearDown
+        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
+        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NullReferenceException:
+        Object reference not set to an instance of an object
+
+'
+      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
+        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:43)
+
+        UnityEngine.Object:Destroy(Object)
+
+        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -737,29 +1549,21 @@ MonoBehaviour:
       name: IsAttacking_DefaultValue_IsFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse
       resultStatus: 2
-      duration: 0.1061906
+      duration: 0.3606722
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in action
-        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
+        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
+        TearDown
+        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
+        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -767,15 +1571,8 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -788,8 +1585,246 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -811,7 +1846,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -840,29 +1875,21 @@ MonoBehaviour:
       name: Player_Back
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back
       resultStatus: 2
-      duration: 0.0999143
+      duration: 0.3776526
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in action
-        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
+        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
+        TearDown
+        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
+        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -870,15 +1897,8 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -891,8 +1911,246 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -914,7 +2172,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -943,24 +2201,24 @@ MonoBehaviour:
       name: Player_Forward
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
       resultStatus: 2
-      duration: 0.0991323
+      duration: 0.4518814
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in action
+        resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
         Use UnityEngine.TestTools.LogAssert.Expect
 
         TearDown : Unhandled
         log message: ''[Exception] NullReferenceException: Object reference not set
         to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -973,8 +2231,36 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -987,6 +2273,20 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
@@ -994,8 +2294,330 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1017,7 +2639,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -1046,24 +2668,24 @@ MonoBehaviour:
       name: Player_Left
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left
       resultStatus: 2
-      duration: 0.1008171
+      duration: 0.4425498
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in action
+        resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
         Use UnityEngine.TestTools.LogAssert.Expect
 
         TearDown : Unhandled
         log message: ''[Exception] NullReferenceException: Object reference not set
         to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
-        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1076,8 +2698,36 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1090,6 +2740,20 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
@@ -1097,8 +2761,330 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1120,7 +3106,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -1149,23 +3135,38 @@ MonoBehaviour:
       name: Player_Right
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right
       resultStatus: 2
-      duration: 0.1233374
+      duration: 0.4517519
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
-        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown
-        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
-        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1185,6 +3186,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1194,6 +3202,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1213,6 +3228,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1222,6 +3244,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1241,6 +3270,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1250,6 +3286,265 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1278,7 +3573,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -1307,23 +3602,38 @@ MonoBehaviour:
       name: RotatesPlayerLeft
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft
       resultStatus: 2
-      duration: 0.129463
+      duration: 0.4749539
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
-        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown
-        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
-        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1343,6 +3653,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1352,6 +3669,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1371,6 +3695,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1380,6 +3711,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1399,6 +3737,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1408,6 +3753,265 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1436,7 +4040,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -1465,23 +4069,38 @@ MonoBehaviour:
       name: RotatesPlayerRight
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight
       resultStatus: 2
-      duration: 0.1276136
+      duration: 0.4729207
       messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action map ''DefaultInputActions
-        (UnityEngine.InputSystem.InputActionAsset):Player''''. Use UnityEngine.TestTools.LogAssert.Expect
+        resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
+        Use UnityEngine.TestTools.LogAssert.Expect
 
-        TearDown
-        : Unhandled log message: ''[Exception] NullReferenceException: Object reference
-        not set to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]''
+        TearDown : Unhandled
+        log message: ''[Exception] NullReferenceException: Object reference not set
+        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]''
         in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1501,6 +4120,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1510,6 +4136,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1529,6 +4162,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1538,6 +4178,13 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1557,6 +4204,13 @@ MonoBehaviour:
         Control count per binding cannot exceed byte.MaxValue=255
 
         NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
         while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
         map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
 
@@ -1566,6 +4220,265 @@ MonoBehaviour:
         NotSupportedException
         while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
         action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/d[Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/leftArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/d[;Keyboard&Mouse]'' in action
+        map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
+        action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
+
+        NotSupportedException:
+        Control count per binding cannot exceed byte.MaxValue=255
+
+        NotSupportedException
+        while resolving binding ''Navigate:<Keyboard>/leftArrow[Keyboard&Mouse]''
+        in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
 
         NotSupportedException:
         Control count per binding cannot exceed byte.MaxValue=255
@@ -1594,7 +4507,7 @@ MonoBehaviour:
         UnityEngine.Object:Destroy(Object)
 
         Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
+        (at Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:57)
 
         System.Reflection.MethodBase:Invoke(Object,
         Object[])
@@ -1623,7 +4536,7 @@ MonoBehaviour:
       name: StartScreenViewTests
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
       resultStatus: 1
-      duration: 1.3804257
+      duration: 1.3203984
       messages: 
       output: 
       stacktrace: 
@@ -1639,7 +4552,7 @@ MonoBehaviour:
       name: PlayButton_Clicked_LoadsGameScene
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
       resultStatus: 1
-      duration: 1.2665386
+      duration: 1.2451417
       messages: 
       output: 'Play button clicked
 
@@ -1653,128 +4566,28 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: 'Player_Back (0.100s)
-
-      ---
-
-      SetUp : Unhandled log message:
-      ''[Error] NotSupportedException while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]''
-      in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''''.
-      Use UnityEngine.TestTools.LogAssert.Expect
-
-      TearDown : Unhandled log
-      message: ''[Exception] NullReferenceException: Object reference not set to
-      an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect
-
-      ---
-
-      Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-      () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:43)
-
-      UnityEngine.Object:Destroy(Object)
-
-      Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-      (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
-
-      System.Reflection.MethodBase:Invoke(Object,
-      Object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-      Object, Object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-      Object)
-
-      UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-      (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
-      ---
-
-      NotSupportedException
-      while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-      action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-      in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-      action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-      in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-      action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-      in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Move:<Keyboard>/rightArrow[;Keyboard&Mouse]'' in
-      action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):Player''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NotSupportedException
-      while resolving binding ''Navigate:<Keyboard>/rightArrow[Keyboard&Mouse]''
-      in action map ''DefaultInputActions (UnityEngine.InputSystem.InputActionAsset):UI''
-
-      NotSupportedException:
-      Control count per binding cannot exceed byte.MaxValue=255
-
-      NullReferenceException:
-      Object reference not set to an instance of an object'
-    m_ResultStacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-      () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:43)
-
-      UnityEngine.Object:Destroy(Object)
-
-      Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-      (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:57)
-
-      System.Reflection.MethodBase:Invoke(Object,
-      Object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-      Object, Object[])
-
-      NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-      Object)
-
-      UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-      (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
-
-'
+    m_ResultText: "Attack_ShouldSetAnimatorParameterCorrectly (0.036s)\n---\nSystem.NullReferenceException
+      : Object reference not set to an instance of an object\n---\nat Viking.Scripts.Game.Player.Anim.PlayerAnimController.Attack
+      () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:34
+      \n  at PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
+      () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:64
+      \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0"
+    m_ResultStacktrace: "  at Viking.Scripts.Game.Player.Anim.PlayerAnimController.Attack
+      () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Player/Anim/PlayerAnimController.cs:34
+      \n  at PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
+      () [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:64
+      \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
     m_TestListState:
-      scrollPos: {x: 0, y: 63}
-      m_SelectedIDs: 0af7d0bf
-      m_LastClickedID: -1076824310
-      m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf1486979e387cab0161b470f871f9d21a74ffffff7f
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 35e4b4d0
+      m_LastClickedID: -793451467
+      m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f6ccfd79fe4e95140292ecaf1486979e387cab0161b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1872,9 +4685,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1301
+    x: 1302
     y: 119
-    width: 298
+    width: 297
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1885,8 +4698,8 @@ MonoBehaviour:
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
-  currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
+  currentTrackingStatusHasUpdate: 1
+  currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -1973,7 +4786,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -2037,13 +4850,13 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-22T16:47:19.357+03:00
+      updatedTimeString: 2023-06-22T18:58:24.347+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-22T18:56:28.366+03:00
+      updatedTimeString: 2023-06-22T23:05:31.768+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-22T18:56:12.493+03:00
+      updatedTimeString: 2023-06-22T23:05:33.336+03:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2223,7 +5036,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: main
   currentRemoteUrl: git@github.com:disiol/VikingTestTask.git
-  statusAhead: 0
+  statusAhead: 2
   statusBehind: 0
   hasItemsToCommit: 0
   isTrackingRemoteBranch: 1
@@ -2239,10 +5052,10 @@ MonoBehaviour:
     updatedTimeString: 2023-06-22T01:32:27.331+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-22T16:24:31.264+03:00
+    updatedTimeString: 2023-06-22T22:19:37.518+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-22T16:32:13.522+03:00
+    updatedTimeString: 2023-06-22T22:19:37.386+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2300,21 +5113,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 1299ffff5299ffffe6a7ffff1aabffff5aabffff1caeffff20b1ffff60b1ffff22b4ffffc6b6ffff06b7ffffbac5fffffcd4ffff3cd5fffff0e3ffffa4e8ffffa6e8ffffe6e8ffffa2f7ffffeefaffff
+      m_ExpandedIDs: 16ddfdff56ddfdff12e0fdff98e2fdffd8e2fdff6a01feffe80ffeffea0ffeff2a10feffe212feff6415feffa415feff4024feff2628feff6628feffea46feffca58feffcc58feff0c59feff7a70feff3cccfeff3eccfeff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Vicing
+        m_OriginalName: Vicing
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -64498
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 7}
       m_SearchString: 
@@ -2344,9 +5157,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1301
+    x: 1302
     y: 119
-    width: 298
+    width: 297
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2388,7 +5201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1068
     y: 119
-    width: 231
+    width: 232
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2478,7 +5291,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 006e0000c66b0000326b00003c6c0000ac6e0000287400006074000066740000a4730000b2940000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2530,7 +5343,7 @@ MonoBehaviour:
     x: 0
     y: 119
     width: 829
-    height: 444
+    height: 347
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2650,7 +5463,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Cloth Collisions
@@ -2799,9 +5612,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 153.27414, y: -59.803764, z: 88.256805}
+    m_Target: {x: 153.47037, y: -60.145172, z: 89.15376}
     speed: 2
-    m_Value: {x: 153.27414, y: -59.803764, z: 88.256805}
+    m_Value: {x: 153.47037, y: -60.145172, z: 89.15376}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2848,13 +5661,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0, w: 1}
+    m_Value: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 1.9965379
+    m_Target: 1.740577
     speed: 2
-    m_Value: 1.9965379
+    m_Value: 1.740577
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2900,9 +5713,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 585
+    y: 689
     width: 829
-    height: 274
+    height: 170
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2953,22 +5766,22 @@ MonoBehaviour:
       x: 0
       y: 21
       width: 829
-      height: 253
-    m_Scale: {x: 0.11712963, y: 0.11712963}
-    m_Translation: {x: 414.5, y: 126.5}
+      height: 149
+    m_Scale: {x: 0.06898148, y: 0.06898148}
+    m_Translation: {x: 414.5, y: 74.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -3538.8142
+      x: -6008.859
       y: -1080
-      width: 7077.6284
+      width: 12017.718
       height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 0.11712963
-  m_LastWindowPixelSize: {x: 829, y: 274}
+  m_defaultScale: 0.06898148
+  m_LastWindowPixelSize: {x: 829, y: 170}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

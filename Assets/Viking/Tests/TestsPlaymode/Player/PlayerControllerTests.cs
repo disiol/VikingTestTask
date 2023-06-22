@@ -2,8 +2,6 @@ using System.Collections;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.Controls;
-using UnityEngine.InputSystem.LowLevel;
 using UnityEngine.TestTools;
 using Viking.Scripts.Game.Player.PlayerController;
 using Viking.Scripts.Tests.TestsPlaymode;
