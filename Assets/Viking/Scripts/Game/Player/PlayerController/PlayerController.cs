@@ -6,7 +6,7 @@ namespace Viking.Scripts.Game.Player.PlayerController
 {
     public class PlayerController : MonoBehaviour
     {
-        [Header("Player")] [SerializeField] private float movementSpeed = 2f;
+        [Header("Player")] [SerializeField] private float movementSpeed = 5f;
         [SerializeField] private float turnSpeed = 200f;
 
         [FormerlySerializedAs("follov")] [SerializeField]

@@ -57,9 +57,6 @@ namespace Viking.Tests.TestsPlaymode
             Object.Destroy(_playerObject);
             _defaultInputActions.Disable();
         }
-        
-        
-        
 
         [UnityTest]
         public IEnumerator Player_Forward()
@@ -72,24 +69,37 @@ namespace Viking.Tests.TestsPlaymode
             _defaultInputActions.Player.Move.Enable();
             _defaultInputActions.Enable();
 
-            
+
+            float playerControllerMovementSpeed =
+                (float)_getAccessToPrivate.GetPrivateFieldValue(typeof(PlayerController), _playerController,
+                    "movementSpeed");
+            var position = _playerObject.transform.position;
+
+            Vector3 direction = new Vector3(0, 0, 1.0f);
 
 
-            Vector3 initialPosition = _playerObject.transform.position;
-            
+            Vector3 expectedPosition = position +
+                                       _playerObject.transform.TransformDirection(direction) *
+                                       playerControllerMovementSpeed * Time.fixedTime;
+           
+            Vector3 expectedPositionNormalized = expectedPosition.normalized;
+
+
+           
+
             // Act
-            Press(_keyboard.upArrowKey);
-            yield return new WaitForSeconds(1f);
+            Press(_keyboard.downArrowKey);
 
+            yield return new WaitForFixedUpdate();
+
+
+            var newPosition = _playerObject.transform.position;
 
             // Assert
-
-            Vector3 finalPosition = _playerObject.transform.position;
-
-            Assert.Greater(finalPosition.z, initialPosition.z); // Check if the object has moved forward
+            Assert.AreEqual(expectedPositionNormalized, newPosition.normalized,
+                "Player_Forward. Mover object moved from " + position + " to " + expectedPositionNormalized);
         }
-
-        [UnityTest]
+     [UnityTest]
         public IEnumerator Player_Back()
         {
             // Arrange
@@ -112,22 +122,22 @@ namespace Viking.Tests.TestsPlaymode
             Vector3 expectedPosition = position +
                                        _playerObject.transform.TransformDirection(direction) *
                                        playerControllerMovementSpeed * Time.fixedTime;
-            Vector3 expectedPositionNormalized = expectedPosition.normalized;
+           
 
 
            
 
             // Act
-            Press(_keyboard.sKey);
+            Press(_keyboard.downArrowKey);
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForFixedUpdate();
 
 
             var newPosition = _playerObject.transform.position;
 
             // Assert
-            Assert.AreEqual(expectedPositionNormalized, newPosition.normalized,
-                "Player_Left. Mover object moved from " + position + " to " + expectedPositionNormalized);
+            Assert.AreEqual(expectedPosition, newPosition.normalized,
+                "Player_Back. Mover object moved from " + position + " to " + expectedPosition);
         }
 
         [UnityTest]
@@ -153,13 +163,12 @@ namespace Viking.Tests.TestsPlaymode
             Vector3 expectedPosition = position +
                                        _playerObject.transform.TransformDirection(direction) *
                                        playerControllerMovementSpeed * Time.fixedTime;
-            Vector3 expectedPositionNormalized = expectedPosition.normalized;
 
 
            
 
             // Act
-            Press(_keyboard.dKey);
+            Press(_keyboard.rightArrowKey);
 
 
             yield return new WaitForSeconds(0.1f);
@@ -168,8 +177,8 @@ namespace Viking.Tests.TestsPlaymode
             var newPosition = _playerObject.transform.position;
 
             // Assert
-            Assert.AreEqual(expectedPositionNormalized, newPosition.normalized,
-                "Player_Left. Mover object moved from " + position + " to " + expectedPositionNormalized);
+            Assert.AreEqual(expectedPosition, newPosition.normalized,
+                "Player_Left. Mover object moved from " + position + " to " + expectedPosition);
         }
 
         [UnityTest]
@@ -201,7 +210,7 @@ namespace Viking.Tests.TestsPlaymode
            
 
             // Act
-            Press(_keyboard.aKey);
+            Press(_keyboard.leftArrowKey);
 
             yield return new WaitForSeconds(0.5f);
 
@@ -233,7 +242,7 @@ namespace Viking.Tests.TestsPlaymode
 
 
             // Act
-            Press(_keyboard.dKey);
+            Set(_mouse.position, new Vector2(LookInputX, 0.0f));
 
 
             yield return new WaitForSeconds(0.5f);
