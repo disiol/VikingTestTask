@@ -19,8 +19,8 @@ namespace Viking.Scripts.Game.Player.Anim
 
         public void Run()
         {
-            _animator.SetBool(Idle, false);
             _animator.SetBool(Run1, true);
+            _animator.SetBool(Idle, false);
         }
 
         public void Stop()
@@ -29,14 +29,14 @@ namespace Viking.Scripts.Game.Player.Anim
             _animator.SetBool(Run1, false);
         }
 
-        public void Attack()
+        public void Attack(bool value)
         {
-            _animator.SetBool(Attack1, true);
+            _animator.SetBool(Attack1, value);
         }
 
-        public void Damage()
+        public void Damage(bool value)
         {
-            _animator.SetBool(Damage1, true);
+            _animator.SetBool(Damage1, value);
 
         }
 

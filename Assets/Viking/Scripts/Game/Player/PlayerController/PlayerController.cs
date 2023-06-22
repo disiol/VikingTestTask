@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Serialization;
+using Viking.Scripts.Game.Player.Anim;
 
 namespace Viking.Scripts.Game.Player.PlayerController
 {
@@ -9,8 +10,7 @@ namespace Viking.Scripts.Game.Player.PlayerController
         [Header("Player")] [SerializeField] private float movementSpeed = 5f;
         [SerializeField] private float turnSpeed = 200f;
 
-        [FormerlySerializedAs("follov")] [SerializeField]
-        private GameObject follow;
+        [SerializeField] private GameObject follow;
 
 
         private Rigidbody _rb;
@@ -23,9 +23,12 @@ namespace Viking.Scripts.Game.Player.PlayerController
 
         private DefaultInputActions _defaultInputActions;
         private Rigidbody _rigidbody;
+        private PlayerAnimController _playerAnimController;
 
         private void Start()
         {
+            _playerAnimController = gameObject.GetComponent<PlayerAnimController>();
+
             _defaultInputActions = new DefaultInputActions();
             _defaultInputActions.Player.Move.performed += OnMovement;
             _defaultInputActions.Player.Move.canceled += OnMovement;
@@ -53,11 +56,24 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             OnLook();
 
+            _playerAnimController.Attack(_isAttacking);            
 
+            
             if (_isAttacking)
             {
+
                 //TODO is atakink moctor? , anim
             }
+
+            if (_movementInput.magnitude > 0)
+            {
+                _playerAnimController.Run();            
+            }
+            else
+            {
+                _playerAnimController.Stop();            
+            }
+            
         }
 
         private void FixedUpdate()

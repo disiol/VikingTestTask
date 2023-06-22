@@ -6,8 +6,8 @@ namespace Viking.Scripts.Game.Player.Anim
     {
         void Run();
         void Stop();
-        void Attack();
-        void Damage();
+        void Attack(bool value);
+        void Damage(bool value);
         void Die();
 
     }
