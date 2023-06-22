@@ -1,4 +1,3 @@
-using Codice.CM.Triggers;
 
 namespace Viking.Scripts.Game.Player.Anim
 {

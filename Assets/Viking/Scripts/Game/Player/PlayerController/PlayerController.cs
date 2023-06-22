@@ -65,15 +65,7 @@ namespace Viking.Scripts.Game.Player.PlayerController
                 //TODO is atakink moctor? , anim
             }
 
-            if (_movementInput.magnitude > 0)
-            {
-                _playerAnimController.Run();            
-            }
-            else
-            {
-                _playerAnimController.Stop();            
-            }
-            
+          
         }
 
         private void FixedUpdate()
@@ -104,11 +96,25 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             //TODO  anim
 
+            AnimRun();
 
             Vector3 direction = new Vector3(_movementInput.x, 0, _movementInput.y).normalized;
 
             _rigidbody.MovePosition(transform.position +
                                     transform.TransformDirection(direction) * movementSpeed * Time.fixedDeltaTime);
+            
+        }
+
+        private void AnimRun()
+        {
+            if (_movementInput.magnitude > 0)
+            {
+                _playerAnimController.Run();
+            }
+            else
+            {
+                _playerAnimController.Stop();
+            }
         }
 
         public void OnMovement(InputAction.CallbackContext context)
