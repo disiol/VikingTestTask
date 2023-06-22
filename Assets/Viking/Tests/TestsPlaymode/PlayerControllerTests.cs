@@ -24,7 +24,14 @@ namespace Viking.Tests.TestsPlaymode
         [SetUp]
         public override void Setup()
         {
-            _playerObject = new GameObject("Player");
+            GameObject loadPerfabVicing = Resources.Load<GameObject>("Prefabs/Vicing");
+
+
+            _playerObject = GameObject.Instantiate(loadPerfabVicing);
+            _rigidbody = _playerObject.GetComponent<Rigidbody>();
+            _playerController = _playerObject.GetComponent<PlayerController>();
+            
+            
             var root = new GameObject();
             // Attach a camera to our root game object.
             root.AddComponent(typeof(Camera));
@@ -34,9 +41,9 @@ namespace Viking.Tests.TestsPlaymode
             // Add our game object (with the camera included) to the scene by instantiating it.
             root = GameObject.Instantiate(root);
 
-            _rigidbody = _playerObject.AddComponent<Rigidbody>();
-            _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
-            _playerController = _playerObject.AddComponent<PlayerController>();
+            // _rigidbody = _playerObject.AddComponent<Rigidbody>();
+            // _rigidbody.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
+            // _playerController = _playerObject.AddComponent<PlayerController>();
             _defaultInputActions = new DefaultInputActions();
            
             _keyboard = InputSystem.AddDevice<Keyboard>();

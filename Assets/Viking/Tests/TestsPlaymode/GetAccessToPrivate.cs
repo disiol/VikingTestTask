@@ -12,7 +12,8 @@ namespace Viking.Scripts.Tests.TestsPlaymode
         public object GetPrivateFieldValue(Type type, object instance, string fieldName)
         {
             // Get the private field "myPrivateField"
-            FieldInfo field = type.GetField(fieldName, BindingFlags.NonPublic | BindingFlags.Instance);
+            FieldInfo field = type.GetField(fieldName, BindingFlags.InvokeMethod | BindingFlags.NonPublic |
+                                                       BindingFlags.Public | BindingFlags.Instance);
 
             // Access the private field value
             object privateFieldValue = field.GetValue(instance);

@@ -16,10 +16,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 64
-    width: 1920
-    height: 991
+    width: 1600
+    height: 811
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Test Runner
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -44,8 +44,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 991
+    width: 1600
+    height: 811
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -69,7 +69,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1600
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -95,12 +95,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 941
+    width: 1600
+    height: 761
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 29
+  controlID: 88
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,8 +117,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 971
-    width: 1920
+    y: 791
+    width: 1600
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -141,12 +141,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 878
-    height: 941
+    width: 975
+    height: 761
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 133
+  controlID: 89
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,12 +162,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 878
+    x: 975
     y: 0
-    width: 216
-    height: 941
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 100
+    height: 761
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -188,10 +188,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1094
+    x: 1075
     y: 0
-    width: 467
-    height: 941
+    width: 226
+    height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 18}
@@ -214,10 +214,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1561
+    x: 1301
     y: 0
-    width: 359
-    height: 941
+    width: 299
+    height: 761
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
@@ -236,24 +236,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: TestRunnerWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 878
-    height: 421
+    width: 975
+    height: 465
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 2
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 2
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,9 +270,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 421
-    width: 878
-    height: 520
+    y: 465
+    width: 975
+    height: 296
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -402,8 +402,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 877
-    height: 400
+    width: 974
+    height: 444
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -431,30 +431,30 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 877
-    height: 400
+    width: 974
+    height: 444
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 13450
-    splitterInitialOffset: 336
+    ID: 228
+    splitterInitialOffset: 340
     currentActiveSplitter: -1
     realSizes:
-    - 262
-    - 68
+    - 260
+    - 114
     relativeSizes:
-    - 0.79464287
-    - 0.20535713
+    - 0.6964286
+    - 0.3035714
     minSizes:
     - 32
     - 32
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 330
+    lastTotalSize: 374
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -470,8 +470,8 @@ MonoBehaviour:
       uniqueId: '[VikingTestTask][suite]'
       name: VikingTestTask
       fullName: VikingTestTask
-      resultStatus: 0
-      duration: 3.4111345
+      resultStatus: 2
+      duration: 3.0527208
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -486,8 +486,8 @@ MonoBehaviour:
       uniqueId: '[TestsPlaymode.dll][suite]'
       name: TestsPlaymode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
-      resultStatus: 0
-      duration: 2.4357717
+      resultStatus: 2
+      duration: 1.4074275
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -502,8 +502,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/[Viking][suite]
       name: Viking
       fullName: Viking
-      resultStatus: 0
-      duration: 2.3869123
+      resultStatus: 2
+      duration: 1.3310202
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -518,8 +518,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
       name: Tests
       fullName: Viking.Tests
-      resultStatus: 0
-      duration: 2.3797803
+      resultStatus: 2
+      duration: 1.3248185
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -534,8 +534,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
       name: TestsPlaymode
       fullName: Viking.Tests.TestsPlaymode
-      resultStatus: 0
-      duration: 2.3728766
+      resultStatus: 2
+      duration: 1.3195705
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -550,8 +550,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
       name: MonsterGeneratorTests
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
-      resultStatus: 0
-      duration: 1.2443569
+      resultStatus: 1
+      duration: 1.2743628
       messages: 
       output: 
       stacktrace: 
@@ -566,8 +566,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters]
       name: GenerateMonsters_GeneratesExpectedNumberOfMonsters
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters
-      resultStatus: 0
-      duration: 0.1783384
+      resultStatus: 1
+      duration: 0.2039668
       messages: 
       output: 
       stacktrace: 
@@ -583,8 +583,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain]
       name: GenerateMonsters_MonstersOnTerrain
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain
-      resultStatus: 0
-      duration: 1.0397822
+      resultStatus: 1
+      duration: 1.0421212
       messages: 
       output: 
       stacktrace: 
@@ -600,8 +600,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
       name: PlayerControllerTests
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests
-      resultStatus: 0
-      duration: 2.3629909
+      resultStatus: 2
+      duration: 1.3128632
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -616,8 +616,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse]
       name: Attack_Canceled_SetsIsAttackingToFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse
-      resultStatus: 0
-      duration: 0.1864894
+      resultStatus: 1
+      duration: 0.1953042
       messages: 
       output: 
       stacktrace: 
@@ -633,8 +633,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
       name: Fire_Started_SetsIsAttackingToTrue
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
-      resultStatus: 0
-      duration: 0.1353278
+      resultStatus: 1
+      duration: 0.309906
       messages: 
       output: 
       stacktrace: 
@@ -650,8 +650,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse]
       name: IsAttacking_DefaultValue_IsFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse
-      resultStatus: 0
-      duration: 0.178935
+      resultStatus: 1
+      duration: 0.1280041
       messages: 
       output: 
       stacktrace: 
@@ -667,13 +667,66 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back]
       name: Player_Back
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back
-      resultStatus: 0
-      duration: 0.3174178
-      messages: 
+      resultStatus: 2
+      duration: 0.4691746
+      messages: "  Player_Left. Mover object moved from (0.00, -0.11, 0.00) to (0.00,
+        -0.04, -1.00)\n  Expected: (0.00, -0.04, -1.00)\n  But was:  (0.00, -0.68,
+        -0.74)\n"
       output: 'PlayerController OnMovement _movementInput = (0.00, -1.00)
 
         PlayerController
         OnMovement _movementInput = (0.00, -1.00)
+
+        PlayerController OnMovement
+        _movementInput = (0.00, 0.00)
+
+'
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Back>d__10.MoveNext
+        () [0x001f3] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:129
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
+    - id: 1005
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward]
+      name: Player_Forward
+      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
+      resultStatus: 1
+      duration: 1.3396297
+      messages: 
+      output: 'PlayerController OnLook _lukInput = (-1.00, 0.00)
+
+        PlayerController
+        OnLook _lukInput = (0.00, 0.00)
+
+        PlayerController OnMovement _movementInput
+        = (0.00, 1.00)
+
+        PlayerController OnMovement _movementInput = (0.00,
+        1.00)
+
+        PlayerController OnLook _lukInput = (-1.00, 0.00)
+
+        PlayerController
+        OnLook _lukInput = (0.00, 0.00)
+
+        PlayerController OnLook _lukInput
+        = (-1.00, 0.00)
+
+        PlayerController OnLook _lukInput = (0.00, 0.00)
+
+        PlayerController
+        OnMovement _movementInput = (0.00, 0.00)
 
         PlayerController OnMovement
         _movementInput = (0.00, 0.00)
@@ -688,627 +741,35 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1004
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1005
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward]
-      name: Player_Forward
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
-      resultStatus: 0
-      duration: 0.2907541
-      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
-
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
-        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NullReferenceException:
-        Object reference not set to an instance of an object
-
-'
-      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
-
-        UnityEngine.Object:Destroy(Object)
-
-        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
-
-'
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
     - id: 1008
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left]
       name: Player_Left
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left
-      resultStatus: 0
-      duration: 0.3220209
-      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
-
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
-        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NullReferenceException:
-        Object reference not set to an instance of an object
+      resultStatus: 2
+      duration: 0.9160553
+      messages: "  Player_Left. Mover object moved from (0.00, -0.67, 0.00) to (-0.96,
+        -0.28, 0.00)\n  Expected: (-0.96, -0.28, 0.00)\n  But was:  (-0.75, -0.66,
+        0.00)\n"
+      output: 'PlayerController OnMovement _movementInput = (-1.00, 0.00)
+
+        PlayerController
+        OnMovement _movementInput = (-1.00, 0.00)
+
+        PlayerController OnLook
+        _lukInput = (-0.97, -0.24)
+
+        PlayerController OnLook _lukInput = (0.00,
+        0.00)
+
+        PlayerController OnMovement _movementInput = (0.00, 0.00)
 
 '
-      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Left>d__12.MoveNext
+        () [0x001f3] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:212
 
-        UnityEngine.Object:Destroy(Object)
-
-        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
 
 '
       notRunnable: 0
@@ -1323,332 +784,26 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right]
       name: Player_Right
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right
-      resultStatus: 0
-      duration: 0.295428
-      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
-
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
-        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NullReferenceException:
-        Object reference not set to an instance of an object
+      resultStatus: 2
+      duration: 0.3536821
+      messages: "  Player_Left. Mover object moved from (0.00, -0.26, 0.00) to (0.99,
+        -0.13, 0.00)\n  Expected: (0.99, -0.13, 0.00)\n  But was:  (0.42, -0.91,
+        0.00)\n"
+      output: 'PlayerController OnMovement _movementInput = (1.00, 0.00)
+
+        PlayerController
+        OnMovement _movementInput = (1.00, 0.00)
+
+        PlayerController OnMovement
+        _movementInput = (0.00, 0.00)
 
 '
-      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Right>d__11.MoveNext
+        () [0x001f3] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:171
 
-        UnityEngine.Object:Destroy(Object)
-
-        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
 
 '
       notRunnable: 0
@@ -1663,332 +818,21 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft]
       name: RotatesPlayerLeft
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft
-      resultStatus: 0
-      duration: 0.298905
-      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
-
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
-        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NullReferenceException:
-        Object reference not set to an instance of an object
+      resultStatus: 2
+      duration: 0.4583681
+      messages: "  RotatesPlayerLeft\n  Expected: less than 0.0f\n  But was:  0.0f\n"
+      output: 'PlayerController OnLook _lukInput = (-0.87, -0.49)
+
+        PlayerController
+        OnLook _lukInput = (0.00, 0.00)
 
 '
-      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerLeft>d__14.MoveNext
+        () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:278
 
-        UnityEngine.Object:Destroy(Object)
-
-        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
 
 '
       notRunnable: 0
@@ -2003,332 +847,17 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight]
       name: RotatesPlayerRight
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight
-      resultStatus: 0
-      duration: 0.301711
-      messages: 'SetUp : Unhandled log message: ''[Error] NotSupportedException while
-        resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''''.
-        Use UnityEngine.TestTools.LogAssert.Expect
-
-        TearDown : Unhandled
-        log message: ''[Exception] NullReferenceException: Object reference not set
-        to an instance of an object''. Use UnityEngine.TestTools.LogAssert.Expect'
-      output: 'NotSupportedException while resolving binding ''Move:<Keyboard>/d''
-        in action map ''PlayerControls (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/d'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Move:<Keyboard>/rightArrow'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NotSupportedException
-        while resolving binding ''Look:<Mouse>/position/x'' in action map ''PlayerControls
-        (UnityEngine.InputSystem.InputActionAsset):Player''
-
-        NotSupportedException:
-        Control count per binding cannot exceed byte.MaxValue=255
-
-        NullReferenceException:
-        Object reference not set to an instance of an object
-
-'
-      stacktrace: 'Viking.Scripts.Game.Player.PlayerController.PlayerController.OnDisable
-        () (at Assets/Viking/Scripts/Game/Player/PlayerController/PlayerController.cs:41)
-
-        UnityEngine.Object:Destroy(Object)
-
-        Viking.Tests.TestsPlaymode.PlayerControllerTests:Teardown()
-        (at Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:50)
-
-        System.Reflection.MethodBase:Invoke(Object,
-        Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object, Object[])
-
-        NUnit.Framework.Internal.Reflect:InvokeMethod(MethodInfo,
-        Object)
-
-        UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
-        (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/Coroutines.cs:17)
-
+      resultStatus: 2
+      duration: 1.2871616
+      messages: "  RotatesPlayerRight\n  Expected: greater than 0.0f\n  But was: 
+        0.0f\n"
+      output: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerRight>d__13.MoveNext
+        () [0x0015d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:246
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
 
 '
       notRunnable: 0
@@ -2343,8 +872,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
       name: StartScreenViewTests
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
-      resultStatus: 0
-      duration: 1.3947686
+      resultStatus: 1
+      duration: 1.3804257
       messages: 
       output: 
       stacktrace: 
@@ -2359,8 +888,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/StartScreenViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene]
       name: PlayButton_Clicked_LoadsGameScene
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
-      resultStatus: 0
-      duration: 1.2823426
+      resultStatus: 1
+      duration: 1.2665386
       messages: 
       output: 'Play button clicked
 
@@ -2374,12 +903,25 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: 
-    m_ResultStacktrace: 
+    m_ResultText: "RotatesPlayerLeft (0.458s)\n---\nRotatesPlayerLeft\n  Expected:
+      less than 0.0f\n  But was:  0.0f\n---\nat Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerLeft>d__14.MoveNext
+      () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:278\nat
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46\n---\nPlayerController
+      OnLook _lukInput = (-0.87, -0.49)\nPlayerController OnLook _lukInput = (0.00,
+      0.00)"
+    m_ResultStacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerLeft>d__14.MoveNext
+      () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/PlayerControllerTests.cs:278
+
+      at
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 091539ae
-      m_LastClickedID: -1371990775
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: d35a1ffe
+      m_LastClickedID: -31499565
       m_ExpandedIDs: 9e4e88ad091539ae093ec5e00479f1ec6d5071ed6f0512f35c0030f692ecaf1486979e387cab0161b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -2478,9 +1020,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1333
+    x: 1301
     y: 119
-    width: 266
+    width: 298
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2591,8 +1133,46 @@ MonoBehaviour:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - UserSettings
+        - UserSettings/Layouts
+        values:
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings/Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -2621,6 +1201,78 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: mono_crash.mem.152768.1.blob
+        label: mono_crash.mem.152768.1.blob
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: mono_crash.mem.152768.1.blob
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/mono_crash.mem.152768.1.blob
+          projectPath: mono_crash.mem.152768.1.blob
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -2640,16 +1292,28 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-    gitStatusEntries: []
-    changedFilesText: No changed files
+    gitStatusEntries:
+    - path: mono_crash.mem.152768.1.blob
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/mono_crash.mem.152768.1.blob
+      projectPath: mono_crash.mem.152768.1.blob
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings/Layouts/default-2021.dwlt
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+      projectPath: UserSettings/Layouts/default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-21T15:56:31.776+03:00
+      updatedTimeString: 2023-06-22T02:30:48.393+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-21T16:08:52.146+03:00
+      updatedTimeString: 2023-06-22T02:45:46.596+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-21T15:56:31.905+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2829,9 +1493,9 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: main
   currentRemoteUrl: git@github.com:disiol/VikingTestTask.git
-  statusAhead: 0
+  statusAhead: 1
   statusBehind: 0
-  hasItemsToCommit: 0
+  hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
   currentBranchContent:
     m_Text: main
@@ -2842,13 +1506,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-19T22:59:02.630+03:00
+    updatedTimeString: 2023-06-22T01:32:27.331+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-20T14:29:12.719+03:00
+    updatedTimeString: 2023-06-22T01:32:27.416+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-20T15:29:13.900+03:00
+    updatedTimeString: 2023-06-22T01:34:00.224+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2892,10 +1556,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 878
+    x: 975
     y: 119
-    width: 214
-    height: 920
+    width: 98
+    height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2904,9 +1568,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7aa4ffff
-      m_LastClickedID: -23430
-      m_ExpandedIDs: c8a4ffffcaa4ffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: d4a0ffff14a1ffffdca3ffff66a6ffffa6a6ffff6ea9ffffe8abffff28acfffff0aeffff92b1ffffd2b1ffff9ab4ffffd0bfffff10c0ffffd8c2ffff7ac5ffffbac5ffff82c8fffff4caffff34cbfffffccdffff6ed0ffffaed0ffff76d3ffff0ad6ffff4ad6ffff18e5ffff66e8ffffa6e8ffff7ef7ffffeefaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2950,10 +1614,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1561
+    x: 1301
     y: 119
-    width: 358
-    height: 920
+    width: 298
+    height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2992,10 +1656,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1094
+    x: 1075
     y: 119
-    width: 465
-    height: 920
+    width: 224
+    height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3014,22 +1678,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.inputsystem
+    - Assets/Viking/Resources/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.unity.inputsystem
+  - Assets/Viking/Resources/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 272}
-    m_SelectedIDs: 80c70000
-    m_LastClickedID: 51072
-    m_ExpandedIDs: 000000006cc700006ec7000070c7000072c7000074c7000076c7000078c700007ac700007cc700007ec7000082c7000084c7000088c700008ac700008cc700008ec7000090c7000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1e740000
+    m_LastClickedID: 29726
+    m_ExpandedIDs: 00000000b2730000b4730000b6730000b8730000ba730000bc730000be730000c0730000c2730000c4730000c6730000c8730000ca730000cc730000ce730000d0730000d2730000d4730000d673000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3057,7 +1721,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006cc700006ec7000070c7000072c7000074c7000076c7000078c700007ac700007cc700007ec7000080c7000082c7000084c7000086c7000088c700008ac700008cc700008ec7000090c7000092c70000
+    m_ExpandedIDs: 00000000b2730000b4730000b6730000b8730000ba730000bc730000be730000c0730000c2730000c4730000c6730000c8730000ca730000cc730000ce730000d0730000d2730000d4730000d6730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3112,7 +1776,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 259
+  m_DirectoriesAreaWidth: 174
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3506,9 +2170,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 540
-    width: 877
-    height: 499
+    y: 584
+    width: 974
+    height: 275
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -3547,7 +2211,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 1
+    m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -3558,23 +2222,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 877
-      height: 478
-    m_Scale: {x: 0.22838542, y: 0.22838543}
-    m_Translation: {x: 438.5, y: 239}
+      width: 974
+      height: 254
+    m_Scale: {x: 0.1175926, y: 0.117592596}
+    m_Translation: {x: 487, y: 127}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1920
-      y: -1046.4766
-      width: 3840
-      height: 2092.9531
+      x: -4141.417
+      y: -1080
+      width: 8282.834
+      height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 0.22838542
-  m_LastWindowPixelSize: {x: 877, y: 499}
+  m_defaultScale: 0.117592596
+  m_LastWindowPixelSize: {x: 974, y: 275}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

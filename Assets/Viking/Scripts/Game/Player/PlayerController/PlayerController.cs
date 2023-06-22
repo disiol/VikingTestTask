@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace Viking.Scripts.Game.Player.PlayerController
 {
@@ -7,7 +8,9 @@ namespace Viking.Scripts.Game.Player.PlayerController
     {
         [Header("Player")] [SerializeField] private float movementSpeed = 2f;
         [SerializeField] private float turnSpeed = 200f;
-        [SerializeField] private GameObject follov;
+
+        [FormerlySerializedAs("follov")] [SerializeField]
+        private GameObject follow;
 
 
         private Rigidbody _rb;
@@ -66,11 +69,15 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             // Debug.Log("PlayerController OnLook  before rotation rotation = "+ transform.rotation);
             float lukInputX = _lukInput.x;
+            float lukInputY = _lukInput.y;
 
 
-            Vector3 rotation = Vector3.up * lukInputX * turnSpeed * Time.deltaTime;
-            transform.Rotate(rotation);
-            follov.transform.Rotate(rotation);
+            Vector3 playerRotation = Vector3.up * lukInputX * turnSpeed * Time.deltaTime;
+            transform.Rotate(playerRotation);
+
+            Quaternion followTransformRotation = follow.transform.rotation;
+            follow.transform.Rotate(new Vector3(followTransformRotation.x, lukInputY * turnSpeed * Time.deltaTime,
+                followTransformRotation.z));
 
             // _playerCameraController.LukInput = _lukInput;
             // Debug.Log("PlayerController OnLook   rotation = "+ transform.rotation);
