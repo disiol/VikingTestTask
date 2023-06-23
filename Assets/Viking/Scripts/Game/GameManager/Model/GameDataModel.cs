@@ -15,7 +15,6 @@ namespace Viking.Scripts.Game.GameManager.Model
             set
             {
                 _maxLives = value;
-                OnMaxLivesChanged?.Invoke(_maxLives);
             }
         }
 
@@ -39,7 +38,7 @@ namespace Viking.Scripts.Game.GameManager.Model
             }
         }
 
-        public event Action<int> OnMaxLivesChanged;
+        
         public event Action<int> OnCurrentLivesChanged;
         public event Action<int> OnMonstersKilledChanged;
     }

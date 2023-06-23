@@ -138,6 +138,18 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1191099132, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_Value
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191099132, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_MaxValue
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1191099132, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_WholeNumbers
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7494948218283135080, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
       propertyPath: m_Name
       value: Game
