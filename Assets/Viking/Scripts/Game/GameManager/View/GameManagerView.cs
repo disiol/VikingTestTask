@@ -50,16 +50,14 @@ namespace Viking.Scripts.Game.GameManager.View
             if (monstersKilledText == null)
             {
                 Debug.LogWarning(
-                    "GameManagerView needs monstersKilledText to present please make sure one is set in The Inspector",
-                    gameObject);
+                    "GameManagerView needs monstersKilledText to present please make sure one is set in The Inspector");
                 return false;
             }
 
             if (sliderLifeCharacter == null)
             {
                 Debug.LogWarning(
-                    "GameManagerView  needs a sliderLifeCharacter to Update please make sure one is set in The Inspector",
-                    gameObject);
+                    "GameManagerView  needs a sliderLifeCharacter to Update please make sure one is set in The Inspector");
                 return false;
             }
 
