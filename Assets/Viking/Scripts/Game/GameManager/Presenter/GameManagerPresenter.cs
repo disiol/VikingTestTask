@@ -25,6 +25,7 @@ namespace Viking.Scripts.Game.GameManager.Presenter
 
             UpdateUI();
         }
+        
 
         public void OnMonsterKilled()
         {

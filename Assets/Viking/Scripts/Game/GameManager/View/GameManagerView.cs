@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
@@ -7,17 +8,19 @@ namespace Viking.Scripts.Game.GameManager.View
 {
     public class GameManagerView : MonoBehaviour
     {
-        [Header("Bar")]
-        [SerializeField] private Slider progressBar;
-        [SerializeField] private Text monstersKilledText;
+        [Header("Bar")] [SerializeField] private Slider sliderLifeCharacter;
+        [SerializeField] private int maxLives;
+
+        [SerializeField] private TextMeshProUGUI monstersKilledText;
 
         private GameManagerPresenter _presenter;
-        [FormerlySerializedAs("MaxLives")] [SerializeField] private int maxLives;
 
         private void Start()
         {
             _presenter = new GameManagerPresenter(this);
             _presenter.Initialize(maxLives, maxLives);
+
+            CheckSerializeFieldToNull();
         }
 
         public void OnMonsterKilled()
@@ -27,12 +30,41 @@ namespace Viking.Scripts.Game.GameManager.View
 
         public void UpdateProgressBar(int currentLives)
         {
-            progressBar.value = currentLives;
+            if (CheckSerializeFieldToNull())
+            {
+                sliderLifeCharacter.value = currentLives;
+            }
         }
 
         public void UpdateMonstersKilledText(int monstersKilled)
         {
-            monstersKilledText.text = "Monsters Killed: " + monstersKilled;
+            if (CheckSerializeFieldToNull())
+            {
+                monstersKilledText.text = "Monsters Killed: " + monstersKilled;
+            }
+        }
+
+
+        private bool CheckSerializeFieldToNull()
+        {
+            if (monstersKilledText == null)
+            {
+                Debug.LogWarning(
+                    "GameManagerView needs monstersKilledText to present please make sure one is set in The Inspector",
+                    gameObject);
+                return false;
+            }
+
+            if (sliderLifeCharacter == null)
+            {
+                Debug.LogWarning(
+                    "GameManagerView  needs a sliderLifeCharacter to Update please make sure one is set in The Inspector",
+                    gameObject);
+                return false;
+            }
+
+
+            return true;
         }
     }
 }
