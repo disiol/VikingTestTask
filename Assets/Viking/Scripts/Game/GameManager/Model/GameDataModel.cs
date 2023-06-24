@@ -41,6 +41,8 @@ namespace Viking.Scripts.Game.GameManager.Model
         
         public event Action<int> OnCurrentLivesChanged;
         public event Action<int> OnMonstersKilledChanged;
+
+      
     }
 
 }

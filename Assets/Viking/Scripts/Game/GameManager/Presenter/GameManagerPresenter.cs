@@ -1,3 +1,4 @@
+using System;
 using Viking.Scripts.Game.GameManager.Model;
 using Viking.Scripts.Game.GameManager.View;
 
@@ -38,5 +39,7 @@ namespace Viking.Scripts.Game.GameManager.Presenter
             _view.UpdateProgressBar(_model.CurrentLives);
             _view.UpdateMonstersKilledText(_model.MonstersKilled);
         }
+
+   
     }
 }

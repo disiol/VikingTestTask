@@ -32,6 +32,7 @@ namespace Viking.Tests.TestsEditMode.GameManager
 
             // Assert
             Assert.AreEqual(expectedMonstersKilled, model.MonstersKilled);
+           
             view.Received(1).UpdateMonstersKilledText(expectedMonstersKilled);
         }
 

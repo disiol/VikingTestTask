@@ -8,7 +8,8 @@ namespace Viking.Scripts.Game.GameManager.View
 {
     public class GameManagerView : MonoBehaviour
     {
-        [Header("Bar")] [SerializeField] private Slider sliderLifeCharacter;
+        [Header("Bar")] 
+        [SerializeField] private Slider sliderLifeCharacter;
         [SerializeField] private int maxLives;
 
         [SerializeField] private TextMeshProUGUI monstersKilledText;
@@ -49,14 +50,14 @@ namespace Viking.Scripts.Game.GameManager.View
         {
             if (monstersKilledText == null)
             {
-                Debug.LogWarning(
+                Debug.LogError(
                     "GameManagerView needs monstersKilledText to present please make sure one is set in The Inspector");
                 return false;
             }
 
             if (sliderLifeCharacter == null)
             {
-                Debug.LogWarning(
+                Debug.LogError(
                     "GameManagerView  needs a sliderLifeCharacter to Update please make sure one is set in The Inspector");
                 return false;
             }

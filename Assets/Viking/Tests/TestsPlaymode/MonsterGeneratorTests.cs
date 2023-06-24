@@ -1,8 +1,6 @@
 using System.Collections;
 using NUnit.Framework;
-using UnityEditor;
 using UnityEngine;
-using UnityEngine.PlayerLoop;
 using UnityEngine.TestTools;
 using Viking.Scripts.Monster;
 using Viking.Scripts.Tests.TestsPlaymode;
