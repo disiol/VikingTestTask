@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Console
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 131
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,12 +141,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 453
+    width: 624
     height: 761
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 157
+  controlID: 132
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -162,9 +162,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 453
+    x: 624
     y: 0
-    width: 299
+    width: 311
     height: 761
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -188,9 +188,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 752
+    x: 935
     y: 0
-    width: 500
+    width: 100
     height: 761
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -214,9 +214,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1252
+    x: 1035
     y: 0
-    width: 348
+    width: 565
     height: 761
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -236,25 +236,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 453
-    height: 527
+    width: 624
+    height: 565
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 19}
   - {fileID: 14}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 2
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -271,9 +271,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 527
-    width: 453
-    height: 234
+    y: 565
+    width: 624
+    height: 196
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
@@ -402,8 +402,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 119
-    width: 452
-    height: 506
+    width: 623
+    height: 544
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -432,7 +432,7 @@ MonoBehaviour:
     x: 0
     y: 119
     width: 452
-    height: 506
+    height: 544
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -443,8 +443,8 @@ MonoBehaviour:
     splitterInitialOffset: 426
     currentActiveSplitter: -1
     realSizes:
-    - 355
-    - 81
+    - 386
+    - 88
     relativeSizes:
     - 0.8142202
     - 0.18577981
@@ -454,7 +454,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 436
+    lastTotalSize: 474
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -471,7 +471,7 @@ MonoBehaviour:
       name: VikingTestTask
       fullName: VikingTestTask
       resultStatus: 2
-      duration: 43.397938
+      duration: 0.3071831
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -482,12 +482,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1026
-      uniqueId: '[TestsPlaymode.dll][suite]'
-      name: TestsPlaymode.dll
-      fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
+    - id: 1093
+      uniqueId: '[TestsEditMode.dll][suite]'
+      name: TestsEditMode.dll
+      fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsEditMode.dll
       resultStatus: 2
-      duration: 42.40391
+      duration: 0.2036325
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -496,14 +496,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1000
+      parentId: 1085
       parentUniqueId: '[VikingTestTask][suite]'
-    - id: 1027
-      uniqueId: TestsPlaymode.dll/[Viking][suite]
+    - id: 1094
+      uniqueId: TestsEditMode.dll/[Viking][suite]
       name: Viking
       fullName: Viking
       resultStatus: 2
-      duration: 42.35552
+      duration: 0.2029164
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -512,14 +512,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1026
-      parentUniqueId: '[TestsPlaymode.dll][suite]'
-    - id: 1028
-      uniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
+      parentId: 1093
+      parentUniqueId: '[TestsEditMode.dll][suite]'
+    - id: 1095
+      uniqueId: TestsEditMode.dll/Viking/[Tests][suite]
       name: Tests
       fullName: Viking.Tests
       resultStatus: 2
-      duration: 42.3506
+      duration: 0.198919
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -528,14 +528,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1027
-      parentUniqueId: TestsPlaymode.dll/[Viking][suite]
-    - id: 1029
-      uniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-      name: TestsPlaymode
-      fullName: Viking.Tests.TestsPlaymode
+      parentId: 1094
+      parentUniqueId: TestsEditMode.dll/[Viking][suite]
+    - id: 1096
+      uniqueId: TestsEditMode.dll/Viking/Tests/[TestsEditMode][suite]
+      name: TestsEditMode
+      fullName: Viking.Tests.TestsEditMode
       resultStatus: 2
-      duration: 42.34582
+      duration: 0.1951823
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -544,14 +544,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1028
-      parentUniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
-    - id: 1031
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager][suite]
+      parentId: 1095
+      parentUniqueId: TestsEditMode.dll/Viking/[Tests][suite]
+    - id: 1097
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager][suite]
       name: GameManager
-      fullName: Viking.Tests.TestsPlaymode.GameManager
+      fullName: Viking.Tests.TestsEditMode.GameManager
       resultStatus: 2
-      duration: 42.340553
+      duration: 0.1912091
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -560,14 +560,81 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1029
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-    - id: 1022
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
-      name: GameManagerViewTests
-      fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests
+      parentId: 1096
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/[TestsEditMode][suite]
+    - id: 1086
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests][suite]
+      name: GameDataModelTests
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests
+      resultStatus: 1
+      duration: 0.0154846
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1097
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager][suite]
+    - id: 1088
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/GameDataModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.CurrentLives_SetValue_ShouldSetCurrentLivesAndInvokeEvent]
+      name: CurrentLives_SetValue_ShouldSetCurrentLivesAndInvokeEvent
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.CurrentLives_SetValue_ShouldSetCurrentLivesAndInvokeEvent
+      resultStatus: 1
+      duration: 0.0043415
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests][suite]
+    - id: 1087
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/GameDataModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MaxLives_SetValue_ShouldSetMaxLives]
+      name: MaxLives_SetValue_ShouldSetMaxLives
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MaxLives_SetValue_ShouldSetMaxLives
+      resultStatus: 1
+      duration: 0.0004933
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests][suite]
+    - id: 1089
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/GameDataModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MonstersKilled_SetValue_ShouldSetMonstersKilledAndInvokeEvent]
+      name: MonstersKilled_SetValue_ShouldSetMonstersKilledAndInvokeEvent
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MonstersKilled_SetValue_ShouldSetMonstersKilledAndInvokeEvent
+      resultStatus: 1
+      duration: 0.0006241
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1086
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameDataModelTests][suite]
+    - id: 1090
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests][suite]
+      name: GameManagerPresenterTests
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests
       resultStatus: 2
-      duration: 42.328888
+      duration: 0.1702709
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -576,459 +643,139 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1031
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager][suite]
-    - id: 1023
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.OnMonsterKilled_CallPresenterMethod]
-      name: OnMonsterKilled_CallPresenterMethod
-      fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.OnMonsterKilled_CallPresenterMethod
+      parentId: 1097
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager][suite]
+    - id: 1092
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/GameManagerPresenterTests/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnCurrentLivesChanged_UpdateUI]
+      name: OnCurrentLivesChanged_UpdateUI
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnCurrentLivesChanged_UpdateUI
       resultStatus: 2
-      duration: 0
-      messages: Cancelled by user
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
-    - id: 1025
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateMonstersKilledText_TextMeshProNotNull_UpdateText]
-      name: UpdateMonstersKilledText_TextMeshProNotNull_UpdateText
-      fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateMonstersKilledText_TextMeshProNotNull_UpdateText
-      resultStatus: 2
-      duration: 0.0144077
-      messages: 'SetUp : System.Reflection.TargetException : Non-static field requires
-        a target'
-      output: 
-      stacktrace: "--SetUp\n  at System.Reflection.RuntimeFieldInfo.GetValue (System.Object
-        obj) [0x0000b] in <131fc96242a743e6b00bc8a8663638a3>:0 \n  at Viking.Scripts.Tests.TestsPlaymode.GetAccessToPrivate.GetPrivateFieldValue
-        (System.Type type, System.Object instance, System.String fieldName) [0x0000e]
-        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GetAccessToPrivate.cs:23
-        \n  at Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.Setup
-        () [0x000a4] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests.cs:44
-        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
-    - id: 1024
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateProgressBar_SliderNotNull_UpdateSliderValue]
-      name: UpdateProgressBar_SliderNotNull_UpdateSliderValue
-      fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateProgressBar_SliderNotNull_UpdateSliderValue
-      resultStatus: 2
-      duration: 0.0240705
-      messages: 'SetUp : System.Reflection.TargetException : Non-static field requires
-        a target'
-      output: 
-      stacktrace: "--SetUp\n  at System.Reflection.RuntimeFieldInfo.GetValue (System.Object
-        obj) [0x0000b] in <131fc96242a743e6b00bc8a8663638a3>:0 \n  at Viking.Scripts.Tests.TestsPlaymode.GetAccessToPrivate.GetPrivateFieldValue
-        (System.Type type, System.Object instance, System.String fieldName) [0x0000e]
-        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GetAccessToPrivate.cs:23
-        \n  at Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.Setup
-        () [0x000a4] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests.cs:44
-        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
-        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
-        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
-        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1022
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
-    - id: 1001
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
-      name: MonsterGeneratorTests
-      fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1029
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-    - id: 1002
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters]
-      name: GenerateMonsters_GeneratesExpectedNumberOfMonsters
-      fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
-    - id: 1003
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain]
-      name: GenerateMonsters_MonstersOnTerrain
-      fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1001
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
-    - id: 1030
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player][suite]
-      name: Player
-      fullName: Viking.Tests.TestsPlaymode.Player
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1029
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-    - id: 1016
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-      name: PlayerAnimControllerTests
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1030
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player][suite]
-    - id: 1019
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly]
-      name: Attack_ShouldSetAnimatorParameterCorrectly
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-    - id: 1020
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly]
-      name: Damage_ShouldSetAnimatorParameterCorrectly
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-    - id: 1021
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly]
-      name: Die_ShouldSetAnimatorParameterCorrectly
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-    - id: 1017
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly]
-      name: Run_ShouldSetAnimatorParametersCorrectly
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-    - id: 1018
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly]
-      name: Stop_ShouldSetAnimatorParametersCorrectly
-      fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1016
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
-    - id: 1004
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-      name: PlayerControllerTests
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1029
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-    - id: 1012
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse]
-      name: Attack_Canceled_SetsIsAttackingToFalse
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1011
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
-      name: Fire_Started_SetsIsAttackingToTrue
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1013
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse]
-      name: IsAttacking_DefaultValue_IsFalse
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1006
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back]
-      name: Player_Back
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1005
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward]
-      name: Player_Forward
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1008
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left]
-      name: Player_Left
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1007
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right]
-      name: Player_Right
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1010
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft]
-      name: RotatesPlayerLeft
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1009
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight]
-      name: RotatesPlayerRight
-      fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1004
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
-    - id: 1014
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-      name: StartScreenViewTests
-      fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1029
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
-    - id: 1015
-      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/StartScreenViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene]
-      name: PlayButton_Clicked_LoadsGameScene
-      fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
-      resultStatus: 0
-      duration: 0
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1014
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: 'OnMonsterKilled_CallPresenterMethod (0.000s)
+      duration: 0.1257601
+      messages: 'SetUp : Unhandled log message: ''[Error] GameManagerView needs monstersKilledText
+        to present please make sure one is set in The Inspector''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
 
-      ---
+        GameManagerView needs monstersKilledText to present please
+        make sure one is set in The Inspector
 
-      Cancelled
-      by user'
-    m_ResultStacktrace: 
+        GameManagerView needs monstersKilledText
+        to present please make sure one is set in The Inspector
+
+'
+      stacktrace: 'Viking.Scripts.Game.GameManager.View.GameManagerView:CheckSerializeFieldToNull
+        () (at Assets/Viking/Scripts/Game/GameManager/View/GameManagerView.cs:53)
+
+        Viking.Scripts.Game.GameManager.View.GameManagerView:UpdateProgressBar
+        (int) (at Assets/Viking/Scripts/Game/GameManager/View/GameManagerView.cs:34)
+
+        Viking.Scripts.Game.GameManager.Presenter.GameManagerPresenter:UpdateUI
+        () (at Assets/Viking/Scripts/Game/GameManager/Presenter/GameManagerPresenter.cs:39)
+
+        Viking.Scripts.Game.GameManager.Presenter.GameManagerPresenter:Initialize
+        (int,int) (at Assets/Viking/Scripts/Game/GameManager/Presenter/GameManagerPresenter.cs:27)
+
+        Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests:Setup
+        () (at Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerPresenterTests.cs:21)
+
+        System.Reflection.MethodBase:Invoke
+        (object,object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod
+        (System.Reflection.MethodInfo,object,object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod
+        (System.Reflection.MethodInfo,object)
+
+        UnityEditor.EditorApplication:Internal_CallUpdateFunctions
+        () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:356)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1090
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests][suite]
+    - id: 1091
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/GameManagerPresenterTests/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnMonsterKilled_UpdateModelAndUI]
+      name: OnMonsterKilled_UpdateModelAndUI
+      fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnMonsterKilled_UpdateModelAndUI
+      resultStatus: 2
+      duration: 0.0053559
+      messages: 'SetUp : Unhandled log message: ''[Error] GameManagerView needs monstersKilledText
+        to present please make sure one is set in The Inspector''. Use UnityEngine.TestTools.LogAssert.Expect'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        GameManagerView needs monstersKilledText to present please
+        make sure one is set in The Inspector
+
+        GameManagerView needs monstersKilledText
+        to present please make sure one is set in The Inspector
+
+'
+      stacktrace: 'Viking.Scripts.Game.GameManager.View.GameManagerView:CheckSerializeFieldToNull
+        () (at Assets/Viking/Scripts/Game/GameManager/View/GameManagerView.cs:53)
+
+        Viking.Scripts.Game.GameManager.View.GameManagerView:UpdateProgressBar
+        (int) (at Assets/Viking/Scripts/Game/GameManager/View/GameManagerView.cs:34)
+
+        Viking.Scripts.Game.GameManager.Presenter.GameManagerPresenter:UpdateUI
+        () (at Assets/Viking/Scripts/Game/GameManager/Presenter/GameManagerPresenter.cs:39)
+
+        Viking.Scripts.Game.GameManager.Presenter.GameManagerPresenter:Initialize
+        (int,int) (at Assets/Viking/Scripts/Game/GameManager/Presenter/GameManagerPresenter.cs:27)
+
+        Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests:Setup
+        () (at Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerPresenterTests.cs:21)
+
+        System.Reflection.MethodBase:Invoke
+        (object,object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod
+        (System.Reflection.MethodInfo,object,object[])
+
+        NUnit.Framework.Internal.Reflect:InvokeMethod
+        (System.Reflection.MethodInfo,object)
+
+        UnityEditor.EditorApplication:Internal_CallUpdateFunctions
+        () (at /home/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:356)
+
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1090
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests][suite]
+    m_ResultText: "UpdateProgressBar_SliderNotNull_UpdateSliderValue (0.038s)\n---\nExpected:
+      2\n  But was:  1.0f\n---\nat Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests+<UpdateProgressBar_SliderNotNull_UpdateSliderValue>d__8.MoveNext
+      () [0x00054] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests.cs:78\nat
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46"
+    m_ResultStacktrace: 'at Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests+<UpdateProgressBar_SliderNotNull_UpdateSliderValue>d__8.MoveNext
+      () [0x00054] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests.cs:78
+
+      at
+      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
+      /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a07b5f6a
-      m_LastClickedID: 1784642464
+      m_SelectedIDs: e94ea1e2
+      m_LastClickedID: -492744983
       m_ExpandedIDs: 7bbc6b8a9e4e88ad091539ae0e212ac472da41d22171a5df093ec5e00479f1ec6d5071ed6f0512f35c0030f6ccfd79fe4e95140292ecaf1486979e387cab0161b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1366,9 +1113,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1214
+    x: 1252
     y: 119
-    width: 385
+    width: 347
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -1467,7 +1214,7 @@ MonoBehaviour:
     localBranches: []
     remoteBranches: []
   changesView:
-    currentBranchHasUpdate: 1
+    currentBranchHasUpdate: 0
     currentStatusEntriesHasUpdate: 1
     currentLocksHasUpdate: 1
     commitBody: 
@@ -1483,7 +1230,7 @@ MonoBehaviour:
         - a56c99b432e9475b481348b63b327ad6
         - 41145ad17cf54bb79025193639c252fd
         - 95fc1629c3734085b70560c8786503a6
-        - 6907e0d57e9f45e3bd0949362b94d8f7
+        - a8b8e4d5076417246a41c3a87006ef82
         values:
         - path: Assets
           label: Assets
@@ -1593,23 +1340,23 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-          label: GameManagerViewTests.cs
-          level: 5
+        - path: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+          label: TestsEditMode.asmdef
+          level: 4
           isFolder: 0
-          isContainer: 1
+          isContainer: 0
           isCollapsed: 0
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-            projectPath: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
+            path: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+            projectPath: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
             originalPath: 
-            indexStatus: 4
+            indexStatus: 0
             workTreeStatus: 3
       folders:
         keys:
@@ -1845,42 +1592,24 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-        label: GameManagerViewTests.cs
-        level: 5
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 1
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-          projectPath: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-          originalPath: 
-          indexStatus: 4
-          workTreeStatus: 3
-      - path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-        label: GameManagerViewTests.cs.meta
-        level: 6
+      - path: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+        label: TestsEditMode.asmdef
+        level: 4
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-          projectPath: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
+          path: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+          projectPath: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
           originalPath: 
-          indexStatus: 4
-          workTreeStatus: 0
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -1907,27 +1636,21 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
-      projectPath: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs
+    - path: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
+      projectPath: Assets/Viking/Tests/TestsEditMode/TestsEditMode.asmdef
       originalPath: 
-      indexStatus: 4
+      indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-      projectPath: Assets/Viking/Tests/TestsEditMode/GameManager/GameManagerViewTests.cs.meta
-      originalPath: 
-      indexStatus: 4
-      workTreeStatus: 0
-    changedFilesText: 3 changed files
+    changedFilesText: 2 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-24T12:03:11.821+03:00
+      updatedTimeString: 2023-06-24T12:59:14.288+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-24T12:55:54.772+03:00
+      updatedTimeString: 2023-06-24T13:34:30.581+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-24T12:55:57.595+03:00
+      updatedTimeString: 2023-06-24T13:32:50.539+03:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2123,10 +1846,10 @@ MonoBehaviour:
     updatedTimeString: 2023-06-22T01:32:27.331+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-23T15:55:01.397+03:00
+    updatedTimeString: 2023-06-24T13:17:36.440+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-23T16:42:18.465+03:00
+    updatedTimeString: 2023-06-24T13:33:19.991+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2144,8 +1867,8 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
+  repositoryProgressValue: 1
+  repositoryProgressMessage: Listing changed files...
   appManagerProgressValue: 1
   appManagerProgressMessage: Initialized
   connections: []
@@ -2170,9 +1893,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 453
+    x: 624
     y: 119
-    width: 297
+    width: 309
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2182,9 +1905,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: a6780000
       m_LastClickedID: 0
-      m_ExpandedIDs: 86c4ffffc6c4ffff24c6ffff9ac8ffffdac8ffff66caffff04cdffff44cdffffd2ceffffdad1ffff1ad2ffffa8d3ffff7ed7ffffbed7ffff4cd9ffffb8dcfffff8dcffff86deffff50e2ffff90e2ffff1ee4ffffb0e7fffff0e7ffff7ce9ffffeaebffff2aecffff8aedffff38f0ffff78f0ffff06f2ffffb2f5fffff2f5ffff8ef7ffffeefaffff
+      m_ExpandedIDs: eca7ffff4eaaffff88aaffff6cc9ffffeacbffff24ccffff08ebffff9cedffffdcedffff6cefffff88f5ffffb0f5ffffb4f5ffffc0f5ffffc6f5ffff06f6ffffa4f7ffffeefaffff2c760000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2228,9 +1951,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1252
+    x: 1035
     y: 119
-    width: 347
+    width: 564
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2244,7 +1967,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 659
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -2270,9 +1993,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 752
+    x: 935
     y: 119
-    width: 498
+    width: 98
     height: 740
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -2292,22 +2015,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.textmeshpro/Tests/Runtime
+    - Packages/com.unity.textmeshpro/Scripts/Editor
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Packages/com.unity.textmeshpro/Tests/Runtime
+  - Packages/com.unity.textmeshpro/Scripts/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 756}
-    m_SelectedIDs: aa740000
-    m_LastClickedID: 29866
-    m_ExpandedIDs: 00000000c8730000ca730000cc730000ce730000d0730000d2730000d4730000d6730000d8730000da730000dc730000de730000e0730000e2730000e4730000e6730000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f673000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 448}
+    m_SelectedIDs: 9e740000
+    m_LastClickedID: 29854
+    m_ExpandedIDs: 00000000c8730000ca730000cc730000ce730000d0730000d2730000d4730000d8730000da730000dc730000de730000e0730000e2730000e4730000e6730000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f67300005274000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2362,24 +2085,24 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 006e0000c66b0000326b00003c6c0000ac6e0000287400006074000066740000a4730000b2940000aa790000b2790000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: TestsEditMode
+      m_OriginalName: TestsEditMode
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 30886
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 8}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -2387,10 +2110,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 3885}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 209
+  m_DirectoriesAreaWidth: 50
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2784,9 +2507,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 646
-    width: 452
-    height: 213
+    y: 684
+    width: 623
+    height: 175
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -2836,23 +2559,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 452
-      height: 192
-    m_Scale: {x: 0.08888889, y: 0.08888889}
-    m_Translation: {x: 226, y: 96}
+      width: 623
+      height: 154
+    m_Scale: {x: 0.0712963, y: 0.0712963}
+    m_Translation: {x: 311.5, y: 77}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2542.5
+      x: -4369.091
       y: -1080
-      width: 5085
+      width: 8738.182
       height: 2160
     m_MinimalGUI: 1
-  m_defaultScale: 0.08888889
-  m_LastWindowPixelSize: {x: 452, y: 213}
+  m_defaultScale: 0.0712963
+  m_LastWindowPixelSize: {x: 623, y: 175}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000

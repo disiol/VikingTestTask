@@ -1,13 +1,22 @@
 using NSubstitute;
 using NUnit.Framework;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
 using Viking.Scripts.Game.GameManager.Model;
 using Viking.Scripts.Game.GameManager.Presenter;
 using Viking.Scripts.Game.GameManager.View;
+using Viking.Scripts.Tests.TestsPlaymode;
 
 namespace Viking.Tests.TestsEditMode.GameManager
 {
     public class GameManagerPresenterTests
-    {
+    {  
+        private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
+
+        private Slider slider;
+        private TextMeshProUGUI textMeshPro;
+        
         private GameManagerPresenter presenter;
         private GameManagerView view;
         private GameDataModel model;
@@ -15,7 +24,17 @@ namespace Viking.Tests.TestsEditMode.GameManager
         [SetUp]
         public void Setup()
         {
+            GameObject gameObject = new GameObject();
             view = Substitute.For<GameManagerView>();
+            slider = gameObject.AddComponent<Slider>();
+            textMeshPro = gameObject.AddComponent<TextMeshProUGUI>();
+
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
+                "sliderLifeCharacter", slider);
+
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
+                "monstersKilledText", textMeshPro);
+
             model = new GameDataModel();
             presenter = new GameManagerPresenter(view);
             presenter.Initialize(5, 3);

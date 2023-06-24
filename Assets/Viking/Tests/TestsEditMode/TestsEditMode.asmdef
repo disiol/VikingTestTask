@@ -6,7 +6,10 @@
         "UnityEditor.TestRunner",
         "Scripts",
         "Unity.TextMeshPro.Editor.Tests",
-        "Unity.TextMeshPro.Editor"
+        "Unity.TextMeshPro.Editor",
+        "TestsPlaymode",
+        "Unity.TextMeshPro",
+        "Unity.TextMeshPro.Tests"
     ],
     "includePlatforms": [
         "Editor"
