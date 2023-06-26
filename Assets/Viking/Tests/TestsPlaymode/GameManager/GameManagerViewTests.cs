@@ -15,10 +15,10 @@ namespace Viking.Tests.TestsPlaymode.GameManager
     {
         private readonly GetAccessToPrivate _getAccessToPrivate = new GetAccessToPrivate();
 
-        private GameManagerView view;
-        private Slider slider;
-        private TextMeshProUGUI textMeshPro;
-        private GameManagerPresenter presenter;
+        private GameManagerView _view;
+        private Slider _slider;
+        private TextMeshProUGUI _textMeshProUGUI;
+        private GameManagerPresenter _presenter;
         private GameDataModel _dataModel;
 
         [SetUp]
@@ -26,17 +26,17 @@ namespace Viking.Tests.TestsPlaymode.GameManager
         {
             // Create a new GameObject and attach GameManagerView component
             GameObject gameObject = new GameObject();
-            view = gameObject.AddComponent<GameManagerView>();
+            _view = gameObject.AddComponent<GameManagerView>();
 
             // Create Slider and TextMeshProUGUI components and assign to serialized fields
-            slider = gameObject.AddComponent<Slider>();
-            textMeshPro = gameObject.AddComponent<TextMeshProUGUI>();
+            _slider = gameObject.AddComponent<Slider>();
+            _textMeshProUGUI = gameObject.AddComponent<TextMeshProUGUI>();
 
-            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
-                "sliderLifeCharacter", slider);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), _view,
+                "sliderLifeCharacter", _slider);
 
-            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
-                "monstersKilledText", textMeshPro);
+            _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), _view,
+                "monstersKilledText", _textMeshProUGUI);
 
       
         }
@@ -49,12 +49,12 @@ namespace Viking.Tests.TestsPlaymode.GameManager
 
 
             // Act
-            view.OnMonsterKilled();
+            _view.OnMonsterKilled();
             
-            presenter = (GameManagerPresenter)_getAccessToPrivate.GetPrivateFieldValue(typeof(GameManagerView), view,
+            _presenter = (GameManagerPresenter)_getAccessToPrivate.GetPrivateFieldValue(typeof(GameManagerView), _view,
                 "_presenter"); 
         
-            _dataModel = (GameDataModel)_getAccessToPrivate.GetPrivateFieldValue(typeof(GameManagerPresenter), presenter,
+            _dataModel = (GameDataModel)_getAccessToPrivate.GetPrivateFieldValue(typeof(GameManagerPresenter), _presenter,
                 "_model");
             // Assert
             int newDataModelMonstersKilled = _dataModel.MonstersKilled;
@@ -69,13 +69,13 @@ namespace Viking.Tests.TestsPlaymode.GameManager
         {
             // Arrange
             int currentLives = 2;
-            slider.value = 0; // Set initial value to 0
+            _slider.value = 0; // Set initial value to 0
 
             // Act
-            view.UpdateProgressBar(currentLives);
+            _view.UpdateProgressBar(currentLives);
 
             // Assert
-            Assert.AreEqual(currentLives, slider.value);
+            Assert.AreEqual(currentLives, _slider.value);
 
             yield return null;
         }
@@ -86,13 +86,13 @@ namespace Viking.Tests.TestsPlaymode.GameManager
             // Arrange
             int monstersKilled = 5;
             string expectedText = "Monsters Killed: " + monstersKilled;
-            textMeshPro.text = ""; // Set initial text to empty
+            _textMeshProUGUI.text = ""; // Set initial text to empty
 
             // Act
-            view.UpdateMonstersKilledText(monstersKilled);
+            _view.UpdateMonstersKilledText(monstersKilled);
 
             // Assert
-            Assert.AreEqual(expectedText, textMeshPro.text);
+            Assert.AreEqual(expectedText, _textMeshProUGUI.text);
 
             yield return null;
         }

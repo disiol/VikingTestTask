@@ -5,13 +5,13 @@ namespace Viking.Tests.TestsEditMode.GameManager
 {
     public class GameDataModelTests
     {
-        private GameDataModel gameDataModel;
+        private GameDataModel _gameDataModel;
 
         [SetUp]
         public void Setup()
         {
             // Create a new instance of GameDataModel before each test
-            gameDataModel = new GameDataModel();
+            _gameDataModel = new GameDataModel();
         }
 
         [Test]
@@ -21,10 +21,10 @@ namespace Viking.Tests.TestsEditMode.GameManager
             int expectedMaxLives = 5;
 
             // Act
-            gameDataModel.MaxLives = expectedMaxLives;
+            _gameDataModel.MaxLives = expectedMaxLives;
 
             // Assert
-            Assert.AreEqual(expectedMaxLives, gameDataModel.MaxLives);
+            Assert.AreEqual(expectedMaxLives, _gameDataModel.MaxLives);
         }
 
         [Test]
@@ -36,13 +36,13 @@ namespace Viking.Tests.TestsEditMode.GameManager
             int eventInvocationCount = 0;
 
             // Subscribe to the event and increment the counter when invoked
-            gameDataModel.OnCurrentLivesChanged += (lives) => eventInvocationCount++;
+            _gameDataModel.OnCurrentLivesChanged += (lives) => eventInvocationCount++;
 
             // Act
-            gameDataModel.CurrentLives = expectedCurrentLives;
+            _gameDataModel.CurrentLives = expectedCurrentLives;
 
             // Assert
-            Assert.AreEqual(expectedCurrentLives, gameDataModel.CurrentLives);
+            Assert.AreEqual(expectedCurrentLives, _gameDataModel.CurrentLives);
             Assert.AreEqual(1, eventInvocationCount);
         }
 
@@ -54,13 +54,13 @@ namespace Viking.Tests.TestsEditMode.GameManager
             int eventInvocationCount = 0;
 
             // Subscribe to the event and increment the counter when invoked
-            gameDataModel.OnMonstersKilledChanged += (killed) => eventInvocationCount++;
+            _gameDataModel.OnMonstersKilledChanged += (killed) => eventInvocationCount++;
 
             // Act
-            gameDataModel.MonstersKilled = expectedMonstersKilled;
+            _gameDataModel.MonstersKilled = expectedMonstersKilled;
 
             // Assert
-            Assert.AreEqual(expectedMonstersKilled, gameDataModel.MonstersKilled);
+            Assert.AreEqual(expectedMonstersKilled, _gameDataModel.MonstersKilled);
             Assert.AreEqual(1, eventInvocationCount);
         }
     }

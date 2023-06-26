@@ -123,6 +123,24 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &107977838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5182153886437420676, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+  m_PrefabInstance: {fileID: 223799917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &107977841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107977838}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.73600566, y: 0.17080522, z: 1.4758195}
+  m_Center: {x: 1.175176, y: 1.6666645, z: 0.22079903}
 --- !u!1001 &223799917
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -141,6 +159,14 @@ PrefabInstance:
     - target: {fileID: 1191099132, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
       propertyPath: m_Value
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942155902546328410, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182153886437420676, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7494948218283135080, guid: 3c66f711e69430684a5fb7e82119d4bc, type: 3}
       propertyPath: m_Name

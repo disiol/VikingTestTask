@@ -364,6 +364,7 @@ GameObject:
   - component: {fileID: 3590565633658594998}
   - component: {fileID: 3590565633658594997}
   - component: {fileID: 638978407}
+  - component: {fileID: 7522794599614619716}
   m_Layer: 0
   m_Name: Mutant
   m_TagString: Monster
@@ -419,6 +420,20 @@ CapsuleCollider:
   m_Height: 2.2
   m_Direction: 1
   m_Center: {x: 0, y: 0.88, z: 0.16}
+--- !u!114 &7522794599614619716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3590565633658594999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ec563442c94d54800921d69bf94e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabSphereOfLife: {fileID: 3590565633985699057}
+  livesIndicator: {fileID: 3590565634123775504}
 --- !u!1 &3590565633985699057
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +449,7 @@ GameObject:
   - component: {fileID: 3590565633985699055}
   m_Layer: 0
   m_Name: SphereLife
-  m_TagString: Untagged
+  m_TagString: LifePlas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
