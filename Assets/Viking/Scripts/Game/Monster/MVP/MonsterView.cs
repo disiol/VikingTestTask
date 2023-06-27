@@ -1,6 +1,7 @@
 using System;
 using TMPro;
 using UnityEngine;
+using Viking.Scripts.Game.MonsterManager.MVP;
 
 namespace Viking.Scripts.Game.MonsterManager
 {

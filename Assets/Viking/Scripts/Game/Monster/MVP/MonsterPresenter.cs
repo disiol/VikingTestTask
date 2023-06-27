@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-namespace Viking.Scripts.Game.MonsterManager
+namespace Viking.Scripts.Game.MonsterManager.MVP
 {
     public class MonsterPresenter:MonoBehaviour
     {
@@ -17,13 +17,19 @@ namespace Viking.Scripts.Game.MonsterManager
             model.MonsterDeathEvent += OnMonsterDeath;
         }
 
+        public void OnMonsterHasDemege()
+        {
+            
+        }
+
         public void OnMonsterDeath()
         {
             _model.IncreaseLives();
             // Perform other logic, such as respawning the monster
 
-            // Spawn the sphere of life
+            // Spaw the sphere of life
             SpawnSphereOfLife();
+            
 
             // Update the _view or notify other components about the changes
         }

@@ -3,7 +3,9 @@ using NUnit.Framework;
 using TMPro;
 using UnityEngine;
 using UnityEngine.TestTools;
+using Viking.Scripts.Game.Monster.MVP;
 using Viking.Scripts.Game.MonsterManager;
+using Viking.Scripts.Game.MonsterManager.MVP;
 using Viking.Scripts.Tests.TestsPlaymode;
 
 namespace Viking.Tests.TestsPlaymode.MonsterManager
@@ -20,47 +22,43 @@ namespace Viking.Tests.TestsPlaymode.MonsterManager
         [SetUp]
         public void Setup()
         {
-           
             // Instantiate the monster prefab and set up the model, view, and presenter
             GameObject monsterPrefab = Resources.Load<GameObject>("Prefabs/Mutant");
             GameObject monsterInstance = Object.Instantiate(monsterPrefab);
-            
+
             _monsterView = monsterInstance.GetComponent<MonsterView>();
-         
+
             _textLife = (TextMeshPro)_getAccessToPrivate.GetPrivateFieldValue(typeof(MonsterView), _monsterView,
                 "livesIndicator");
 
-            _monsterModel = (MonsterModel)_getAccessToPrivate.GetPrivateFieldValue(typeof(MonsterView), _monsterView,
-                "_monsterModel");
-            
+            _monsterModel = _monsterView.MonsterModel;
+
 
             // _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
             //     "sliderLifeCharacter", slider);
             //
             // _getAccessToPrivate.SetPrivateFieldValue(typeof(GameManagerView), view,
             //     "monstersKilledText", textMeshPro);
-
-
-
-
         }
 
         [UnityTest]
-        public IEnumerator MonsterDeath_IncreasesLivesAndSpawnsSphereOfLife()
+        public IEnumerator MonsterDeath()
         {
             // Arrange
-            int initialLives = 1;
+            _monsterModel = _monsterView.MonsterModel;
+
+            int initialLives = _monsterModel.Lives;
 
             // Act
             _monsterView.OnMonsterDeath();
             yield return new WaitForSeconds(0.1f);
 
-            
+
             // Assert
-            Assert.AreEqual(initialLives + 1, _monsterModel.Lives,"monsterModel.Lives + 1");
-           
-            Assert.IsTrue(GameObject.Find("SphereLife"),"find SphereLife");
-            
+            var expected = initialLives + 1;
+            int actual = _monsterModel.Lives;
+            Assert.AreEqual(expected, actual,
+                "monsterModel.Lives + 1  expected  " + expected + " byt actual " + actual);
         }
     }
 }

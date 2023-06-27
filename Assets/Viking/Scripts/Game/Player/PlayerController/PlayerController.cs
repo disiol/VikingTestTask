@@ -121,14 +121,14 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             _movementInput = context.ReadValue<Vector2>().normalized;
 
-            Debug.Log("PlayerController OnMovement _movementInput = " + _movementInput);
+            // Debug.Log("PlayerController OnMovement _movementInput = " + _movementInput);
         }
 
         public void OnLook(InputAction.CallbackContext context)
         {
             _lukInput = context.ReadValue<Vector2>().normalized;
 
-            Debug.Log("PlayerController OnLook _lukInput = " + _lukInput);
+            // Debug.Log("PlayerController OnLook _lukInput = " + _lukInput);
         }
 
         public void OnAttack(InputAction.CallbackContext context)
