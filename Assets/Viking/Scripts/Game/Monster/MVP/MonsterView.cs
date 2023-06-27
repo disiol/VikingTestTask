@@ -1,18 +1,19 @@
 using System;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using Viking.Scripts.Game.Monster.MVP;
 using Viking.Scripts.Game.MonsterManager.MVP;
 
 namespace Viking.Scripts.Game.MonsterManager
 {
     public class MonsterView : MonoBehaviour
     {
-        [SerializeField] private GameObject prefabSphereOfLife;
         [SerializeField] private TextMeshPro livesIndicator;
 
-        private MonsterPresenter _presenter;
-        private MonsterModel _monsterModel;
-        private MonsterView _monsterView;
+        [HideInInspector] public MonsterPresenter Presenter;
+        [HideInInspector] public MonsterView monsterView;
+        [HideInInspector] public MonsterModel MonsterModel;
 
         private void Start()
         {
@@ -21,22 +22,18 @@ namespace Viking.Scripts.Game.MonsterManager
 
         private void Initialize()
         {
-            this._monsterModel = new MonsterModel();
-            this._monsterView = gameObject.GetComponent<MonsterView>();
-            this._presenter = new MonsterPresenter(_monsterModel, _monsterView);
+            this.MonsterModel = new MonsterModel();
+            this.monsterView = gameObject.GetComponent<MonsterView>();
+            this.Presenter = new MonsterPresenter(MonsterModel, monsterView);
         }
 
         public void OnMonsterDeath()
         {
-            _presenter.OnMonsterDeath();
+            Presenter.OnMonsterDeath();
         }
 
-        public void SpawnSphereOfLife(Vector3 position)
-        {
-            Instantiate(prefabSphereOfLife, position, Quaternion.identity);
-        }
 
-        public void UpdateLives(int modelLives)
+        public void UpdateLivesIndicator(int modelLives)
         {
             livesIndicator.text = modelLives.ToString();
         }

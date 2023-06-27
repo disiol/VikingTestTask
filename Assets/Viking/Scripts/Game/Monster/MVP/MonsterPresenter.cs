@@ -1,12 +1,13 @@
 
 using UnityEngine;
+using Viking.Scripts.Game.Monster.MVP;
 
 namespace Viking.Scripts.Game.MonsterManager.MVP
 {
-    public class MonsterPresenter:MonoBehaviour
+    public class MonsterPresenter
     {
-        private MonsterModel _model;
-        private MonsterView _view;
+        private readonly MonsterModel _model;
+        private readonly MonsterView _view;
 
         public MonsterPresenter(MonsterModel model, MonsterView view)
         {
@@ -17,32 +18,23 @@ namespace Viking.Scripts.Game.MonsterManager.MVP
             model.MonsterDeathEvent += OnMonsterDeath;
         }
 
-        public void OnMonsterHasDemege()
+        public void MonsterHasDamage()
         {
-            
+            _model.MonsterHasDamage();
+            UpdateUI();
         }
 
         public void OnMonsterDeath()
         {
             _model.IncreaseLives();
-            // Perform other logic, such as respawning the monster
-
-            // Spaw the sphere of life
-            SpawnSphereOfLife();
-            
-
-            // Update the _view or notify other components about the changes
+            //TODO Generate momstr near pler
         }
 
-        private void SpawnSphereOfLife()
-        {
-            _view.SpawnSphereOfLife(transform.position);
-            // TODO Code to spawn the sphere of life
-        }
+       
         
         private void UpdateUI()
         {
-            _view.UpdateLives(_model.Lives);
+            _view.UpdateLivesIndicator(_model.Lives);
         }
     }
 

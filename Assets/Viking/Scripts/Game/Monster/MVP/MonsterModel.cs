@@ -1,6 +1,6 @@
 using System;
 
-namespace Viking.Scripts.Game.MonsterManager
+namespace Viking.Scripts.Game.Monster.MVP
 {
     public class MonsterModel
     {
@@ -23,6 +23,16 @@ namespace Viking.Scripts.Game.MonsterManager
         public void OnMonsterDeath()
         {
             MonsterDeathEvent?.Invoke();
+        }
+
+        public void MonsterHasDamage()
+        {
+            lives--;
+
+            if (lives < 0) ;
+            {
+                OnMonsterDeath();
+            }
         }
     }
 }
