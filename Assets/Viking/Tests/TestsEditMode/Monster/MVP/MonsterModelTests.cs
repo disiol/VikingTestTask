@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using Viking.Scripts.Game.Monster.MVP;
 
-namespace Viking.Tests.TestsEditMode.MVP
+namespace Viking.Tests.TestsEditMode.Monster.MVP
 {
     public class MonsterModelTests
     {
