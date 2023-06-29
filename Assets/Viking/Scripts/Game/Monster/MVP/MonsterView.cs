@@ -1,11 +1,7 @@
-using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Viking.Scripts.Game.Monster.MVP;
-using Viking.Scripts.Game.MonsterManager.MVP;
 
-namespace Viking.Scripts.Game.MonsterManager
+namespace Viking.Scripts.Game.Monster.MVP
 {
     public class MonsterView : MonoBehaviour
     {
@@ -18,6 +14,7 @@ namespace Viking.Scripts.Game.MonsterManager
         private void Start()
         {
             Initialize();
+            CheckSerializeFieldToNull();
         }
 
         private void Initialize()
@@ -35,7 +32,23 @@ namespace Viking.Scripts.Game.MonsterManager
 
         public void UpdateLivesIndicator(int modelLives)
         {
+            CheckSerializeFieldToNull();
             livesIndicator.text = modelLives.ToString();
         }
+        
+        
+        private bool CheckSerializeFieldToNull()
+        {
+            if (livesIndicator == null)
+            {
+                Debug.Log(
+                    "MonsterView needs livesIndicator to present please make sure one is set in The Inspector");
+                return false;
+            }
+            
+
+            return true;
+        }
+
     }
 }

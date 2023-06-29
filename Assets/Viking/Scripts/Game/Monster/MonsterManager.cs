@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 using Viking.Scripts.Game.GameManager.View;
-using Viking.Scripts.Game.MonsterManager;
+using Viking.Scripts.Game.Monster.MVP;
 
 namespace Viking.Scripts.Game.Monster
 {

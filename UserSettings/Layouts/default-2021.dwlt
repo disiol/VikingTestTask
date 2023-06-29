@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 811
   m_ShowMode: 4
-  m_Title: Test Runner
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 83
+  controlID: 173
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 137
+  controlID: 224
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: InspectorWindow
+  m_Name: Window
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -218,14 +218,14 @@ MonoBehaviour:
     y: 0
     width: 272
     height: 761
-  m_MinSize: {x: 276, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 17}
   - {fileID: 15}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,7 +403,7 @@ MonoBehaviour:
     x: 0
     y: 119
     width: 836
-    height: 374
+    height: 527
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -439,15 +439,15 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 170
-    splitterInitialOffset: 435
+    ID: 255
+    splitterInitialOffset: 364
     currentActiveSplitter: -1
     realSizes:
     - 297
     - 160
     relativeSizes:
-    - 0.65062386
-    - 0.34937614
+    - 0.6498906
+    - 0.3501094
     minSizes:
     - 32
     - 32
@@ -470,9 +470,9 @@ MonoBehaviour:
       uniqueId: '[VikingTestTask][suite]'
       name: VikingTestTask
       fullName: VikingTestTask
-      resultStatus: 1
-      duration: 0.1693818
-      messages: 
+      resultStatus: 2
+      duration: 11.832486
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -486,9 +486,9 @@ MonoBehaviour:
       uniqueId: '[TestsPlaymode.dll][suite]'
       name: TestsPlaymode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsPlaymode.dll
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 10.989935
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -502,9 +502,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/[Viking][suite]
       name: Viking
       fullName: Viking
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 10.946346
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -518,9 +518,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/[Tests][suite]
       name: Tests
       fullName: Viking.Tests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 10.916865
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -534,9 +534,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
       name: TestsPlaymode
       fullName: Viking.Tests.TestsPlaymode
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 10.898893
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -550,9 +550,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager][suite]
       name: GameManager
       fullName: Viking.Tests.TestsPlaymode.GameManager
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.3964614
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -566,9 +566,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
       name: GameManagerViewTests
       fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.3758058
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -582,8 +582,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.OnMonsterKilled_CallPresenterMethod]
       name: OnMonsterKilled_CallPresenterMethod
       fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.OnMonsterKilled_CallPresenterMethod
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1920089
       messages: 
       output: 
       stacktrace: 
@@ -599,8 +599,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateMonstersKilledText_TextMeshProNotNull_UpdateText]
       name: UpdateMonstersKilledText_TextMeshProNotNull_UpdateText
       fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateMonstersKilledText_TextMeshProNotNull_UpdateText
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.0801567
       messages: 
       output: 
       stacktrace: 
@@ -616,6 +616,78 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateProgressBar_SliderNotNull_UpdateSliderValue]
       name: UpdateProgressBar_SliderNotNull_UpdateSliderValue
       fullName: Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests.UpdateProgressBar_SliderNotNull_UpdateSliderValue
+      resultStatus: 2
+      duration: 0.0594082
+      messages: "  Expected: 2\n  But was:  1.0f\n"
+      output: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests+<UpdateProgressBar_SliderNotNull_UpdateSliderValue>d__8.MoveNext
+        () [0x00054] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/GameManager/GameManagerViewTests.cs:78
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
+    - id: 1120
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[Monster][suite]
+      name: Monster
+      fullName: Viking.Tests.TestsPlaymode.Monster
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1117
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/[TestsPlaymode][suite]
+    - id: 1121
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Monster/[TestsPlaymode][Viking.Tests.TestsPlaymode.Monster.MVP][suite]
+      name: MVP
+      fullName: Viking.Tests.TestsPlaymode.Monster.MVP
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1120
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[Monster][suite]
+    - id: 1108
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Monster/MVP/[TestsPlaymode][Viking.Tests.TestsPlaymode.Monster.MVP.MonsterViewTests][suite]
+      name: MonsterViewTests
+      fullName: Viking.Tests.TestsPlaymode.Monster.MVP.MonsterViewTests
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1121
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Monster/[TestsPlaymode][Viking.Tests.TestsPlaymode.Monster.MVP][suite]
+    - id: 1109
+      uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText]
+      name: UpdateLivesIndicator_ShouldUpdateText
+      fullName: Viking.Tests.TestsPlaymode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText
       resultStatus: 0
       duration: 0
       messages: 
@@ -627,14 +699,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1024
-      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/GameManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.GameManager.GameManagerViewTests][suite]
+      parentId: 1108
+      parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Monster/MVP/[TestsPlaymode][Viking.Tests.TestsPlaymode.Monster.MVP.MonsterViewTests][suite]
     - id: 1001
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests][suite]
       name: MonsterGeneratorTests
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3035349
       messages: 
       output: 
       stacktrace: 
@@ -649,8 +721,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters]
       name: GenerateMonsters_GeneratesExpectedNumberOfMonsters
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_GeneratesExpectedNumberOfMonsters
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1935901
       messages: 
       output: 
       stacktrace: 
@@ -666,8 +738,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterGeneratorTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain]
       name: GenerateMonsters_MonstersOnTerrain
       fullName: Viking.Tests.TestsPlaymode.MonsterGeneratorTests.GenerateMonsters_MonstersOnTerrain
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.0797929
       messages: 
       output: 
       stacktrace: 
@@ -683,8 +755,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterManager][suite]
       name: MonsterManager
       fullName: Viking.Tests.TestsPlaymode.MonsterManager
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2390148
       messages: 
       output: 
       stacktrace: 
@@ -699,8 +771,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterManager/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterManager.MonsterTests][suite]
       name: MonsterTests
       fullName: Viking.Tests.TestsPlaymode.MonsterManager.MonsterTests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.2089334
       messages: 
       output: 
       stacktrace: 
@@ -715,8 +787,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/MonsterManager/MonsterTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.MonsterManager.MonsterTests.MonsterDeath]
       name: MonsterDeath
       fullName: Viking.Tests.TestsPlaymode.MonsterManager.MonsterTests.MonsterDeath
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1839064
       messages: 
       output: 
       stacktrace: 
@@ -732,9 +804,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player][suite]
       name: Player
       fullName: Viking.Tests.TestsPlaymode.Player
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 2.042846
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -748,9 +820,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests][suite]
       name: PlayerAnimControllerTests
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 2.0161648
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -764,11 +836,18 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly]
       name: Attack_ShouldSetAnimatorParameterCorrectly
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Attack_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.2329059
+      messages: "  _animController.Attack(true)\n  Expected: True\n  But was:  False\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests+<Attack_ShouldSetAnimatorParameterCorrectly>d__6.MoveNext
+        () [0x00095] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:77
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -781,8 +860,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly]
       name: Damage_ShouldSetAnimatorParameterCorrectly
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Damage_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3014913
       messages: 
       output: 
       stacktrace: 
@@ -798,8 +877,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly]
       name: Die_ShouldSetAnimatorParameterCorrectly
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Die_ShouldSetAnimatorParameterCorrectly
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1859554
       messages: 
       output: 
       stacktrace: 
@@ -815,11 +894,18 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly]
       name: Run_ShouldSetAnimatorParametersCorrectly
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Run_ShouldSetAnimatorParametersCorrectly
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 1.0935136
+      messages: "  idle\n  Expected: False\n  But was:  True\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests+<Run_ShouldSetAnimatorParametersCorrectly>d__4.MoveNext
+        () [0x000bb] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests.cs:43
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -832,8 +918,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/Player/PlayerAnimControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly]
       name: Stop_ShouldSetAnimatorParametersCorrectly
       fullName: Viking.Tests.TestsPlaymode.Player.PlayerAnimControllerTests.Stop_ShouldSetAnimatorParametersCorrectly
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1807334
       messages: 
       output: 
       stacktrace: 
@@ -849,9 +935,9 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests][suite]
       name: PlayerControllerTests
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 5.3806434
+      messages: One or more child tests had errors
       output: 
       stacktrace: 
       notRunnable: 0
@@ -865,8 +951,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse]
       name: Attack_Canceled_SetsIsAttackingToFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Attack_Canceled_SetsIsAttackingToFalse
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3252033
       messages: 
       output: 
       stacktrace: 
@@ -882,8 +968,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue]
       name: Fire_Started_SetsIsAttackingToTrue
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Fire_Started_SetsIsAttackingToTrue
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3193723
       messages: 
       output: 
       stacktrace: 
@@ -899,8 +985,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse]
       name: IsAttacking_DefaultValue_IsFalse
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.IsAttacking_DefaultValue_IsFalse
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.3292626
       messages: 
       output: 
       stacktrace: 
@@ -916,11 +1002,20 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back]
       name: Player_Back
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Back
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.4576057
+      messages: "  Player_Back. Mover object moved from (0.00, -0.67, 0.00) to (0.00,
+        -0.67, -12.28)\n  Expected: (0.00, -0.67, -12.28)\n  But was:  (0.00, -1.00,
+        0.00)\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Back>d__10.MoveNext
+        () [0x001dd] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:137
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -933,11 +1028,20 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward]
       name: Player_Forward
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Forward
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.4616778
+      messages: "  Player_Forward. Mover object moved from (0.00, -0.75, -0.20) to
+        (0.00, -0.06, 1.00)\n  Expected: (0.00, -0.06, 1.00)\n  But was:  (0.00,
+        -0.95, -0.31)\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Forward>d__9.MoveNext
+        () [0x001ee] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:97
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -950,11 +1054,20 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left]
       name: Player_Left
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Left
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.987562
+      messages: "  Player_Left. Mover object moved from (0.00, -0.67, -0.16) to (-1.00,
+        -0.05, -0.01)\n  Expected: (-1.00, -0.05, -0.01)\n  But was:  (-0.45, -0.49,
+        -0.75)\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Left>d__12.MoveNext
+        () [0x001f3] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:219
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -967,11 +1080,20 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right]
       name: Player_Right
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.Player_Right
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.6063558
+      messages: "  Player_Left. Mover object moved from (-0.14, -0.91, -0.14) to
+        (16.10, -0.91, -0.14)\n  Expected: (16.10, -0.91, -0.14)\n  But was:  (-0.29,
+        -0.91, -0.29)\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<Player_Right>d__11.MoveNext
+        () [0x001e2] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:178
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -984,11 +1106,18 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft]
       name: RotatesPlayerLeft
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerLeft
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 0.7011538
+      messages: "  RotatesPlayerLeft\n  Expected: less than 0.0f\n  But was:  0.0f\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerLeft>d__14.MoveNext
+        () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:285
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1001,11 +1130,19 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/PlayerControllerTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight]
       name: RotatesPlayerRight
       fullName: Viking.Tests.TestsPlaymode.PlayerControllerTests.RotatesPlayerRight
-      resultStatus: 0
-      duration: 0
-      messages: 
+      resultStatus: 2
+      duration: 1.1518731
+      messages: "  RotatesPlayerRight\n  Expected: greater than 0.0f\n  But was: 
+        0.0f\n"
       output: 
-      stacktrace: 
+      stacktrace: 'at Viking.Tests.TestsPlaymode.PlayerControllerTests+<RotatesPlayerRight>d__13.MoveNext
+        () [0x0016d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Player/PlayerControllerTests.cs:253
+
+        at
+        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/PackageCache/com.unity.test-framework@1.1.33/UnityEngine.TestRunner/NUnitExtensions/Attributes/TestEnumerator.cs:46
+
+'
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -1018,8 +1155,8 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
       name: StartScreenViewTests
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.515935
       messages: 
       output: 
       stacktrace: 
@@ -1034,10 +1171,12 @@ MonoBehaviour:
       uniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/StartScreenViewTests/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene]
       name: PlayButton_Clicked_LoadsGameScene
       fullName: Viking.Tests.TestsPlaymode.StartScreenViewTests.PlayButton_Clicked_LoadsGameScene
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 1.3875719
       messages: 
-      output: 
+      output: 'Play button clicked
+
+'
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -1047,12 +1186,17 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1014
       parentUniqueId: TestsPlaymode.dll/Viking/Tests/TestsPlaymode/[TestsPlaymode][Viking.Tests.TestsPlaymode.StartScreenViewTests][suite]
-    m_ResultText: MonsterModelTests (0.073s)
+    m_ResultText: 'VikingTestTask (11.832s)
+
+      ---
+
+      One or more child tests
+      had errors'
     m_ResultStacktrace: 
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8adb1070
-      m_LastClickedID: 1880152970
+      scrollPos: {x: 0, y: 120}
+      m_SelectedIDs: 091539ae
+      m_LastClickedID: -1371990775
       m_ExpandedIDs: 7bbc6b8a6fbe709d9e4e88ad091539ae0e212ac4c0625bcc72da41d22171a5df093ec5e00479f1ec6d5071ed6f0512f35c0030f6ccfd79fe4e951402065be40492ecaf1486979e388adb1070b470f871f9d21a74ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -1088,7 +1232,7 @@ MonoBehaviour:
       name: VikingTestTask
       fullName: VikingTestTask
       resultStatus: 2
-      duration: 93.09317
+      duration: 0.243927
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1104,7 +1248,7 @@ MonoBehaviour:
       name: TestsEditMode.dll
       fullName: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Library/ScriptAssemblies/TestsEditMode.dll
       resultStatus: 2
-      duration: 92.955025
+      duration: 0.0780601
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1120,7 +1264,7 @@ MonoBehaviour:
       name: Viking
       fullName: Viking
       resultStatus: 2
-      duration: 92.95457
+      duration: 0.076754
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1136,7 +1280,7 @@ MonoBehaviour:
       name: Tests
       fullName: Viking.Tests
       resultStatus: 2
-      duration: 92.95104
+      duration: 0.0721493
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1152,7 +1296,7 @@ MonoBehaviour:
       name: TestsEditMode
       fullName: Viking.Tests.TestsEditMode
       resultStatus: 2
-      duration: 92.94739
+      duration: 0.0634159
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1168,7 +1312,7 @@ MonoBehaviour:
       name: GameManager
       fullName: Viking.Tests.TestsEditMode.GameManager
       resultStatus: 2
-      duration: 0.321902
+      duration: 7.4478025
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1184,7 +1328,7 @@ MonoBehaviour:
       name: GameDataModelTests
       fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests
       resultStatus: 1
-      duration: 0.0057524
+      duration: 0.0584229
       messages: 
       output: 
       stacktrace: 
@@ -1200,7 +1344,7 @@ MonoBehaviour:
       name: CurrentLives_SetValue_ShouldSetCurrentLivesAndInvokeEvent
       fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.CurrentLives_SetValue_ShouldSetCurrentLivesAndInvokeEvent
       resultStatus: 1
-      duration: 0.0003032
+      duration: 0.0308023
       messages: 
       output: 
       stacktrace: 
@@ -1217,7 +1361,7 @@ MonoBehaviour:
       name: MaxLives_SetValue_ShouldSetMaxLives
       fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MaxLives_SetValue_ShouldSetMaxLives
       resultStatus: 1
-      duration: 0.0002184
+      duration: 0.0007038
       messages: 
       output: 
       stacktrace: 
@@ -1234,7 +1378,7 @@ MonoBehaviour:
       name: MonstersKilled_SetValue_ShouldSetMonstersKilledAndInvokeEvent
       fullName: Viking.Tests.TestsEditMode.GameManager.GameDataModelTests.MonstersKilled_SetValue_ShouldSetMonstersKilledAndInvokeEvent
       resultStatus: 1
-      duration: 0.0002357
+      duration: 0.0009639
       messages: 
       output: 
       stacktrace: 
@@ -1251,7 +1395,7 @@ MonoBehaviour:
       name: GameManagerPresenterTests
       fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests
       resultStatus: 2
-      duration: 0.3120729
+      duration: 7.1865354
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1267,7 +1411,7 @@ MonoBehaviour:
       name: OnCurrentLivesChanged_UpdateUI
       fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnCurrentLivesChanged_UpdateUI
       resultStatus: 1
-      duration: 0.2131834
+      duration: 7.086643
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1289,7 +1433,7 @@ MonoBehaviour:
       name: OnMonsterKilled_UpdateModelAndUI
       fullName: Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests.OnMonsterKilled_UpdateModelAndUI
       resultStatus: 2
-      duration: 0.0169344
+      duration: 0.0150478
       messages: "  Expected: 1\n  But was:  0\n"
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -1309,12 +1453,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1005
       parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/GameManager/[TestsEditMode][Viking.Tests.TestsEditMode.GameManager.GameManagerPresenterTests][suite]
-    - id: 1053
-      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[TestsEditMode][Viking.Tests.TestsEditMode.MVP][suite]
-      name: MVP
-      fullName: Viking.Tests.TestsEditMode.MVP
+    - id: 1023
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[Monster][suite]
+      name: Monster
+      fullName: Viking.Tests.TestsEditMode.Monster
       resultStatus: 2
-      duration: 92.6215
+      duration: 0.0598037
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1323,14 +1467,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1052
+      parentId: 1022
       parentUniqueId: TestsEditMode.dll/Viking/Tests/[TestsEditMode][suite]
-    - id: 1038
-      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests][suite]
-      name: MonsterModelTests
-      fullName: Viking.Tests.TestsEditMode.MVP.MonsterModelTests
+    - id: 1024
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP][suite]
+      name: MVP
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP
       resultStatus: 2
-      duration: 92.57266
+      duration: 0.0554505
       messages: One or more child tests had errors
       output: 
       stacktrace: 
@@ -1339,14 +1483,30 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1053
-      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[TestsEditMode][Viking.Tests.TestsEditMode.MVP][suite]
-    - id: 1041
-      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests.IncreaseLives_IncrementsLives]
+      parentId: 1023
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/[Monster][suite]
+    - id: 1001
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests][suite]
+      name: MonsterModelTests
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests
+      resultStatus: 1
+      duration: 0.0074975
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP][suite]
+    - id: 1004
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.IncreaseLives_IncrementsLives]
       name: IncreaseLives_IncrementsLives
-      fullName: Viking.Tests.TestsEditMode.MVP.MonsterModelTests.IncreaseLives_IncrementsLives
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.IncreaseLives_IncrementsLives
       resultStatus: 1
-      duration: 0.001181
+      duration: 0.00133
       messages: 
       output: 
       stacktrace: 
@@ -1356,14 +1516,14 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1038
-      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests][suite]
-    - id: 1040
-      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests.MonsterHasDamage_DeathEventRaisedWhenLivesReachZero]
+      parentId: 1001
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests][suite]
+    - id: 1003
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.MonsterHasDamage_DeathEventRaisedWhenLivesReachZero]
       name: MonsterHasDamage_DeathEventRaisedWhenLivesReachZero
-      fullName: Viking.Tests.TestsEditMode.MVP.MonsterModelTests.MonsterHasDamage_DeathEventRaisedWhenLivesReachZero
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.MonsterHasDamage_DeathEventRaisedWhenLivesReachZero
       resultStatus: 1
-      duration: 92.55505
+      duration: 0.0013321
       messages: 
       output: 
       stacktrace: 
@@ -1373,41 +1533,163 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1038
-      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests][suite]
-    - id: 1039
-      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests.MonsterHasDamage_DecreasesLives]
+      parentId: 1001
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests][suite]
+    - id: 1002
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.MonsterHasDamage_DecreasesLives]
       name: MonsterHasDamage_DecreasesLives
-      fullName: Viking.Tests.TestsEditMode.MVP.MonsterModelTests.MonsterHasDamage_DecreasesLives
-      resultStatus: 2
-      duration: 0.0013926
-      messages: "  MonsterHasDamage_DecreasesLives  expected  0 byt newLives 2\n 
-        Expected: 0\n  But was:  2\n"
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests.MonsterHasDamage_DecreasesLives
+      resultStatus: 1
+      duration: 0.0003818
+      messages: 
       output: 
-      stacktrace: 'at Viking.Tests.TestsEditMode.MVP.MonsterModelTests.MonsterHasDamage_DecreasesLives
-        () [0x00020] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs:18
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterModelTests][suite]
+    - id: 1005
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests][suite]
+      name: MonsterPresenterTests
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests
+      resultStatus: 2
+      duration: 0.0454288
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP][suite]
+    - id: 1006
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests.MonsterHasDamage_CallsModelMonsterHasDamage]
+      name: MonsterHasDamage_CallsModelMonsterHasDamage
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests.MonsterHasDamage_CallsModelMonsterHasDamage
+      resultStatus: 2
+      duration: 0.0229442
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+        MonsterView needs livesIndicator to present please make sure
+        one is set in The Inspector
 
 '
+      stacktrace: "  at Viking.Scripts.Game.Monster.MVP.MonsterView.UpdateLivesIndicator
+        (System.Int32 modelLives) [0x00008] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs:36
+        \n  at Viking.Scripts.Game.Monster.MVP.MonsterPresenter.UpdateUI () [0x00001]
+        in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs:33
+        \n  at Viking.Scripts.Game.Monster.MVP.MonsterPresenter.MonsterHasDamage
+        () [0x0000d] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs:20
+        \n  at Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests.MonsterHasDamage_CallsModelMonsterHasDamage
+        () [0x00003] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs:29
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1038
-      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.MVP.MonsterModelTests][suite]
-    m_ResultText: 'VikingTestTask (93.093s)
+      parentId: 1005
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests][suite]
+    - id: 1007
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests.OnMonsterDeath_CallsModelIncreaseLives]
+      name: OnMonsterDeath_CallsModelIncreaseLives
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests.OnMonsterDeath_CallsModelIncreaseLives
+      resultStatus: 1
+      duration: 0.0012944
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
 
-      ---
-
-      One or more child tests
-      had errors'
-    m_ResultStacktrace: 
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1005
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterPresenterTests][suite]
+    - id: 1008
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests][suite]
+      name: MonsterViewTests
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests
+      resultStatus: 2
+      duration: 0.0264043
+      messages: One or more child tests had errors
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1024
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP][suite]
+    - id: 1009
+      uniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText]
+      name: UpdateLivesIndicator_ShouldUpdateText
+      fullName: Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText
+      resultStatus: 2
+      duration: 0.0013182
+      messages: 'System.NullReferenceException : Object reference not set to an instance
+        of an object'
+      output: 
+      stacktrace: "  at Viking.Scripts.Game.Monster.MVP.MonsterView.UpdateLivesIndicator
+        (System.Int32 modelLives) [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs:34
+        \n  at Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText
+        () [0x00017] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs:21
+        \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+        at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+        invokeAttr, System.Reflection.Binder binder, System.Object[] parameters,
+        System.Globalization.CultureInfo culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: TestsEditMode.dll/Viking/Tests/TestsEditMode/Monster/MVP/[TestsEditMode][Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests][suite]
+    m_ResultText: "UpdateLivesIndicator_ShouldUpdateText (0.001s)\n---\nSystem.NullReferenceException
+      : Object reference not set to an instance of an object\n---\nat Viking.Scripts.Game.Monster.MVP.MonsterView.UpdateLivesIndicator
+      (System.Int32 modelLives) [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs:34
+      \n  at Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText
+      () [0x00017] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs:21
+      \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0"
+    m_ResultStacktrace: "  at Viking.Scripts.Game.Monster.MVP.MonsterView.UpdateLivesIndicator
+      (System.Int32 modelLives) [0x00001] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs:34
+      \n  at Viking.Tests.TestsEditMode.Monster.MVP.MonsterViewTests.UpdateLivesIndicator_ShouldUpdateText
+      () [0x00017] in /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs:21
+      \n  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)\n 
+      at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags
+      invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo
+      culture) [0x0006a] in <131fc96242a743e6b00bc8a8663638a3>:0 "
     m_TestListState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 091539ae
-      m_LastClickedID: -1371990775
-      m_ExpandedIDs: d13e049b091539ae919849afabb99fbad0d6ee043eeb8716857ed4321599fc597994125f92c2e15f9ebce267dfc8d46affffff7f
+      scrollPos: {x: 0, y: 11}
+      m_SelectedIDs: 62ed181b
+      m_LastClickedID: 454618466
+      m_ExpandedIDs: 091539ae919849af2f1c27b466ff6ab9abb99fba7dc5bac139d030ccc33b22ecd0d6ee043eeb8716857ed432e46eff321599fc59fcd88d5a7994125f92c2e15f9ebce267dfc8d46affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1468,8 +1750,8 @@ MonoBehaviour:
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 1
+  repositoryProgressHasUpdate: 0
+  appManagerProgressHasUpdate: 0
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -1555,8 +1837,8 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: '[main]'
@@ -1569,11 +1851,20 @@ MonoBehaviour:
         - 0414e6cc0ecf4b9ea050fb787c833c7a
         - 4c8bd5030d894da88284ef203f2703c3
         - c5f7363f7c44477889d969cc01f77c62
+        - 186cae0718d945d4aa552a34cfce4a37
         - b7d4eff6e861442ea06db88fcd10fef6
         - c02345e54b4d46689c2856e84b082277
         - e2ec563442c94d54800921d69bf94e26
         - 295ae06edfec8440798a32d68e7ff360
+        - a56c99b432e9475b481348b63b327ad6
+        - 457afb0237034288b2cace1e3cf92355
+        - 2096745ad5c641a1b0ce3538c29c0925
+        - 147e9d081a7d44ec9334d39a60c3b315
+        - ba998e42c74148b692ee313e5493bddd
         - d1cb4a55614d845b790d5b4f5fa626ea
+        - 1b9843b1fe674b519ac5ce2e28954445
+        - 5863764dc10d4606a7151346c943e226
+        - e9110ebff4584bf89205e7cc3a384c7b
         - 0195533329904619843fcc0f2cd5956f
         - 0b5f1686643f4e03b280a9371094e3eb
         values:
@@ -1649,8 +1940,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/MonsterManager
-          label: MonsterManager
+        - path: Assets/Viking/Scripts/Game/Monster
+          label: Monster
           level: 4
           isFolder: 1
           isContainer: 0
@@ -1667,7 +1958,25 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/MonsterManager/MVP
+        - path: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+          label: MonsterManager.cs
+          level: 5
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+            projectPath: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets/Viking/Scripts/Game/Monster/MVP
           label: MVP
           level: 5
           isFolder: 1
@@ -1685,7 +1994,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
+        - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
           label: MonsterPresenter.cs
           level: 6
           isFolder: 0
@@ -1697,13 +2006,13 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-            projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
+            path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+            projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
-        - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
+        - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
           label: MonsterView.cs
           level: 6
           isFolder: 0
@@ -1715,9 +2024,9 @@ MonoBehaviour:
           checkState: 0
           isLocked: 0
           gitStatusEntry:
-            path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-            projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
+            path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+            projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
             originalPath: 
             indexStatus: 0
             workTreeStatus: 3
@@ -1739,6 +2048,96 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode
+          label: TestsEditMode
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/Monster
+          label: Monster
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP
+          label: MVP
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+          label: MonsterPresenterTests.cs
+          level: 6
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+            projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 3
+        - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+          label: MonsterViewTests.cs
+          level: 6
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+            projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 3
         - path: Assets/Viking/Tests/TestsPlaymode
           label: TestsPlaymode
           level: 3
@@ -1757,6 +2156,60 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsPlaymode/Monster
+          label: Monster
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP
+          label: MVP
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+          label: MonsterViewTests.cs
+          level: 6
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 1
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+            fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+            projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+            originalPath: 
+            indexStatus: 4
+            workTreeStatus: 3
         - path: Assets/Viking/Tests/TestsPlaymode/MonsterManager
           label: MonsterManager
           level: 4
@@ -1799,11 +2252,25 @@ MonoBehaviour:
         - Assets/Viking
         - Assets/Viking/Scripts
         - Assets/Viking/Scripts/Game
-        - Assets/Viking/Scripts/Game/MonsterManager
-        - Assets/Viking/Scripts/Game/MonsterManager/MVP
+        - Assets/Viking/Scripts/Game/Monster
+        - Assets/Viking/Scripts/Game/Monster/MVP
         - Assets/Viking/Tests
+        - Assets/Viking/Tests/TestsEditMode
+        - Assets/Viking/Tests/TestsEditMode/Monster
+        - Assets/Viking/Tests/TestsEditMode/Monster/MVP
+        - Assets/Viking/Tests/TestsEditMode/MVP
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster
+        - Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP
         - Assets/Viking/Tests/TestsPlaymode
+        - Assets/Viking/Tests/TestsPlaymode/Monster
+        - Assets/Viking/Tests/TestsPlaymode/Monster/MVP
         - Assets/Viking/Tests/TestsPlaymode/MonsterManager
+        - UserSettings
+        - UserSettings/Layouts
         values:
         - path: Assets
           label: Assets
@@ -1877,8 +2344,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/MonsterManager
-          label: MonsterManager
+        - path: Assets/Viking/Scripts/Game/Monster
+          label: Monster
           level: 4
           isFolder: 1
           isContainer: 0
@@ -1895,7 +2362,7 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: Assets/Viking/Scripts/Game/MonsterManager/MVP
+        - path: Assets/Viking/Scripts/Game/Monster/MVP
           label: MVP
           level: 5
           isFolder: 1
@@ -1931,6 +2398,186 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode
+          label: TestsEditMode
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/Monster
+          label: Monster
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP
+          label: MVP
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP
+          label: MVP
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets
+          label: MonsterModelTests.cs -> Assets
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking
+          label: Viking
+          level: 6
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests
+          label: Tests
+          level: 7
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode
+          label: TestsEditMode
+          level: 8
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster
+          label: Monster
+          level: 9
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP
+          label: MVP
+          level: 10
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: Assets/Viking/Tests/TestsPlaymode
           label: TestsPlaymode
           level: 3
@@ -1949,9 +2596,81 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsPlaymode/Monster
+          label: Monster
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP
+          label: MVP
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
         - path: Assets/Viking/Tests/TestsPlaymode/MonsterManager
           label: MonsterManager
           level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings/Layouts
+          label: Layouts
+          level: 1
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -2067,8 +2786,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/MonsterManager
-        label: MonsterManager
+      - path: Assets/Viking/Scripts/Game/Monster
+        label: Monster
         level: 4
         isFolder: 1
         isContainer: 0
@@ -2085,7 +2804,25 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/MonsterManager/MVP
+      - path: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+        label: MonsterManager.cs
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+          projectPath: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets/Viking/Scripts/Game/Monster/MVP
         label: MVP
         level: 5
         isFolder: 1
@@ -2103,7 +2840,7 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
+      - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
         label: MonsterPresenter.cs
         level: 6
         isFolder: 0
@@ -2115,13 +2852,13 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-          projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
+          path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+          projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
+      - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
         label: MonsterView.cs
         level: 6
         isFolder: 0
@@ -2133,9 +2870,9 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-          projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
+          path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+          projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -2157,6 +2894,332 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode
+        label: TestsEditMode
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster.meta
+        label: Monster.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster.meta
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster
+        label: Monster
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+        label: MVP.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+          originalPath: Assets/Viking/Tests/TestsEditMode/MVP.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP
+        label: MVP
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+        label: MonsterModelTests.cs.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+          originalPath: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+        label: MonsterPresenterTests.cs
+        level: 6
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 3
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+        label: MonsterPresenterTests.cs.meta
+        level: 7
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+        label: MonsterViewTests.cs
+        level: 6
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 3
+      - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+        label: MonsterViewTests.cs.meta
+        level: 7
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+          projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP
+        label: MVP
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets
+        label: MonsterModelTests.cs -> Assets
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking
+        label: Viking
+        level: 6
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests
+        label: Tests
+        level: 7
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode
+        label: TestsEditMode
+        level: 8
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster
+        label: Monster
+        level: 9
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP
+        label: MVP
+        level: 10
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+        label: MonsterModelTests.cs
+        level: 11
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs
+            -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+          projectPath: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs
+            -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+          originalPath: 
+          indexStatus: 6
+          workTreeStatus: 3
       - path: Assets/Viking/Tests/TestsPlaymode
         label: TestsPlaymode
         level: 3
@@ -2174,6 +3237,114 @@ MonoBehaviour:
           projectPath: 
           originalPath: 
           indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster.meta
+        label: Monster.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsPlaymode/Monster.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster.meta
+          projectPath: Assets/Viking/Tests/TestsPlaymode/Monster.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster
+        label: Monster
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+        label: MVP.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+          projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP
+        label: MVP
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+        label: MonsterViewTests.cs
+        level: 6
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+          projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 3
+      - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+        label: MonsterViewTests.cs.meta
+        level: 7
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 1
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+          projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+          originalPath: 
+          indexStatus: 4
           workTreeStatus: 0
       - path: Assets/Viking/Tests/TestsPlaymode/MonsterManager
         label: MonsterManager
@@ -2211,6 +3382,60 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings/Layouts/default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings/Layouts/default-2021.dwlt
+          fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+          projectPath: UserSettings/Layouts/default-2021.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       selectedNode:
         path: 
         label: 
@@ -2231,33 +3456,119 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
-      projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterPresenter.cs
+    - path: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
+      projectPath: Assets/Viking/Scripts/Game/Monster/MonsterManager.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
-      projectPath: Assets/Viking/Scripts/Game/MonsterManager/MVP/MonsterView.cs
+    - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
+      projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterPresenter.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+      projectPath: Assets/Viking/Scripts/Game/Monster/MVP/MonsterView.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets/Viking/Tests/TestsEditMode/Monster.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster.meta
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP.meta
+      originalPath: Assets/Viking/Tests/TestsEditMode/MVP.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs.meta
+      originalPath: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs.meta
+      indexStatus: 6
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 3
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterPresenterTests.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 3
+    - path: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+      projectPath: Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterViewTests.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs
+        -> Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+      projectPath: Assets/Viking/Tests/TestsEditMode/MVP/MonsterModelTests.cs ->
+        Assets/Viking/Tests/TestsEditMode/Monster/MVP/MonsterModelTests.cs
+      originalPath: 
+      indexStatus: 6
+      workTreeStatus: 3
+    - path: Assets/Viking/Tests/TestsPlaymode/Monster.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster.meta
+      projectPath: Assets/Viking/Tests/TestsPlaymode/Monster.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+      projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+      projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 3
+    - path: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+      projectPath: Assets/Viking/Tests/TestsPlaymode/Monster/MVP/MonsterViewTests.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
     - path: Assets/Viking/Tests/TestsPlaymode/MonsterManager/MonsterTests.cs
       fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/Assets/Viking/Tests/TestsPlaymode/MonsterManager/MonsterTests.cs
       projectPath: Assets/Viking/Tests/TestsPlaymode/MonsterManager/MonsterTests.cs
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 3 changed files
+    - path: UserSettings/Layouts/default-2021.dwlt
+      fullPath: /home/denis/IT/unity/TODO/DadcomGames/VikingTestTask/UserSettings/Layouts/default-2021.dwlt
+      projectPath: UserSettings/Layouts/default-2021.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 17 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-06-26T23:31:58.685+03:00
+      updatedTimeString: 2023-06-29T14:59:07.688+03:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-06-27T07:23:07.788+03:00
+      updatedTimeString: 2023-06-29T20:38:39.074+03:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-06-27T07:23:08.728+03:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -2450,13 +3761,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-06-26T15:39:08.399+03:00
+    updatedTimeString: 2023-06-29T14:59:07.688+03:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-06-26T23:49:02.806+03:00
+    updatedTimeString: 2023-06-29T14:59:07.773+03:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-06-26T23:49:16.757+03:00
+    updatedTimeString: 2023-06-29T20:38:39.074+03:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -2514,7 +3825,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: a80dfffff810ffffe815ffffb61bfffff61bffff5a1dffffae23ffffee23fffffa25ffff002bffff402bffff4c2dffff2a31ffff6a31ffff7833ffffb436fffff436ffff0239ffff5c3cffff9c3cffffa83effff8e43ffffce43ffff3a63ffffc870ffff0871ffff1473ffffbac2ffffcec2ffffeceeffff4cefffffc4efffffc8efffffcceffffff8efffff06f0ffff52f0ffff92f0ffffa4f2ffff38f5ffff78f5ffffa0f7ffffeefaffff4e760000
+      m_ExpandedIDs: b2ebffff2af3ffffdaf6ffffecfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2635,9 +3946,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e4730000
-    m_LastClickedID: 29668
-    m_ExpandedIDs: 00000000da730000dc730000de730000e0730000e2730000e4730000e6730000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f6730000f8730000fa730000fc730000fe730000007400000274000004740000067400005474000000ca9a3b
+    m_SelectedIDs: f2730000
+    m_LastClickedID: 29682
+    m_ExpandedIDs: 00000000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f6730000f8730000fa730000fc730000fe73000000740000027400000474000006740000087400000a7400000c7400000e74000010740000127400001474000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2665,7 +3976,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da730000dc730000de730000e0730000e2730000e4730000e6730000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f6730000f8730000fa730000fc730000fe73000000740000027400000474000006740000
+    m_ExpandedIDs: 00000000e8730000ea730000ec730000ee730000f0730000f2730000f4730000f6730000f8730000fa730000fc730000fe73000000740000027400000474000006740000087400000a7400000c7400000e740000107400001274000014740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2692,7 +4003,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 006e0000c66b0000326b00003c6c0000ac6e0000287400006074000066740000a4730000b2940000aa790000b27900004a740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2717,7 +4028,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1105.5}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 170

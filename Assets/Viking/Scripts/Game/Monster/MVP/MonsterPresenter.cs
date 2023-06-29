@@ -1,8 +1,4 @@
-
-using UnityEngine;
-using Viking.Scripts.Game.Monster.MVP;
-
-namespace Viking.Scripts.Game.MonsterManager.MVP
+namespace Viking.Scripts.Game.Monster.MVP
 {
     public class MonsterPresenter
     {

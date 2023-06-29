@@ -4,8 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.TestTools;
 using Viking.Scripts.Game.Monster.MVP;
-using Viking.Scripts.Game.MonsterManager;
-using Viking.Scripts.Game.MonsterManager.MVP;
 using Viking.Scripts.Tests.TestsPlaymode;
 
 namespace Viking.Tests.TestsPlaymode.MonsterManager
@@ -59,6 +57,27 @@ namespace Viking.Tests.TestsPlaymode.MonsterManager
             int actual = _monsterModel.Lives;
             Assert.AreEqual(expected, actual,
                 "monsterModel.Lives + 1  expected  " + expected + " byt actual " + actual);
+        }
+
+
+        [UnityTest]
+        public IEnumerator UpdateLivesIndicator_ShouldUpdateText()
+        {
+            // Arrange
+
+            int modelLives = 5;
+
+            // Act
+            _monsterView.UpdateLivesIndicator(modelLives);
+
+            yield return null;
+
+
+            // Assert
+            string actual = _textLife.text;
+            string expected = modelLives.ToString();
+            Assert.AreEqual(expected, actual,
+                "UpdateLivesIndicator_ShouldUpdateText  expected  " + expected + " byt actual " + actual);
         }
     }
 }
