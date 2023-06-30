@@ -6,7 +6,7 @@ using UnityEngine.UI;
 using Viking.Scripts.Tests.TestsPlaymode;
 using Viking.Scripts.UI.StartScreen;
 
-namespace Viking.Tests.TestsPlaymode
+namespace Viking.Tests.TestsPlaymode.StartScreen
 {
     public class StartScreenViewTests
     {

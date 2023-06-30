@@ -21,18 +21,8 @@ namespace Viking.Scripts.Game.Monster
         private void Start()
         {
             _monsterView = gameObject.GetComponent<MonsterView>();
-             _vicing = GameObject.Find("Vicing");
-            
+            _vicing = GameObject.Find("Vicing");
         }
-
-        // Spawns a new monster
-        // public void SpawnMonster()
-        // {
-        //     GameObject monster = Instantiate(monsterPrefab, spawnPosition, Quaternion.identity);
-        //     monsters.Add(monster);
-        //     MonsterController monsterController = monster.GetComponent<MonsterController>();
-        //     monsterController.Init(this);
-        // }
 
         // Spawns the sphere of life at the specified position
         private void SpawnSphereOfLife()
@@ -40,7 +30,7 @@ namespace Viking.Scripts.Game.Monster
             Instantiate(prefabSphereOfLife, monsterPrefab.transform.position, Quaternion.identity);
         }
 
-        
+
         // Removes a monster from the manager
         private void RemoveMonster()
         {
@@ -53,8 +43,8 @@ namespace Viking.Scripts.Game.Monster
             if (other.gameObject.CompareTag("PlerWepen"))
             {
                 Debug.Log("MonsterCollision enter to PlerWepen ");
-                
-             
+
+
                 if (_monsterView.MonsterModel.Lives < 0)
                 {
                     _vicing.GetComponent<GameManagerView>().OnMonsterKilled();
@@ -63,12 +53,9 @@ namespace Viking.Scripts.Game.Monster
                 }
                 else
                 {
-                    
                     _monsterView.Presenter.MonsterHasDamage();
-
                 }
             }
         }
     }
-
 }
