@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 using Viking.Scripts.Game.Monster.MVP;
 using Viking.Scripts.Tests.TestsPlaymode;
 
-namespace Viking.Tests.TestsEditMode.Monster
+namespace Viking.Tests.TestsPlaymode.Game.Monstor
 {
     public class MonsterTests
     {

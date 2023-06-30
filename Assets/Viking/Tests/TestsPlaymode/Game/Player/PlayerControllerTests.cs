@@ -6,7 +6,7 @@ using UnityEngine.TestTools;
 using Viking.Scripts.Game.Player.PlayerController;
 using Viking.Scripts.Tests.TestsPlaymode;
 
-namespace Viking.Tests.TestsPlaymode
+namespace Viking.Tests.TestsPlaymode.Game.Player
 {
     public class PlayerControllerTests : InputTestFixture
     {

@@ -5,7 +5,7 @@ using UnityEngine.TestTools;
 using Viking.Scripts.Monster;
 using Viking.Scripts.Tests.TestsPlaymode;
 
-namespace Viking.Tests.TestsPlaymode
+namespace Viking.Tests.TestsPlaymode.StartScreen
 {
     public class MonsterGeneratorTests
     {

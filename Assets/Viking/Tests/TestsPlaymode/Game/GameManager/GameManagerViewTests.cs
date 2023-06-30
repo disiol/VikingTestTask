@@ -9,7 +9,7 @@ using Viking.Scripts.Game.GameManager.Presenter;
 using Viking.Scripts.Game.GameManager.View;
 using Viking.Scripts.Tests.TestsPlaymode;
 
-namespace Viking.Tests.TestsPlaymode.GameManager
+namespace Viking.Tests.TestsPlaymode.Game.GameManager
 {
     public class GameManagerViewTests
     {
