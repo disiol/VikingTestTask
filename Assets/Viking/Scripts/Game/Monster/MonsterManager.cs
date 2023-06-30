@@ -44,16 +44,13 @@ namespace Viking.Scripts.Game.Monster
             {
                 Debug.Log("MonsterCollision enter to PlerWepen ");
 
+                _monsterView.Presenter.MonsterHasDamage();
 
-                if (_monsterView.MonsterModel.Lives < 0)
+                if (_monsterView.MonsterModel.Lives <= 0)
                 {
                     _vicing.GetComponent<GameManagerView>().OnMonsterKilled();
                     SpawnSphereOfLife();
                     RemoveMonster();
-                }
-                else
-                {
-                    _monsterView.Presenter.MonsterHasDamage();
                 }
             }
         }
