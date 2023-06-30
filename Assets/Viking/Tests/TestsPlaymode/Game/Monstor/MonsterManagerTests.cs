@@ -22,6 +22,9 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             // Arrange
             GameObject monsterPrefab = Resources.Load<GameObject>("Prefabs/Mutant");
             GameObject monsterInstance = Object.Instantiate(monsterPrefab);
+            Rigidbody rigidbodyMutant = monsterInstance.GetComponent<Rigidbody>();
+            rigidbodyMutant.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
+
             monsterInstance.transform.position = new Vector3(0, 0, 0);
 
             _monsterView = monsterInstance.GetComponent<MonsterView>();
@@ -33,6 +36,7 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             GameObject gamePrefab = Resources.Load<GameObject>("Prefabs/Game");
 
             GameObject plerWepen = new GameObject();
+            plerWepen.AddComponent<BoxCollider>().isTrigger = true;
             plerWepen.transform.position = new Vector3(10000, 10000, 10000);
             plerWepen.tag = "PlerWepen";
 
@@ -57,7 +61,7 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             TextMeshProUGUI monstersKilledText = (TextMeshProUGUI)_getAccessToPrivate.GetPrivateFieldValue(
                 typeof(GameManagerView), gameManagerView,
                 "monstersKilledText");
-            ;
+
             Assert.AreEqual(expected, monstersKilledText.text);
 
             expected = 0;
