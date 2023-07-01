@@ -16,6 +16,25 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
         private MonsterModel _monsterModel;
         private MonsterView _monsterView;
 
+
+        [TearDown]
+        public void Teardown()
+        {
+            // Find all objects in the scene
+            GameObject[] allObjects = GameObject.FindObjectsOfType<GameObject>();
+
+            // Loop through each object and destroy it
+            foreach (GameObject obj in allObjects)
+            {
+                // Exclude specific objects if needed
+                if (obj.name != "Main Camera" && obj.name != "Directional Light")
+                {
+                    GameObject.Destroy(obj);
+                }
+            }
+        }
+        // Perform cleanup or reset operations
+        
         [UnityTest]
         public IEnumerator OnTriggerEnter_DamagesMonster_WhenCollidingWithPlerWepen()
         {
@@ -51,7 +70,7 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             plerWepen.transform.position = new Vector3(0, 0, 0);
             monsterInstance.transform.position = new Vector3(0, 0, 0);
 
-            yield return new WaitForSeconds(10f);
+            yield return new WaitForSeconds(0.1f);
 
             // Assert
             string expected = "Monsters Killed: 1";
@@ -82,6 +101,7 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             Object.DestroyImmediate(plerWepen);
             Object.DestroyImmediate(gameInstance);
             Object.DestroyImmediate(monsterInstance);
+            Object.DestroyImmediate(findGameObjectWithTagLifePlas);
         }
 
         [UnityTest]
@@ -136,6 +156,7 @@ namespace Viking.Tests.TestsPlaymode.Game.Monstor
             Object.DestroyImmediate(plerWepen);
             Object.DestroyImmediate(gameInstance);
             Object.DestroyImmediate(monsterInstance);
+
         }
 
         [UnityTest]

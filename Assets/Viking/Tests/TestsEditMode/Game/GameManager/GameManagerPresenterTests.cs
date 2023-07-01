@@ -8,7 +8,7 @@ using Viking.Scripts.Game.GameManager.Presenter;
 using Viking.Scripts.Game.GameManager.View;
 using Viking.Scripts.Tests.TestsPlaymode;
 
-namespace Viking.Tests.TestsEditMode.GameManager
+namespace Viking.Tests.TestsEditMode.Game.GameManager
 {
     public class GameManagerPresenterTests
     {  

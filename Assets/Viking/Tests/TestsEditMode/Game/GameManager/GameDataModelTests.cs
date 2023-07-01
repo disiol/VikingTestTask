@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using Viking.Scripts.Game.GameManager.Model;
 
-namespace Viking.Tests.TestsEditMode.GameManager
+namespace Viking.Tests.TestsEditMode.Game.GameManager
 {
     public class GameDataModelTests
     {
