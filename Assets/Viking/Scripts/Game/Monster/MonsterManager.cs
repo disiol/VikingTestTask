@@ -16,12 +16,22 @@ namespace Viking.Scripts.Game.Monster
 
         private List<GameObject> monsters = new List<GameObject>();
         private MonsterView _monsterView;
-        private GameObject _vicing;
+        private MonsterModel _monsterMonsterModel;
+        private GameManagerView _gameManagerView;
+        private Collider _collider;
 
         private void Start()
         {
+            
             _monsterView = gameObject.GetComponent<MonsterView>();
-            _vicing = GameObject.Find("Vicing");
+
+            GameObject game = GameObject.FindWithTag("Game");
+            _gameManagerView = game.GetComponent<GameManagerView>();
+
+            _monsterMonsterModel = _monsterView.MonsterModel;
+
+            _monsterMonsterModel.MonsterDeathEvent += MonsterIsDie;
+            _monsterMonsterModel.MonsterDeathEvent += _monsterView.Presenter.OnMonsterDeath;
         }
 
         // Spawns the sphere of life at the specified position
@@ -30,6 +40,14 @@ namespace Viking.Scripts.Game.Monster
             Instantiate(prefabSphereOfLife, monsterPrefab.transform.position, Quaternion.identity);
         }
 
+        private void OnDestroy()
+        {
+            if (_monsterMonsterModel != null)
+            {
+                _monsterMonsterModel.MonsterDeathEvent -= MonsterIsDie;
+                _monsterMonsterModel.MonsterDeathEvent -= _monsterView.Presenter.OnMonsterDeath;
+            }
+        }
 
         // Removes a monster from the manager
         private void RemoveMonster()
@@ -40,18 +58,29 @@ namespace Viking.Scripts.Game.Monster
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.CompareTag("PlerWepen"))
+            _collider = other;
+   
+            if (_collider.gameObject.CompareTag("PlerWepen"))
             {
+           
+                
                 Debug.Log("MonsterCollision enter to PlerWepen ");
 
                 _monsterView.Presenter.MonsterHasDamage();
+            }
+        }
 
-                if (_monsterView.MonsterModel.Lives <= 0)
-                {
-                    _vicing.GetComponent<GameManagerView>().OnMonsterKilled();
-                    SpawnSphereOfLife();
-                    RemoveMonster();
-                }
+        private void MonsterIsDie()
+        {
+            Debug.Log("MonsterCollision enter to MonsterIsDie ");
+
+            if (_monsterMonsterModel.Lives <= 0)
+            {
+               
+
+                _gameManagerView.OnMonsterKilled();
+                SpawnSphereOfLife();
+                RemoveMonster();
             }
         }
     }

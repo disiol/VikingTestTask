@@ -26,6 +26,7 @@ namespace Viking.Scripts.Game.GameManager.View
 
         public void OnMonsterKilled()
         {
+            Debug.Log("GameManagerView OnMonsterKilled");
             _presenter.OnMonsterKilled();
         }
 

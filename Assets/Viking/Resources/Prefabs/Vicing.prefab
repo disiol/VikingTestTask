@@ -2250,7 +2250,7 @@ GameObject:
   - component: {fileID: 223799919}
   m_Layer: 0
   m_Name: Vicing
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3240,10 +3240,11 @@ GameObject:
   m_Component:
   - component: {fileID: 1526171025426782144}
   - component: {fileID: 258995766064681561}
+  - component: {fileID: 107977841}
   m_Layer: 0
   m_Name: BattleAxe_GEO
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: PlerWepen
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -3332,6 +3333,19 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.60455835, y: -0.07320368, z: 0.32180458}
     m_Extent: {x: 0.36800283, y: 0.08540261, z: 0.73790973}
   m_DirtyAABB: 0
+--- !u!65 &107977841
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8845609332146107010}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.73600566, y: 0.17080522, z: 1.4758195}
+  m_Center: {x: 1.175176, y: 1.6666645, z: 0.22079903}
 --- !u!1 &8908626394528719358
 GameObject:
   m_ObjectHideFlags: 0

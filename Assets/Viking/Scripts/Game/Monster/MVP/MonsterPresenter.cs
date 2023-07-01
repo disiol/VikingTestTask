@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace Viking.Scripts.Game.Monster.MVP
 {
     public class MonsterPresenter
@@ -11,17 +13,19 @@ namespace Viking.Scripts.Game.Monster.MVP
             this._view = view;
 
             // Subscribe to the monster's death event
-            model.MonsterDeathEvent += OnMonsterDeath;
         }
 
         public void MonsterHasDamage()
         {
+            Debug.Log("MonsterPresenter MonsterHasDamage ");
             _model.MonsterHasDamage();
             UpdateUI();
         }
 
         public void OnMonsterDeath()
         {
+            Debug.Log("MonsterPresenter OnMonsterDeath ");
+
             _model.IncreaseLives();
             //TODO Generate momstr near pler
         }

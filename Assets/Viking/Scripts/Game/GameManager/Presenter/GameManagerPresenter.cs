@@ -1,4 +1,5 @@
 using System;
+using UnityEngine;
 using Viking.Scripts.Game.GameManager.Model;
 using Viking.Scripts.Game.GameManager.View;
 
@@ -30,7 +31,10 @@ namespace Viking.Scripts.Game.GameManager.Presenter
 
         public void OnMonsterKilled()
         {
+            Debug.Log("GameManagerPresenter OnMonsterKilled");
+
             _model.MonstersKilled++;
+            
             UpdateUI();
         }
 
