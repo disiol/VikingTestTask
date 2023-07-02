@@ -14,7 +14,7 @@ namespace Viking.Scripts.Game.Monster.Anim
 
         private void Start()
         {
-            _animator = GetComponent<Animator>();
+            _animator = GameObject.Find("MutantModel").GetComponent<Animator>();
         }
 
         public void Run()
@@ -34,11 +34,10 @@ namespace Viking.Scripts.Game.Monster.Anim
             _animator.SetBool(Attack1, value);
         }
 
-     
+
         public void Damage(bool value)
         {
             _animator.SetBool(Damage1, value);
-
         }
 
         public void Die()
