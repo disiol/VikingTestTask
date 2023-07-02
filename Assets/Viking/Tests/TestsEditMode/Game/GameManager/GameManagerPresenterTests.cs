@@ -65,7 +65,7 @@ namespace Viking.Tests.TestsEditMode.Game.GameManager
             model.CurrentLives = expectedCurrentLives;
 
             // Assert
-            view.Received(1).UpdateProgressBar(expectedCurrentLives);
+            view.Received(1).UpdatesSliderLife(expectedCurrentLives);
         }
     }
 }
