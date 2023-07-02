@@ -34,6 +34,7 @@ namespace Viking.Scripts.Game.Monster.Anim
             _animator.SetBool(Attack1, value);
         }
 
+     
         public void Damage(bool value)
         {
             _animator.SetBool(Damage1, value);

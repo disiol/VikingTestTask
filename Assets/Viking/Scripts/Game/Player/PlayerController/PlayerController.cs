@@ -56,16 +56,7 @@ namespace Viking.Scripts.Game.Player.PlayerController
         {
             OnLook();
 
-            _playerAnimController.Attack(_isAttacking);            
-
-            
-            if (_isAttacking)
-            {
-
-                //TODO is atakink moctor? , anim
-            }
-
-          
+            _playerAnimController.Attack(_isAttacking);
         }
 
         private void FixedUpdate()
@@ -94,15 +85,11 @@ namespace Viking.Scripts.Game.Player.PlayerController
 
         private void Movement()
         {
-            //TODO  anim
-
-            AnimRun();
-
             Vector3 direction = new Vector3(_movementInput.x, 0, _movementInput.y).normalized;
 
             _rigidbody.MovePosition(transform.position +
                                     transform.TransformDirection(direction) * movementSpeed * Time.fixedDeltaTime);
-            
+            AnimRun();
         }
 
         private void AnimRun()
