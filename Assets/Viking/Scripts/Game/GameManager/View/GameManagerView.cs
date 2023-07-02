@@ -30,7 +30,7 @@ namespace Viking.Scripts.Game.GameManager.View
             _presenter.OnMonsterKilled();
         }
 
-        public void UpdateProgressBar(int currentLives)
+        public void UpdatesSliderLife(int currentLives)
         {
             if (CheckSerializeFieldToNull())
             {

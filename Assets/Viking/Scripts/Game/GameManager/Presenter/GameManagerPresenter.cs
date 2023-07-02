@@ -22,7 +22,7 @@ namespace Viking.Scripts.Game.GameManager.Presenter
             _model.CurrentLives = modelCurrentLives;
             _model.MonstersKilled = 0;
 
-            _model.OnCurrentLivesChanged += _view.UpdateProgressBar;
+            _model.OnCurrentLivesChanged += _view.UpdatesSliderLife;
             _model.OnMonstersKilledChanged += _view.UpdateMonstersKilledText;
 
             UpdateUI();
@@ -40,7 +40,7 @@ namespace Viking.Scripts.Game.GameManager.Presenter
 
         private void UpdateUI()
         {
-            _view.UpdateProgressBar(_model.CurrentLives);
+            _view.UpdatesSliderLife(_model.CurrentLives);
             _view.UpdateMonstersKilledText(_model.MonstersKilled);
         }
 

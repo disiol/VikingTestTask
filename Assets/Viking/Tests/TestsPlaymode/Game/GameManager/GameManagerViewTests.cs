@@ -72,7 +72,7 @@ namespace Viking.Tests.TestsPlaymode.Game.GameManager
             _slider.value = 0; // Set initial value to 0
 
             // Act
-            _view.UpdateProgressBar(currentLives);
+            _view.UpdatesSliderLife(currentLives);
 
             // Assert
             Assert.AreEqual(currentLives, _slider.value);
